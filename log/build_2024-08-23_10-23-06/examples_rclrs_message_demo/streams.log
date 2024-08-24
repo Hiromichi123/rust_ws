@@ -1,0 +1,603 @@
+[0.017s] Invoking command in 'src/ros2_rust/examples/message_demo': AMENT_PREFIX_PATH=/home/hiromichi/rost2/install/rclrs:/home/hiromichi/rost2/install/rosgraph_msgs:/home/hiromichi/rost2/install/rcl_interfaces:/home/hiromichi/rost2/install/rclrs_example_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_generator_rs:/home/hiromichi/rost2/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiromichi/rost2/install/rosgraph_msgs:/home/hiromichi/rost2/install/rcl_interfaces:/home/hiromichi/rost2/install/rclrs_example_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_generator_rs LD_LIBRARY_PATH=/home/hiromichi/rost2/install/rosgraph_msgs/lib:/home/hiromichi/rost2/install/rcl_interfaces/lib:/home/hiromichi/rost2/install/rclrs_example_msgs/lib:/home/hiromichi/rost2/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiromichi/rost2/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /root/.cargo/bin/cargo ament-build --install-base /home/hiromichi/rost2/install/examples_rclrs_message_demo -- --manifest-path /home/hiromichi/rost2/src/ros2_rust/examples/message_demo/Cargo.toml --target-dir /home/hiromichi/rost2/build/examples_rclrs_message_demo --quiet
+[2.908s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.908s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/builtin_interfaces/msg.rs:179:7[0m
+[2.908s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.908s] [0m[1m[38;5;12m179[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg(feature = "serde")][0m
+[2.908s] [0m    [0m[0m[1m[38;5;12m|[0m[0m       [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.909s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.909s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.909s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.909s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.909s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unexpected_cfgs)]` on by default[0m
+[2.909s] 
+[2.909s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.909s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/builtin_interfaces/msg.rs:182:12[0m
+[2.909s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.910s] [0m[1m[38;5;12m182[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.910s] [0m    [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.910s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.910s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.910s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.910s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.910s] 
+[2.911s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.911s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/builtin_interfaces/msg.rs:221:12[0m
+[2.911s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.911s] [0m[1m[38;5;12m221[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.911s] [0m    [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.911s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.911s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.911s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.911s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.911s] 
+[2.911s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.911s] [0m [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/builtin_interfaces/msg.rs:2:11[0m
+[2.912s] [0m  [0m[0m[1m[38;5;12m|[0m
+[2.912s] [0m[1m[38;5;12m2[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg(feature = "serde")][0m
+[2.912s] [0m  [0m[0m[1m[38;5;12m|[0m[0m           [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.912s] [0m  [0m[0m[1m[38;5;12m|[0m
+[2.912s] [0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.912s] [0m  [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.912s] [0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.913s] 
+[2.913s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.913s] [0m  [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/builtin_interfaces/msg.rs:29:16[0m
+[2.913s] [0m   [0m[0m[1m[38;5;12m|[0m
+[2.913s] [0m[1m[38;5;12m29[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.913s] [0m   [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.913s] [0m   [0m[0m[1m[38;5;12m|[0m
+[2.913s] [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.913s] [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.913s] [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.914s] 
+[2.914s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.914s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/builtin_interfaces/msg.rs:115:16[0m
+[2.914s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.914s] [0m[1m[38;5;12m115[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.914s] [0m    [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.914s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.914s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.914s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.914s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.914s] 
+[2.915s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.915s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:1041:7[0m
+[2.915s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.915s] [0m[1m[38;5;12m1041[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg(feature = "serde")][0m
+[2.915s] [0m     [0m[0m[1m[38;5;12m|[0m[0m       [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.915s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.915s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.915s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.915s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.915s] 
+[2.915s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.915s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:1044:12[0m
+[2.915s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.916s] [0m[1m[38;5;12m1044[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.916s] [0m     [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.916s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.916s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.916s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.916s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.917s] 
+[2.917s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.917s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:1087:12[0m
+[2.917s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.917s] [0m[1m[38;5;12m1087[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.917s] [0m     [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.917s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.917s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.917s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.917s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.917s] 
+[2.918s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.918s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:1130:12[0m
+[2.918s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.918s] [0m[1m[38;5;12m1130[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.918s] [0m     [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.918s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.919s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.919s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.919s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.919s] 
+[2.919s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.919s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:1185:12[0m
+[2.919s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.919s] [0m[1m[38;5;12m1185[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.919s] [0m     [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.919s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.919s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.920s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.920s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.920s] 
+[2.920s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.920s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:1265:12[0m
+[2.920s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.920s] [0m[1m[38;5;12m1265[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.920s] [0m     [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.920s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.921s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.921s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.921s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.921s] 
+[2.921s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.921s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:1334:12[0m
+[2.921s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.921s] [0m[1m[38;5;12m1334[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.921s] [0m     [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.921s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.922s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.922s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.922s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.922s] 
+[2.922s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.922s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:1443:12[0m
+[2.922s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.922s] [0m[1m[38;5;12m1443[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.922s] [0m     [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.922s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.922s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.923s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.923s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.923s] 
+[2.923s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.923s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:1566:12[0m
+[2.923s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.923s] [0m[1m[38;5;12m1566[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.923s] [0m     [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.923s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.924s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.924s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.924s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.924s] 
+[2.924s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.924s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:1611:12[0m
+[2.924s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.924s] [0m[1m[38;5;12m1611[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.925s] [0m     [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.925s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.925s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.925s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.925s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.925s] 
+[2.925s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.926s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:1660:12[0m
+[2.926s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.926s] [0m[1m[38;5;12m1660[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.926s] [0m     [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.926s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.926s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.926s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.926s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.927s] 
+[2.927s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.927s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:1743:12[0m
+[2.927s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.927s] [0m[1m[38;5;12m1743[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.927s] [0m     [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.927s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.927s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.927s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.927s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.927s] 
+[2.928s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.928s] [0m [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:2:11[0m
+[2.928s] [0m  [0m[0m[1m[38;5;12m|[0m
+[2.928s] [0m[1m[38;5;12m2[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg(feature = "serde")][0m
+[2.928s] [0m  [0m[0m[1m[38;5;12m|[0m[0m           [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.928s] [0m  [0m[0m[1m[38;5;12m|[0m
+[2.928s] [0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.928s] [0m  [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.928s] [0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.928s] 
+[2.928s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.929s] [0m  [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:29:16[0m
+[2.929s] [0m   [0m[0m[1m[38;5;12m|[0m
+[2.929s] [0m[1m[38;5;12m29[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.929s] [0m   [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.929s] [0m   [0m[0m[1m[38;5;12m|[0m
+[2.929s] [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.929s] [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.929s] [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.929s] 
+[2.929s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.930s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:118:16[0m
+[2.930s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.930s] [0m[1m[38;5;12m118[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.930s] [0m    [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.930s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.930s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.930s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.930s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.930s] 
+[2.930s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.930s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:205:16[0m
+[2.931s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.931s] [0m[1m[38;5;12m205[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.931s] [0m    [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.931s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.931s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.931s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.931s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.932s] 
+[2.932s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.932s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:293:16[0m
+[2.932s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.932s] [0m[1m[38;5;12m293[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.932s] [0m    [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.932s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.933s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.933s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.933s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.933s] 
+[2.933s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.933s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:399:16[0m
+[2.933s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.933s] [0m[1m[38;5;12m399[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.933s] [0m    [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.934s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.934s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.934s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.934s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.934s] 
+[2.934s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.934s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:501:16[0m
+[2.934s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.935s] [0m[1m[38;5;12m501[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.935s] [0m    [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.935s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.935s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.935s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.935s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.935s] 
+[2.935s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.936s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:601:16[0m
+[2.936s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.936s] [0m[1m[38;5;12m601[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.936s] [0m    [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.936s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.936s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.939s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.939s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.939s] 
+[2.939s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.939s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:695:16[0m
+[2.939s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.939s] [0m[1m[38;5;12m695[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.939s] [0m    [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.940s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.940s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.940s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.940s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.940s] 
+[2.940s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.940s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:781:16[0m
+[2.940s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.941s] [0m[1m[38;5;12m781[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.941s] [0m    [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.941s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.941s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.941s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.941s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.941s] 
+[2.941s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.941s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:880:16[0m
+[2.941s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.942s] [0m[1m[38;5;12m880[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.942s] [0m    [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.942s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.942s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.942s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.942s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.942s] 
+[2.942s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.943s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/msg.rs:976:16[0m
+[2.943s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.943s] [0m[1m[38;5;12m976[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.943s] [0m    [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.943s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.943s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.943s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.943s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.943s] 
+[2.943s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.944s] [0m [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:1:7[0m
+[2.944s] [0m  [0m[0m[1m[38;5;12m|[0m
+[2.944s] [0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg(feature = "serde")][0m
+[2.944s] [0m  [0m[0m[1m[38;5;12m|[0m[0m       [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.944s] [0m  [0m[0m[1m[38;5;12m|[0m
+[2.944s] [0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.944s] [0m  [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.944s] [0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.944s] 
+[2.944s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.944s] [0m [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:4:12[0m
+[2.945s] [0m  [0m[0m[1m[38;5;12m|[0m
+[2.945s] [0m[1m[38;5;12m4[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.945s] [0m  [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.945s] [0m  [0m[0m[1m[38;5;12m|[0m
+[2.945s] [0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.945s] [0m  [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.945s] [0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.945s] 
+[2.945s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.945s] [0m  [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:43:12[0m
+[2.945s] [0m   [0m[0m[1m[38;5;12m|[0m
+[2.945s] [0m[1m[38;5;12m43[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.946s] [0m   [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.946s] [0m   [0m[0m[1m[38;5;12m|[0m
+[2.946s] [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.946s] [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.946s] [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.946s] 
+[2.946s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.946s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:100:12[0m
+[2.946s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.946s] [0m[1m[38;5;12m100[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.947s] [0m    [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.947s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.947s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.947s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.947s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.947s] 
+[2.947s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.947s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:139:12[0m
+[2.947s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.948s] [0m[1m[38;5;12m139[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.948s] [0m    [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.948s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.948s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.948s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.948s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.948s] 
+[2.948s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.948s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:196:12[0m
+[2.948s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.948s] [0m[1m[38;5;12m196[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.949s] [0m    [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.949s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.949s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.949s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.949s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.949s] 
+[2.949s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.949s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:235:12[0m
+[2.949s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.949s] [0m[1m[38;5;12m235[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.949s] [0m    [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.950s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.950s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.950s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.950s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.950s] 
+[2.951s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.951s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:270:12[0m
+[2.951s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.951s] [0m[1m[38;5;12m270[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.951s] [0m    [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.951s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.951s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.951s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.951s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.952s] 
+[2.952s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.952s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:325:12[0m
+[2.952s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.953s] [0m[1m[38;5;12m325[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.953s] [0m    [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.953s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.953s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.953s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.954s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.954s] 
+[2.954s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.954s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:368:12[0m
+[2.954s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.954s] [0m[1m[38;5;12m368[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.954s] [0m    [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.954s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.955s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.955s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.955s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.955s] 
+[2.955s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.955s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:425:12[0m
+[2.955s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.955s] [0m[1m[38;5;12m425[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.955s] [0m    [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.955s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.956s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.956s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.956s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.956s] 
+[2.956s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.956s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:468:12[0m
+[2.956s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.956s] [0m[1m[38;5;12m468[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.957s] [0m    [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.958s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.958s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.958s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.958s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.958s] 
+[2.958s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.958s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:525:12[0m
+[2.958s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.958s] [0m[1m[38;5;12m525[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.959s] [0m    [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.959s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.959s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.959s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.959s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.959s] 
+[2.959s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.959s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:709:11[0m
+[2.959s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.960s] [0m[1m[38;5;12m709[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg(feature = "serde")][0m
+[2.960s] [0m    [0m[0m[1m[38;5;12m|[0m[0m           [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.960s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.960s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.960s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.960s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.960s] 
+[2.960s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.960s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:738:16[0m
+[2.960s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.960s] [0m[1m[38;5;12m738[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.960s] [0m    [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.961s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.961s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.961s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.961s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.961s] 
+[2.961s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.961s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:836:16[0m
+[2.962s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.962s] [0m[1m[38;5;12m836[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.962s] [0m    [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.962s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.962s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.962s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.962s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.962s] 
+[2.962s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.962s] [0m   [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:939:16[0m
+[2.963s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.963s] [0m[1m[38;5;12m939[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.963s] [0m    [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.963s] [0m    [0m[0m[1m[38;5;12m|[0m
+[2.963s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.963s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.963s] [0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.963s] 
+[2.963s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.963s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:1033:16[0m
+[2.963s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.964s] [0m[1m[38;5;12m1033[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.964s] [0m     [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.964s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.964s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.964s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.964s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.964s] 
+[2.964s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.964s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:1128:16[0m
+[2.964s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.964s] [0m[1m[38;5;12m1128[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.965s] [0m     [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.965s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.965s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.965s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.965s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.965s] 
+[2.965s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.965s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:1222:16[0m
+[2.965s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.965s] [0m[1m[38;5;12m1222[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.966s] [0m     [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.966s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.966s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.966s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.966s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.966s] 
+[2.966s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.966s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:1320:16[0m
+[2.966s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.966s] [0m[1m[38;5;12m1320[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.967s] [0m     [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.967s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.967s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.967s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.967s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.967s] 
+[2.967s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.967s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:1419:16[0m
+[2.967s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.968s] [0m[1m[38;5;12m1419[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.968s] [0m     [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.968s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.968s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.968s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.968s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.969s] 
+[2.969s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.969s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:1513:16[0m
+[2.969s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.969s] [0m[1m[38;5;12m1513[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.969s] [0m     [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.969s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.969s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.969s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.969s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.969s] 
+[2.970s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.970s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:1613:16[0m
+[2.970s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.970s] [0m[1m[38;5;12m1613[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.970s] [0m     [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.970s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.970s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.970s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.970s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.971s] 
+[2.971s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.971s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:1713:16[0m
+[2.971s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.972s] [0m[1m[38;5;12m1713[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.972s] [0m     [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.972s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.972s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.973s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.973s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.973s] 
+[2.973s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.973s] [0m    [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rcl_interfaces/srv.rs:1808:16[0m
+[2.973s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.973s] [0m[1m[38;5;12m1808[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.973s] [0m     [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.973s] [0m     [0m[0m[1m[38;5;12m|[0m
+[2.973s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.973s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.974s] [0m     [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.974s] 
+[2.974s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.974s] [0m  [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rosgraph_msgs/msg.rs:89:7[0m
+[2.974s] [0m   [0m[0m[1m[38;5;12m|[0m
+[2.974s] [0m[1m[38;5;12m89[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg(feature = "serde")][0m
+[2.974s] [0m   [0m[0m[1m[38;5;12m|[0m[0m       [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.974s] [0m   [0m[0m[1m[38;5;12m|[0m
+[2.974s] [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.974s] [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.974s] [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.975s] 
+[2.975s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.975s] [0m  [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rosgraph_msgs/msg.rs:92:12[0m
+[2.975s] [0m   [0m[0m[1m[38;5;12m|[0m
+[2.975s] [0m[1m[38;5;12m92[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.976s] [0m   [0m[0m[1m[38;5;12m|[0m[0m            [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.976s] [0m   [0m[0m[1m[38;5;12m|[0m
+[2.977s] [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.977s] [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.977s] [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.977s] 
+[2.978s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.978s] [0m [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rosgraph_msgs/msg.rs:2:11[0m
+[2.978s] [0m  [0m[0m[1m[38;5;12m|[0m
+[2.978s] [0m[1m[38;5;12m2[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg(feature = "serde")][0m
+[2.978s] [0m  [0m[0m[1m[38;5;12m|[0m[0m           [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.978s] [0m  [0m[0m[1m[38;5;12m|[0m
+[2.978s] [0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.979s] [0m  [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.979s] [0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.979s] 
+[2.979s] [0m[1m[33mwarning[0m[0m[1m: unexpected `cfg` condition value: `serde`[0m
+[2.979s] [0m  [0m[0m[1m[38;5;12m--> [0m[0m/home/hiromichi/rost2/install/rclrs/share/rclrs/rust/src/vendor/rosgraph_msgs/msg.rs:27:16[0m
+[2.980s] [0m   [0m[0m[1m[38;5;12m|[0m
+[2.980s] [0m[1m[38;5;12m27[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m    #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))][0m
+[2.980s] [0m   [0m[0m[1m[38;5;12m|[0m[0m                [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+[2.980s] [0m   [0m[0m[1m[38;5;12m|[0m
+[2.980s] [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected values for `feature` are: `ament_rs`, `default`, `dyn_msg`, `generate_docs`, and `libloading`[0m
+[2.980s] [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mhelp[0m[0m: consider adding `serde` as a feature in `Cargo.toml`[0m
+[2.980s] [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration[0m
+[2.980s] 
+[4.181s] Invoked command in 'src/ros2_rust/examples/message_demo' returned '0': AMENT_PREFIX_PATH=/home/hiromichi/rost2/install/rclrs:/home/hiromichi/rost2/install/rosgraph_msgs:/home/hiromichi/rost2/install/rcl_interfaces:/home/hiromichi/rost2/install/rclrs_example_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_generator_rs:/home/hiromichi/rost2/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiromichi/rost2/install/rosgraph_msgs:/home/hiromichi/rost2/install/rcl_interfaces:/home/hiromichi/rost2/install/rclrs_example_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_generator_rs LD_LIBRARY_PATH=/home/hiromichi/rost2/install/rosgraph_msgs/lib:/home/hiromichi/rost2/install/rcl_interfaces/lib:/home/hiromichi/rost2/install/rclrs_example_msgs/lib:/home/hiromichi/rost2/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiromichi/rost2/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /root/.cargo/bin/cargo ament-build --install-base /home/hiromichi/rost2/install/examples_rclrs_message_demo -- --manifest-path /home/hiromichi/rost2/src/ros2_rust/examples/message_demo/Cargo.toml --target-dir /home/hiromichi/rost2/build/examples_rclrs_message_demo --quiet

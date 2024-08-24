@@ -1,0 +1,324 @@
+[0.024s] Invoking command in '/home/hiromichi/rost2/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/home/hiromichi/rost2/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiromichi/rost2/install/geometry_msgs/lib:/home/hiromichi/rost2/install/std_msgs/lib:/home/hiromichi/rost2/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiromichi/rost2/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hiromichi/rost2/src/ros2/common_interfaces/trajectory_msgs -DCMAKE_INSTALL_PREFIX=/home/hiromichi/rost2/install/trajectory_msgs
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.119s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.194s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.194s] -- Detecting C compile features
+[0.194s] -- Detecting C compile features - done
+[0.198s] -- Detecting CXX compiler ABI info
+[0.268s] -- Detecting CXX compiler ABI info - done
+[0.274s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.274s] -- Detecting CXX compile features
+[0.274s] -- Detecting CXX compile features - done
+[0.276s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.439s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.534s] -- Found builtin_interfaces: 1.2.1 (/home/hiromichi/rost2/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[0.565s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.570s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.580s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.590s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.607s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.627s] -- Found geometry_msgs: 4.2.4 (/home/hiromichi/rost2/install/geometry_msgs/share/geometry_msgs/cmake)
+[0.717s] -- Found rosidl_default_generators: 1.2.0 (/home/hiromichi/rost2/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[1.015s] -- Found ament_cmake_cppcheck: 0.12.4 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.016s] -- Found ament_cmake_cpplint: 0.12.4 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.018s] -- Found ament_cmake_uncrustify: 0.12.4 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.020s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.433s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.595s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.640s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.642s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.662s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.662s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.662s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.662s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.692s] -- Found PythonExtra: .so  
+[1.772s] -- Found ament_cmake_flake8: 0.12.4 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.775s] -- Found ament_cmake_pep257: 0.12.4 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.784s] -- Configuring done
+[1.832s] -- Generating done
+[1.835s] -- Build files have been written to: /home/hiromichi/rost2/build/trajectory_msgs
+[1.845s] Invoked command in '/home/hiromichi/rost2/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/home/hiromichi/rost2/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiromichi/rost2/install/geometry_msgs/lib:/home/hiromichi/rost2/install/std_msgs/lib:/home/hiromichi/rost2/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiromichi/rost2/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hiromichi/rost2/src/ros2/common_interfaces/trajectory_msgs -DCMAKE_INSTALL_PREFIX=/home/hiromichi/rost2/install/trajectory_msgs
+[1.846s] Invoking command in '/home/hiromichi/rost2/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/home/hiromichi/rost2/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiromichi/rost2/install/geometry_msgs/lib:/home/hiromichi/rost2/install/std_msgs/lib:/home/hiromichi/rost2/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiromichi/rost2/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hiromichi/rost2/build/trajectory_msgs -- -j20 -l20
+[1.883s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.892s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.901s] [  3%] Built target ament_cmake_python_copy_trajectory_msgs
+[1.906s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.166s] running egg_info
+[2.168s] creating trajectory_msgs.egg-info
+[2.168s] writing trajectory_msgs.egg-info/PKG-INFO
+[2.168s] writing dependency_links to trajectory_msgs.egg-info/dependency_links.txt
+[2.169s] writing top-level names to trajectory_msgs.egg-info/top_level.txt
+[2.169s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[2.171s] reading manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[2.172s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[2.200s] [  5%] Built target ament_cmake_python_build_trajectory_msgs_egg
+[2.582s] [  5%] Built target trajectory_msgs__rs
+[2.826s] [  5%] Built target trajectory_msgs__cpp
+[2.833s] [  7%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__functions.c.o[0m
+[2.844s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.874s] [ 10%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c.o[0m
+[2.892s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.897s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.932s] [ 16%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c.o[0m
+[2.941s] [ 17%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c.o[0m
+[3.078s] [ 19%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_generator_c.so[0m
+[3.147s] [ 19%] Built target trajectory_msgs__rosidl_generator_c
+[3.170s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.191s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.208s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.015s] [ 26%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[4.016s] [ 28%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[4.081s] [ 30%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[4.087s] [ 32%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[4.159s] [ 33%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory__type_support.c.o[0m
+[4.196s] [ 35%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c.o[0m
+[4.229s] [ 37%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory__type_support.cpp.o[0m
+[4.235s] [ 39%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory_point__type_support.cpp.o[0m
+[4.244s] [ 41%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[4.266s] [ 42%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c.o[0m
+[4.281s] [ 44%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[4.292s] [ 46%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c.o[0m
+[4.305s] [ 48%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory__type_support_c.cpp.o[0m
+[4.320s] [ 50%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support_c.cpp.o[0m
+[4.357s] [ 51%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support_c.cpp.o[0m
+[4.368s] [ 53%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support_c.cpp.o[0m
+[4.387s] [ 55%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[4.405s] [ 57%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[4.446s] [ 58%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[4.482s] [ 60%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[4.522s] [ 62%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.650s] [ 64%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_c.so[0m
+[4.672s] [ 66%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[4.676s] [ 67%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp.o[0m
+[4.677s] [ 69%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp.o[0m
+[4.716s] [ 71%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[4.784s] [ 71%] Built target trajectory_msgs__rosidl_typesupport_introspection_c
+[4.913s] [ 71%] Built target trajectory_msgs__rosidl_typesupport_c
+[4.984s] [ 73%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_cpp.so[0m
+[5.070s] [ 73%] Built target trajectory_msgs__rosidl_typesupport_cpp
+[5.803s] [ 75%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.971s] [ 75%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c
+[6.095s] [ 76%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.227s] [ 76%] Built target trajectory_msgs__rosidl_typesupport_introspection_cpp
+[6.276s] [ 78%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.399s] [ 78%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_cpp
+[6.429s] [ 78%] Built target trajectory_msgs
+[6.486s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.098s] [ 80%] Built target trajectory_msgs__py
+[8.146s] [ 82%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_s.c.o[0m
+[8.164s] [ 83%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_point_s.c.o[0m
+[8.185s] [ 85%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c.o[0m
+[8.203s] [ 87%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c.o[0m
+[8.397s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/libtrajectory_msgs__rosidl_generator_py.so[0m
+[8.444s] [ 89%] Built target trajectory_msgs__rosidl_generator_py
+[8.467s] [ 91%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.467s] [ 92%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.470s] [ 94%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.588s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.600s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.601s] [100%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.627s] [100%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.645s] [100%] Built target trajectory_msgs__rosidl_typesupport_c__pyext
+[8.645s] [100%] Built target trajectory_msgs__rosidl_typesupport_introspection_c__pyext
+[8.656s] Invoked command in '/home/hiromichi/rost2/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/home/hiromichi/rost2/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiromichi/rost2/install/geometry_msgs/lib:/home/hiromichi/rost2/install/std_msgs/lib:/home/hiromichi/rost2/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiromichi/rost2/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hiromichi/rost2/build/trajectory_msgs -- -j20 -l20
+[8.756s] Invoking command in '/home/hiromichi/rost2/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/home/hiromichi/rost2/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiromichi/rost2/install/geometry_msgs/lib:/home/hiromichi/rost2/install/std_msgs/lib:/home/hiromichi/rost2/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiromichi/rost2/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hiromichi/rost2/build/trajectory_msgs
+[8.762s] -- Install configuration: ""
+[8.763s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/ament_index/resource_index/rosidl_interfaces/trajectory_msgs
+[8.763s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[8.764s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[8.765s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.h
+[8.765s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.h
+[8.766s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.h
+[8.767s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.768s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[8.770s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c
+[8.770s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.h
+[8.771s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c
+[8.771s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.h
+[8.771s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.h
+[8.771s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.h
+[8.771s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.h
+[8.771s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.h
+[8.772s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.h
+[8.772s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c
+[8.772s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.h
+[8.772s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.h
+[8.772s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.h
+[8.772s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.c
+[8.772s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.h
+[8.773s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.h
+[8.780s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.h
+[8.780s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.sh
+[8.780s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.dsv
+[8.781s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so
+[8.781s] -- Set runtime path of "/home/hiromichi/rost2/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so" to ""
+[8.781s] -- Up-to-date: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[8.782s] -- Up-to-date: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[8.783s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.783s] -- Up-to-date: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[8.783s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[8.783s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[8.783s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[8.783s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[8.784s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so
+[8.784s] -- Set runtime path of "/home/hiromichi/rost2/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.784s] -- Up-to-date: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[8.784s] -- Up-to-date: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[8.784s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp
+[8.784s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.hpp
+[8.784s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.hpp
+[8.784s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.hpp
+[8.784s] -- Up-to-date: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[8.784s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp
+[8.785s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__builder.hpp
+[8.785s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__traits.hpp
+[8.785s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__traits.hpp
+[8.785s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.hpp
+[8.785s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp
+[8.787s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp
+[8.787s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp
+[8.787s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp
+[8.788s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp
+[8.788s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__builder.hpp
+[8.788s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__builder.hpp
+[8.788s] -- Up-to-date: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[8.788s] -- Up-to-date: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[8.788s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.788s] -- Up-to-date: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[8.788s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[8.788s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[8.790s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[8.790s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/dds_fastrtps
+[8.791s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[8.791s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.793s] -- Set runtime path of "/home/hiromichi/rost2/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.793s] -- Up-to-date: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[8.793s] -- Up-to-date: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[8.793s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.794s] -- Up-to-date: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[8.794s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[8.794s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_c.h
+[8.794s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_c.h
+[8.794s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.c
+[8.794s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[8.794s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c
+[8.794s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c
+[8.794s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c
+[8.795s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so
+[8.795s] -- Set runtime path of "/home/hiromichi/rost2/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.795s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so
+[8.795s] -- Set runtime path of "/home/hiromichi/rost2/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so" to ""
+[8.795s] -- Up-to-date: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[8.795s] -- Up-to-date: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[8.795s] -- Up-to-date: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[8.797s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp
+[8.798s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp
+[8.798s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[8.798s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[8.798s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp
+[8.799s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[8.799s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp
+[8.799s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[8.799s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so
+[8.800s] -- Set runtime path of "/home/hiromichi/rost2/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.800s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so
+[8.800s] -- Set runtime path of "/home/hiromichi/rost2/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so" to ""
+[8.800s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/ament_index/resource_index/rust_packages/trajectory_msgs
+[8.801s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/rust
+[8.801s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/rust/src
+[8.801s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/rust/src/msg.rs
+[8.801s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/rust/src/lib.rs
+[8.802s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/rust/Cargo.toml
+[8.803s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/rust/build.rs
+[8.804s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.sh
+[8.804s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.dsv
+[8.804s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.4-py3.10.egg-info
+[8.804s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.4-py3.10.egg-info/top_level.txt
+[8.805s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.4-py3.10.egg-info/dependency_links.txt
+[8.805s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.4-py3.10.egg-info/SOURCES.txt
+[8.805s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.4-py3.10.egg-info/PKG-INFO
+[8.806s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs
+[8.806s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.806s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.807s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg
+[8.807s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py
+[8.808s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_s.c
+[8.809s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c
+[8.809s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_point_s.c
+[8.809s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c
+[8.809s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_point.py
+[8.809s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/__init__.py
+[8.809s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory.py
+[8.809s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py
+[8.810s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.810s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.811s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/libtrajectory_msgs__rosidl_generator_py.so
+[8.811s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.813s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c
+[8.813s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/__init__.py
+[8.822s] Listing '/home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs'...
+[8.822s] Compiling '/home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/__init__.py'...
+[8.822s] Listing '/home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg'...
+[8.822s] Compiling '/home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/__init__.py'...
+[8.822s] Compiling '/home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory.py'...
+[8.823s] Compiling '/home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_point.py'...
+[8.823s] Compiling '/home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py'...
+[8.823s] Compiling '/home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py'...
+[8.830s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.830s] -- Set runtime path of "/home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.831s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.831s] -- Set runtime path of "/home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.831s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.832s] -- Set runtime path of "/home/hiromichi/rost2/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.832s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so
+[8.832s] -- Set runtime path of "/home/hiromichi/rost2/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so" to ""
+[8.832s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.idl
+[8.833s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.idl
+[8.833s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.idl
+[8.833s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.idl
+[8.833s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.msg
+[8.834s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
+[8.834s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.msg
+[8.834s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg
+[8.834s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/ament_index/resource_index/package_run_dependencies/trajectory_msgs
+[8.835s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/ament_index/resource_index/parent_prefix_path/trajectory_msgs
+[8.835s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.sh
+[8.836s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.dsv
+[8.836s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/environment/path.sh
+[8.836s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/environment/path.dsv
+[8.836s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/local_setup.bash
+[8.836s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/local_setup.sh
+[8.837s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/local_setup.zsh
+[8.838s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/local_setup.dsv
+[8.838s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/package.dsv
+[8.838s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/ament_index/resource_index/packages/trajectory_msgs
+[8.838s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport.cmake
+[8.839s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.839s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.840s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.840s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cppExport.cmake
+[8.840s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.840s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.841s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.841s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.842s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport.cmake
+[8.842s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.842s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.842s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.843s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport.cmake
+[8.843s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.843s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport.cmake
+[8.843s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.843s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake-extras.cmake
+[8.844s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.844s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.845s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.846s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.846s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.846s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.846s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig.cmake
+[8.846s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig-version.cmake
+[8.846s] -- Installing: /home/hiromichi/rost2/install/trajectory_msgs/share/trajectory_msgs/package.xml
+[8.849s] Invoked command in '/home/hiromichi/rost2/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/home/hiromichi/rost2/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiromichi/rost2/install/geometry_msgs/lib:/home/hiromichi/rost2/install/std_msgs/lib:/home/hiromichi/rost2/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiromichi/rost2/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hiromichi/rost2/build/trajectory_msgs

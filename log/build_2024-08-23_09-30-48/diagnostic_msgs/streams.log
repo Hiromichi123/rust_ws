@@ -1,0 +1,371 @@
+[0.025s] Invoking command in '/home/hiromichi/rost2/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/home/hiromichi/rost2/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiromichi/rost2/install/geometry_msgs/lib:/home/hiromichi/rost2/install/std_msgs/lib:/home/hiromichi/rost2/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiromichi/rost2/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hiromichi/rost2/src/ros2/common_interfaces/diagnostic_msgs -DCMAKE_INSTALL_PREFIX=/home/hiromichi/rost2/install/diagnostic_msgs
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.113s] -- The CXX compiler identification is GNU 11.4.0
+[0.119s] -- Detecting C compiler ABI info
+[0.167s] -- Detecting C compiler ABI info - done
+[0.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.173s] -- Detecting C compile features - done
+[0.174s] -- Detecting CXX compiler ABI info
+[0.238s] -- Detecting CXX compiler ABI info - done
+[0.246s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.247s] -- Detecting CXX compile features
+[0.247s] -- Detecting CXX compile features - done
+[0.250s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.420s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.495s] -- Found rosidl_default_generators: 1.2.0 (/home/hiromichi/rost2/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[0.499s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.507s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.544s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.579s] -- Found std_msgs: 4.2.4 (/home/hiromichi/rost2/install/std_msgs/share/std_msgs/cmake)
+[0.924s] -- Found ament_cmake_cppcheck: 0.12.4 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.926s] -- Found ament_cmake_cpplint: 0.12.4 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.928s] -- Found ament_cmake_uncrustify: 0.12.4 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.930s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.143s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.444s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.486s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.489s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.516s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.516s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.516s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.516s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.545s] -- Found PythonExtra: .so  
+[1.607s] -- Found ament_cmake_flake8: 0.12.4 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.609s] -- Found ament_cmake_pep257: 0.12.4 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.617s] -- Configuring done
+[1.650s] -- Generating done
+[1.652s] -- Build files have been written to: /home/hiromichi/rost2/build/diagnostic_msgs
+[1.662s] Invoked command in '/home/hiromichi/rost2/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/home/hiromichi/rost2/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiromichi/rost2/install/geometry_msgs/lib:/home/hiromichi/rost2/install/std_msgs/lib:/home/hiromichi/rost2/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiromichi/rost2/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hiromichi/rost2/src/ros2/common_interfaces/diagnostic_msgs -DCMAKE_INSTALL_PREFIX=/home/hiromichi/rost2/install/diagnostic_msgs
+[1.665s] Invoking command in '/home/hiromichi/rost2/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/home/hiromichi/rost2/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiromichi/rost2/install/geometry_msgs/lib:/home/hiromichi/rost2/install/std_msgs/lib:/home/hiromichi/rost2/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiromichi/rost2/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hiromichi/rost2/build/diagnostic_msgs -- -j20 -l20
+[1.701s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.708s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.710s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.714s] [  4%] Built target ament_cmake_python_copy_diagnostic_msgs
+[1.953s] running egg_info
+[1.955s] creating diagnostic_msgs.egg-info
+[1.955s] writing diagnostic_msgs.egg-info/PKG-INFO
+[1.956s] writing dependency_links to diagnostic_msgs.egg-info/dependency_links.txt
+[1.956s] writing top-level names to diagnostic_msgs.egg-info/top_level.txt
+[1.956s] writing manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[1.959s] reading manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[1.960s] writing manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[1.992s] [  4%] Built target ament_cmake_python_build_diagnostic_msgs_egg
+[2.442s] [  4%] Built target diagnostic_msgs__rs
+[2.666s] [  4%] Built target diagnostic_msgs__cpp
+[2.699s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.701s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.730s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.814s] [ 10%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_array__functions.c.o[0m
+[2.849s] [ 12%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_status__functions.c.o[0m
+[2.867s] [ 14%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/key_value__functions.c.o[0m
+[2.869s] [ 15%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/self_test__functions.c.o[0m
+[2.903s] [ 17%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/add_diagnostics__functions.c.o[0m
+[3.096s] [ 18%] [32m[1mLinking C shared library libdiagnostic_msgs__rosidl_generator_c.so[0m
+[3.186s] [ 18%] Built target diagnostic_msgs__rosidl_generator_c
+[3.243s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.249s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.250s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.829s] [ 25%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/msg/diagnostic_status__type_support.cpp.o[0m
+[3.838s] [ 26%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/srv/add_diagnostics__type_support.cpp.o[0m
+[3.839s] [ 28%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/msg/key_value__type_support.cpp.o[0m
+[3.843s] [ 29%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/msg/diagnostic_array__type_support.cpp.o[0m
+[3.903s] [ 31%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/srv/self_test__type_support.cpp.o[0m
+[4.209s] [ 32%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/msg/detail/dds_fastrtps/diagnostic_array__type_support.cpp.o[0m
+[4.245s] [ 34%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/msg/detail/dds_fastrtps/diagnostic_status__type_support.cpp.o[0m
+[4.257s] [ 35%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/msg/detail/dds_fastrtps/key_value__type_support.cpp.o[0m
+[4.287s] [ 37%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/srv/detail/dds_fastrtps/add_diagnostics__type_support.cpp.o[0m
+[4.298s] [ 39%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/srv/detail/dds_fastrtps/self_test__type_support.cpp.o[0m
+[4.431s] [ 40%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/msg/detail/diagnostic_array__type_support.cpp.o[0m
+[4.435s] [ 42%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/msg/diagnostic_array__type_support.cpp.o[0m
+[4.439s] [ 43%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/msg/detail/diagnostic_status__type_support.cpp.o[0m
+[4.476s] [ 45%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/msg/detail/key_value__type_support.cpp.o[0m
+[4.478s] [ 46%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/msg/diagnostic_status__type_support.cpp.o[0m
+[4.485s] [ 48%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/msg/key_value__type_support.cpp.o[0m
+[4.495s] [ 50%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/srv/detail/add_diagnostics__type_support.cpp.o[0m
+[4.606s] [ 51%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/srv/add_diagnostics__type_support.cpp.o[0m
+[4.616s] [ 53%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/srv/detail/self_test__type_support.cpp.o[0m
+[4.619s] [ 54%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/srv/self_test__type_support.cpp.o[0m
+[4.750s] [ 56%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/msg/detail/diagnostic_status__type_support_c.cpp.o[0m
+[4.753s] [ 57%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/msg/detail/key_value__type_support_c.cpp.o[0m
+[4.775s] [ 59%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/msg/detail/diagnostic_array__type_support_c.cpp.o[0m
+[4.817s] [ 60%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_c.so[0m
+[4.844s] [ 62%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/srv/detail/add_diagnostics__type_support_c.cpp.o[0m
+[4.974s] [ 64%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/srv/detail/self_test__type_support_c.cpp.o[0m
+[5.078s] [ 64%] Built target diagnostic_msgs__rosidl_typesupport_c
+[5.156s] [ 65%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_cpp.so[0m
+[5.270s] [ 67%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c.o[0m
+[5.271s] [ 68%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c.o[0m
+[5.280s] [ 70%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/msg/detail/key_value__type_support.c.o[0m
+[5.332s] [ 71%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c.o[0m
+[5.429s] [ 73%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/srv/detail/self_test__type_support.c.o[0m
+[5.470s] [ 73%] Built target diagnostic_msgs__rosidl_typesupport_cpp
+[5.652s] [ 75%] [32m[1mLinking C shared library libdiagnostic_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.778s] [ 75%] Built target diagnostic_msgs__rosidl_typesupport_introspection_c
+[5.947s] [ 76%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.093s] [ 76%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_c
+[6.199s] [ 78%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.262s] [ 79%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.310s] [ 79%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_cpp
+[6.388s] [ 79%] Built target diagnostic_msgs__rosidl_typesupport_introspection_cpp
+[6.407s] [ 79%] Built target diagnostic_msgs
+[6.432s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.349s] [ 81%] Built target diagnostic_msgs__py
+[8.381s] [ 84%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/msg/_key_value_s.c.o[0m
+[8.381s] [ 84%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/srv/_add_diagnostics_s.c.o[0m
+[8.381s] [ 85%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/msg/_diagnostic_status_s.c.o[0m
+[8.382s] [ 87%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/srv/_self_test_s.c.o[0m
+[8.382s] [ 89%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/msg/_diagnostic_array_s.c.o[0m
+[8.499s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/diagnostic_msgs/libdiagnostic_msgs__rosidl_generator_py.so[0m
+[8.539s] [ 90%] Built target diagnostic_msgs__rosidl_generator_py
+[8.558s] [ 93%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.558s] [ 93%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.560s] [ 95%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.680s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.687s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.698s] [100%] [32m[1mLinking C shared library rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.727s] [100%] Built target diagnostic_msgs__rosidl_typesupport_introspection_c__pyext
+[8.730s] [100%] Built target diagnostic_msgs__rosidl_typesupport_c__pyext
+[8.733s] [100%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.745s] Invoked command in '/home/hiromichi/rost2/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/home/hiromichi/rost2/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiromichi/rost2/install/geometry_msgs/lib:/home/hiromichi/rost2/install/std_msgs/lib:/home/hiromichi/rost2/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiromichi/rost2/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hiromichi/rost2/build/diagnostic_msgs -- -j20 -l20
+[8.877s] Invoking command in '/home/hiromichi/rost2/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/home/hiromichi/rost2/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiromichi/rost2/install/geometry_msgs/lib:/home/hiromichi/rost2/install/std_msgs/lib:/home/hiromichi/rost2/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiromichi/rost2/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hiromichi/rost2/build/diagnostic_msgs
+[8.883s] -- Install configuration: ""
+[8.884s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/ament_index/resource_index/rosidl_interfaces/diagnostic_msgs
+[8.884s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[8.884s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[8.885s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/self_test.h
+[8.885s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/add_diagnostics.h
+[8.885s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[8.886s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__struct.h
+[8.886s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__functions.c
+[8.887s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__functions.h
+[8.888s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__struct.h
+[8.889s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__functions.c
+[8.890s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.h
+[8.890s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.h
+[8.890s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__functions.h
+[8.890s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[8.890s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.h
+[8.891s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_status.h
+[8.891s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/key_value.h
+[8.891s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.893s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[8.894s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__functions.c
+[8.894s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.h
+[8.894s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__functions.c
+[8.895s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__functions.h
+[8.895s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.h
+[8.896s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.h
+[8.896s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__functions.h
+[8.896s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.h
+[8.896s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__functions.c
+[8.896s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__functions.h
+[8.896s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.h
+[8.896s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.h
+[8.897s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/environment/library_path.sh
+[8.897s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/environment/library_path.dsv
+[8.897s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_c.so
+[8.897s] -- Set runtime path of "/home/hiromichi/rost2/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_c.so" to ""
+[8.898s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[8.898s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[8.899s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[8.899s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_fastrtps_c.h
+[8.899s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_fastrtps_c.h
+[8.899s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[8.899s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.900s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[8.900s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_fastrtps_c.h
+[8.900s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_fastrtps_c.h
+[8.900s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_c.h
+[8.900s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so
+[8.900s] -- Set runtime path of "/home/hiromichi/rost2/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.900s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[8.901s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[8.901s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[8.901s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_introspection_c.h
+[8.902s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.c
+[8.903s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_introspection_c.h
+[8.904s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c
+[8.905s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[8.905s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.905s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[8.905s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_introspection_c.h
+[8.905s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c
+[8.905s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_introspection_c.h
+[8.905s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c
+[8.905s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.c
+[8.906s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_c.h
+[8.906s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_c.so
+[8.906s] -- Set runtime path of "/home/hiromichi/rost2/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.906s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_c.so
+[8.906s] -- Set runtime path of "/home/hiromichi/rost2/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_c.so" to ""
+[8.906s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[8.906s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[8.906s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/self_test.hpp
+[8.906s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[8.907s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__traits.hpp
+[8.907s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__traits.hpp
+[8.907s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__struct.hpp
+[8.907s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__builder.hpp
+[8.907s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__builder.hpp
+[8.908s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__struct.hpp
+[8.908s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/add_diagnostics.hpp
+[8.908s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[8.908s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.hpp
+[8.908s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/key_value.hpp
+[8.909s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_status.hpp
+[8.909s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[8.909s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__traits.hpp
+[8.909s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__traits.hpp
+[8.909s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__traits.hpp
+[8.909s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__builder.hpp
+[8.909s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__builder.hpp
+[8.909s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__builder.hpp
+[8.909s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.hpp
+[8.910s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.hpp
+[8.910s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp
+[8.910s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[8.910s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[8.910s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[8.910s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/dds_fastrtps
+[8.910s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_fastrtps_cpp.hpp
+[8.910s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_fastrtps_cpp.hpp
+[8.911s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[8.911s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.911s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[8.911s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_cpp.hpp
+[8.911s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_fastrtps_cpp.hpp
+[8.911s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/dds_fastrtps
+[8.912s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_fastrtps_cpp.hpp
+[8.912s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.912s] -- Set runtime path of "/home/hiromichi/rost2/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.912s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[8.912s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[8.912s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[8.913s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_introspection_cpp.hpp
+[8.913s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.cpp
+[8.913s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_introspection_cpp.hpp
+[8.913s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.cpp
+[8.913s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[8.913s] -- Up-to-date: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[8.913s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.cpp
+[8.913s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_cpp.hpp
+[8.914s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.cpp
+[8.914s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.cpp
+[8.914s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_introspection_cpp.hpp
+[8.914s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_introspection_cpp.hpp
+[8.914s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so
+[8.914s] -- Set runtime path of "/home/hiromichi/rost2/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.914s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_cpp.so
+[8.914s] -- Set runtime path of "/home/hiromichi/rost2/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_cpp.so" to ""
+[8.914s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/ament_index/resource_index/rust_packages/diagnostic_msgs
+[8.914s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/rust
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/rust/src
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/rust/src/msg.rs
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/rust/src/srv.rs
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/rust/src/lib.rs
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/rust/Cargo.toml
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/rust/build.rs
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/environment/pythonpath.sh
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/environment/pythonpath.dsv
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.2.4-py3.10.egg-info
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.2.4-py3.10.egg-info/top_level.txt
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.2.4-py3.10.egg-info/dependency_links.txt
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.2.4-py3.10.egg-info/SOURCES.txt
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.2.4-py3.10.egg-info/PKG-INFO
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_add_diagnostics.py
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/__init__.py
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_self_test_s.c
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_add_diagnostics_s.c
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_self_test.py
+[8.915s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.916s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.916s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.916s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg
+[8.916s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_key_value.py
+[8.916s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_array.py
+[8.916s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_status.py
+[8.916s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_array_s.c
+[8.916s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_key_value_s.c
+[8.916s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/__init__.py
+[8.916s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_status_s.c
+[8.916s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.916s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/libdiagnostic_msgs__rosidl_generator_py.so
+[8.916s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.916s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_c.c
+[8.916s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/__init__.py
+[8.951s] Listing '/home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs'...
+[8.951s] Compiling '/home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/__init__.py'...
+[8.951s] Listing '/home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg'...
+[8.951s] Compiling '/home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/__init__.py'...
+[8.951s] Compiling '/home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_array.py'...
+[8.951s] Compiling '/home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_status.py'...
+[8.951s] Compiling '/home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_key_value.py'...
+[8.951s] Listing '/home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv'...
+[8.952s] Compiling '/home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/__init__.py'...
+[8.952s] Compiling '/home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_add_diagnostics.py'...
+[8.952s] Compiling '/home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_self_test.py'...
+[8.956s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.957s] -- Set runtime path of "/home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.957s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.958s] -- Set runtime path of "/home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.958s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.958s] -- Set runtime path of "/home/hiromichi/rost2/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.959s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_py.so
+[8.959s] -- Set runtime path of "/home/hiromichi/rost2/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_py.so" to ""
+[8.960s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticArray.idl
+[8.960s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticStatus.idl
+[8.961s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/msg/KeyValue.idl
+[8.962s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics.idl
+[8.962s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest.idl
+[8.963s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticArray.msg
+[8.963s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticStatus.msg
+[8.963s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/msg/KeyValue.msg
+[8.964s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics.srv
+[8.964s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics_Request.msg
+[8.964s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics_Response.msg
+[8.965s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest.srv
+[8.965s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest_Request.msg
+[8.966s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest_Response.msg
+[8.966s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/ament_index/resource_index/package_run_dependencies/diagnostic_msgs
+[8.966s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/ament_index/resource_index/parent_prefix_path/diagnostic_msgs
+[8.966s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/environment/ament_prefix_path.sh
+[8.967s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/environment/ament_prefix_path.dsv
+[8.967s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/environment/path.sh
+[8.967s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/environment/path.dsv
+[8.967s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.bash
+[8.967s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.sh
+[8.968s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.zsh
+[8.968s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.dsv
+[8.968s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/package.dsv
+[8.968s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/ament_index/resource_index/packages/diagnostic_msgs
+[8.968s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cExport.cmake
+[8.968s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.968s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.969s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.969s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.970s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.970s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cExport.cmake
+[8.970s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.970s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cppExport.cmake
+[8.970s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.970s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.971s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.971s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.971s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cppExport.cmake
+[8.971s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.971s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_pyExport.cmake
+[8.971s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.971s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake-extras.cmake
+[8.972s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.972s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.972s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.972s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.972s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.972s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.972s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgsConfig.cmake
+[8.974s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgsConfig-version.cmake
+[8.974s] -- Installing: /home/hiromichi/rost2/install/diagnostic_msgs/share/diagnostic_msgs/package.xml
+[8.975s] Invoked command in '/home/hiromichi/rost2/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/home/hiromichi/rost2/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiromichi/rost2/install/geometry_msgs:/home/hiromichi/rost2/install/std_msgs:/home/hiromichi/rost2/install/builtin_interfaces:/home/hiromichi/rost2/install/rosidl_default_runtime:/home/hiromichi/rost2/install/rosidl_default_generators:/home/hiromichi/rost2/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiromichi/rost2/install/geometry_msgs/lib:/home/hiromichi/rost2/install/std_msgs/lib:/home/hiromichi/rost2/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiromichi/rost2/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiromichi/rost2/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hiromichi/rost2/build/diagnostic_msgs
