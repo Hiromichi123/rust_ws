@@ -1,4 +1,0 @@
-source;share/rclrs_example_msgs/local_setup.bash
-source;share/rclrs_example_msgs/local_setup.dsv
-source;share/rclrs_example_msgs/local_setup.sh
-source;share/rclrs_example_msgs/local_setup.zsh
