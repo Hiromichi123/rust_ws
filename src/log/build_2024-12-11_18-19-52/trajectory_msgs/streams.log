@@ -1,0 +1,207 @@
+[0.395s] Invoking command in '/home/hiro/rust_ws/src/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/src/install/geometry_msgs:/home/hiro/rust_ws/src/install/std_msgs:/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/rust_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/src/install/geometry_msgs:/home/hiro/rust_ws/src/install/std_msgs:/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/src/install/geometry_msgs/lib:/home/hiro/rust_ws/src/install/std_msgs/lib:/home/hiro/rust_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hiro/rust_ws/src/build/trajectory_msgs -- -j22 -l22
+[0.488s] [  3%] Built target trajectory_msgs__cpp
+[0.488s] [  3%] Built target trajectory_msgs__rs
+[0.491s] [ 14%] Built target trajectory_msgs__rosidl_generator_c
+[0.507s] [ 14%] Built target ament_cmake_python_copy_trajectory_msgs
+[0.524s] [ 25%] Built target trajectory_msgs__rosidl_typesupport_cpp
+[0.524s] [ 35%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_cpp
+[0.526s] [ 46%] Built target trajectory_msgs__rosidl_typesupport_introspection_cpp
+[0.528s] [ 57%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c
+[0.532s] [ 73%] Built target trajectory_msgs__rosidl_typesupport_c
+[0.533s] [ 78%] Built target trajectory_msgs__rosidl_typesupport_introspection_c
+[0.559s] [ 78%] Built target trajectory_msgs
+[0.585s] [ 80%] Built target trajectory_msgs__py
+[0.613s] [ 89%] Built target trajectory_msgs__rosidl_generator_py
+[0.638s] [ 92%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.638s] [ 96%] Built target trajectory_msgs__rosidl_typesupport_c__pyext
+[0.641s] [100%] Built target trajectory_msgs__rosidl_typesupport_introspection_c__pyext
+[0.911s] running egg_info
+[0.930s] writing trajectory_msgs.egg-info/PKG-INFO
+[0.930s] writing dependency_links to trajectory_msgs.egg-info/dependency_links.txt
+[0.931s] writing top-level names to trajectory_msgs.egg-info/top_level.txt
+[0.985s] reading manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[0.986s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[1.038s] [100%] Built target ament_cmake_python_build_trajectory_msgs_egg
+[1.050s] Invoked command in '/home/hiro/rust_ws/src/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/src/install/geometry_msgs:/home/hiro/rust_ws/src/install/std_msgs:/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/rust_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/src/install/geometry_msgs:/home/hiro/rust_ws/src/install/std_msgs:/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/src/install/geometry_msgs/lib:/home/hiro/rust_ws/src/install/std_msgs/lib:/home/hiro/rust_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hiro/rust_ws/src/build/trajectory_msgs -- -j22 -l22
+[1.210s] Invoking command in '/home/hiro/rust_ws/src/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/src/install/geometry_msgs:/home/hiro/rust_ws/src/install/std_msgs:/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/rust_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/src/install/geometry_msgs:/home/hiro/rust_ws/src/install/std_msgs:/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/src/install/geometry_msgs/lib:/home/hiro/rust_ws/src/install/std_msgs/lib:/home/hiro/rust_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hiro/rust_ws/src/build/trajectory_msgs
+[1.211s] -- Install configuration: ""
+[1.211s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/ament_index/resource_index/rosidl_interfaces/trajectory_msgs
+[1.211s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[1.211s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[1.211s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.h
+[1.211s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.h
+[1.211s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.h
+[1.212s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.h
+[1.212s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.212s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[1.212s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.h
+[1.212s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c
+[1.212s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.h
+[1.212s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.h
+[1.213s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.h
+[1.213s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.h
+[1.213s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.h
+[1.213s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.h
+[1.213s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.h
+[1.213s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.h
+[1.214s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c
+[1.214s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.c
+[1.214s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.h
+[1.214s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.h
+[1.214s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c
+[1.214s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.h
+[1.215s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.sh
+[1.215s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.dsv
+[1.215s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so
+[1.215s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[1.216s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[1.216s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[1.216s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[1.216s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[1.216s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[1.216s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[1.216s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.216s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so
+[1.217s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[1.217s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[1.217s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp
+[1.217s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.hpp
+[1.217s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.hpp
+[1.217s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.hpp
+[1.217s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[1.218s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__builder.hpp
+[1.218s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.hpp
+[1.218s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__builder.hpp
+[1.218s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp
+[1.218s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__traits.hpp
+[1.218s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp
+[1.218s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__traits.hpp
+[1.218s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__builder.hpp
+[1.219s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp
+[1.219s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp
+[1.219s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp
+[1.219s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp
+[1.219s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[1.219s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[1.219s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.219s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[1.220s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/dds_fastrtps
+[1.220s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[1.220s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[1.220s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[1.220s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[1.222s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.224s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[1.225s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[1.225s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.225s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[1.226s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c
+[1.226s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c
+[1.226s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c
+[1.226s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_c.h
+[1.226s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[1.227s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[1.227s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_c.h
+[1.227s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.c
+[1.227s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so
+[1.227s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so
+[1.227s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[1.228s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[1.228s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[1.228s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp
+[1.228s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp
+[1.228s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[1.229s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[1.229s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[1.229s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[1.229s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp
+[1.229s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp
+[1.229s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so
+[1.230s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so
+[1.230s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/ament_index/resource_index/rust_packages/trajectory_msgs
+[1.230s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/rust
+[1.230s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/rust/Cargo.toml
+[1.230s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/rust/build.rs
+[1.230s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/rust/src
+[1.231s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/rust/src/msg.rs
+[1.231s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/rust/src/lib.rs
+[1.231s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.sh
+[1.231s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.dsv
+[1.231s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.4-py3.10.egg-info
+[1.231s] -- Installing: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.4-py3.10.egg-info/top_level.txt
+[1.231s] -- Installing: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.4-py3.10.egg-info/PKG-INFO
+[1.231s] -- Installing: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.4-py3.10.egg-info/SOURCES.txt
+[1.237s] -- Installing: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.4-py3.10.egg-info/dependency_links.txt
+[1.237s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs
+[1.237s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.238s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.238s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c
+[1.238s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/libtrajectory_msgs__rosidl_generator_py.so
+[1.238s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.239s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.239s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/__init__.py
+[1.239s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg
+[1.239s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c
+[1.240s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_point.py
+[1.240s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py
+[1.240s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory.py
+[1.241s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py
+[1.242s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_point_s.c
+[1.242s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_s.c
+[1.242s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/__init__.py
+[1.242s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c
+[1.242s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.262s] Listing '/home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs'...
+[1.262s] Listing '/home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg'...
+[1.262s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.262s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.262s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.262s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so
+[1.263s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.idl
+[1.263s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.idl
+[1.263s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.idl
+[1.263s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.idl
+[1.263s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.msg
+[1.264s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
+[1.264s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.msg
+[1.264s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg
+[1.264s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/ament_index/resource_index/package_run_dependencies/trajectory_msgs
+[1.264s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/ament_index/resource_index/parent_prefix_path/trajectory_msgs
+[1.264s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.sh
+[1.264s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.dsv
+[1.265s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/environment/path.sh
+[1.265s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/environment/path.dsv
+[1.265s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/local_setup.bash
+[1.265s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/local_setup.sh
+[1.265s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/local_setup.zsh
+[1.265s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/local_setup.dsv
+[1.265s] -- Installing: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/package.dsv
+[1.266s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/ament_index/resource_index/packages/trajectory_msgs
+[1.266s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport.cmake
+[1.266s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.266s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.267s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.267s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cppExport.cmake
+[1.267s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.267s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.267s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.267s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.268s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport.cmake
+[1.268s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.268s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.268s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.269s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport.cmake
+[1.269s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.269s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport.cmake
+[1.269s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.269s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake-extras.cmake
+[1.269s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.270s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.270s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.270s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.270s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.271s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.271s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig.cmake
+[1.271s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig-version.cmake
+[1.271s] -- Up-to-date: /home/hiro/rust_ws/src/install/trajectory_msgs/share/trajectory_msgs/package.xml
+[1.279s] Invoked command in '/home/hiro/rust_ws/src/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/src/install/geometry_msgs:/home/hiro/rust_ws/src/install/std_msgs:/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/rust_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/src/install/geometry_msgs:/home/hiro/rust_ws/src/install/std_msgs:/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/src/install/geometry_msgs/lib:/home/hiro/rust_ws/src/install/std_msgs/lib:/home/hiro/rust_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hiro/rust_ws/src/build/trajectory_msgs

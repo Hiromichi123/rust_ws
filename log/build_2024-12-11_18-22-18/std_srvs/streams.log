@@ -1,0 +1,302 @@
+[0.130s] Invoking command in '/home/hiro/rust_ws/build/std_srvs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble PYTHONPATH=/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hiro/rust_ws/src/src/ros2/common_interfaces/std_srvs -DCMAKE_INSTALL_PREFIX=/home/hiro/rust_ws/install/std_srvs
+[0.235s] -- The C compiler identification is GNU 11.4.0
+[0.657s] -- The CXX compiler identification is GNU 11.4.0
+[1.034s] -- Detecting C compiler ABI info
+[1.170s] -- Detecting C compiler ABI info - done
+[1.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.174s] -- Detecting C compile features
+[1.175s] -- Detecting C compile features - done
+[1.176s] -- Detecting CXX compiler ABI info
+[1.276s] -- Detecting CXX compiler ABI info - done
+[1.281s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.281s] -- Detecting CXX compile features
+[1.282s] -- Detecting CXX compile features - done
+[1.283s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.787s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.853s] -- Found rosidl_default_generators: 1.2.0 (/home/hiro/rust_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[1.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.858s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.004s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.232s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.234s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.235s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.236s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.394s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.580s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.738s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.739s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.062s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.062s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.062s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.062s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.087s] -- Found PythonExtra: .so  
+[3.174s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.176s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.185s] -- Configuring done
+[3.222s] -- Generating done
+[3.224s] -- Build files have been written to: /home/hiro/rust_ws/build/std_srvs
+[3.235s] Invoked command in '/home/hiro/rust_ws/build/std_srvs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble PYTHONPATH=/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hiro/rust_ws/src/src/ros2/common_interfaces/std_srvs -DCMAKE_INSTALL_PREFIX=/home/hiro/rust_ws/install/std_srvs
+[3.237s] Invoking command in '/home/hiro/rust_ws/build/std_srvs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble PYTHONPATH=/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hiro/rust_ws/build/std_srvs -- -j22 -l22
+[3.278s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.284s] [  6%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[3.284s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.293s] [  6%] Built target ament_cmake_python_copy_std_srvs
+[3.756s] running egg_info
+[3.758s] creating std_srvs.egg-info
+[3.782s] writing std_srvs.egg-info/PKG-INFO
+[3.783s] writing dependency_links to std_srvs.egg-info/dependency_links.txt
+[3.783s] writing top-level names to std_srvs.egg-info/top_level.txt
+[3.783s] writing manifest file 'std_srvs.egg-info/SOURCES.txt'
+[3.793s] [  6%] Built target std_srvs__rs
+[3.839s] reading manifest file 'std_srvs.egg-info/SOURCES.txt'
+[3.840s] writing manifest file 'std_srvs.egg-info/SOURCES.txt'
+[3.912s] [  6%] Built target ament_cmake_python_build_std_srvs_egg
+[3.962s] [  8%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/trigger__functions.c.o[0m
+[3.962s] [ 10%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/empty__functions.c.o[0m
+[3.964s] [ 12%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/set_bool__functions.c.o[0m
+[4.034s] [ 12%] Built target std_srvs__cpp
+[4.043s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.043s] [ 16%] [32m[1mLinking C shared library libstd_srvs__rosidl_generator_c.so[0m
+[4.043s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.046s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.186s] [ 20%] Built target std_srvs__rosidl_generator_c
+[4.227s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.234s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.262s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.598s] [ 29%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_srvs/srv/set_bool__type_support.cpp.o[0m
+[4.599s] [ 31%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_srvs/srv/empty__type_support.cpp.o[0m
+[4.604s] [ 33%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_srvs/srv/trigger__type_support.cpp.o[0m
+[4.746s] [ 35%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_srvs/srv/detail/dds_fastrtps/empty__type_support.cpp.o[0m
+[4.748s] [ 37%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_srvs/srv/detail/dds_fastrtps/set_bool__type_support.cpp.o[0m
+[4.752s] [ 39%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_srvs/srv/detail/dds_fastrtps/trigger__type_support.cpp.o[0m
+[4.759s] [ 41%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_srvs/srv/detail/trigger__type_support.cpp.o[0m
+[4.764s] [ 43%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_srvs/srv/detail/empty__type_support.cpp.o[0m
+[4.768s] [ 45%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_srvs/srv/detail/set_bool__type_support.cpp.o[0m
+[4.855s] [ 47%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/set_bool__type_support.cpp.o[0m
+[4.856s] [ 50%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/empty__type_support.cpp.o[0m
+[4.869s] [ 52%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/trigger__type_support.cpp.o[0m
+[4.918s] [ 54%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/std_srvs/srv/detail/empty__type_support_c.cpp.o[0m
+[4.924s] [ 56%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/std_srvs/srv/detail/set_bool__type_support_c.cpp.o[0m
+[4.933s] [ 58%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_c.so[0m
+[4.942s] [ 60%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/std_srvs/srv/detail/trigger__type_support_c.cpp.o[0m
+[4.953s] [ 62%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/std_srvs/srv/detail/set_bool__type_support.c.o[0m
+[4.959s] [ 64%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/std_srvs/srv/detail/empty__type_support.c.o[0m
+[4.979s] [ 66%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/std_srvs/srv/detail/trigger__type_support.c.o[0m
+[5.053s] [ 68%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_cpp.so[0m
+[5.071s] [ 70%] [32m[1mLinking C shared library libstd_srvs__rosidl_typesupport_introspection_c.so[0m
+[5.099s] [ 70%] Built target std_srvs__rosidl_typesupport_c
+[5.190s] [ 70%] Built target std_srvs__rosidl_typesupport_cpp
+[5.214s] [ 70%] Built target std_srvs__rosidl_typesupport_introspection_c
+[5.346s] [ 72%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_introspection_cpp.so[0m
+[5.377s] [ 75%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_fastrtps_c.so[0m
+[5.404s] [ 77%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.506s] [ 77%] Built target std_srvs__rosidl_typesupport_introspection_cpp
+[5.543s] [ 77%] Built target std_srvs__rosidl_typesupport_fastrtps_c
+[5.570s] [ 77%] Built target std_srvs__rosidl_typesupport_fastrtps_cpp
+[5.591s] [ 77%] Built target std_srvs
+[5.610s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.596s] [ 79%] Built target std_srvs__py
+[6.617s] [ 83%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_py.dir/rosidl_generator_py/std_srvs/srv/_trigger_s.c.o[0m
+[6.617s] [ 83%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_py.dir/rosidl_generator_py/std_srvs/srv/_set_bool_s.c.o[0m
+[6.617s] [ 85%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_py.dir/rosidl_generator_py/std_srvs/srv/_empty_s.c.o[0m
+[6.724s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/std_srvs/libstd_srvs__rosidl_generator_py.so[0m
+[6.829s] [ 87%] Built target std_srvs__rosidl_generator_py
+[6.857s] [ 89%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/std_srvs/_std_srvs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.860s] [ 91%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/std_srvs/_std_srvs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.870s] [ 93%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/std_srvs/_std_srvs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.016s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.056s] [100%] [32m[1mLinking C shared library rosidl_generator_py/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.056s] [100%] [32m[1mLinking C shared library rosidl_generator_py/std_srvs/std_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.161s] [100%] Built target std_srvs__rosidl_typesupport_introspection_c__pyext
+[7.190s] [100%] Built target std_srvs__rosidl_typesupport_c__pyext
+[7.205s] [100%] Built target std_srvs__rosidl_typesupport_fastrtps_c__pyext
+[7.244s] Invoked command in '/home/hiro/rust_ws/build/std_srvs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble PYTHONPATH=/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hiro/rust_ws/build/std_srvs -- -j22 -l22
+[7.643s] Invoking command in '/home/hiro/rust_ws/build/std_srvs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble PYTHONPATH=/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hiro/rust_ws/build/std_srvs
+[7.655s] -- Install configuration: ""
+[7.657s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/ament_index/resource_index/rosidl_interfaces/std_srvs
+[7.660s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs
+[7.661s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/msg
+[7.662s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_generator_c__visibility_control.h
+[7.665s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv
+[7.666s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/trigger.h
+[7.666s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/set_bool.h
+[7.667s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[7.668s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__struct.h
+[7.671s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.h
+[7.672s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__functions.c
+[7.675s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__functions.c
+[7.675s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.h
+[7.676s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__functions.h
+[7.676s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__functions.h
+[7.677s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.h
+[7.677s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__functions.c
+[7.677s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__struct.h
+[7.677s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__functions.h
+[7.677s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__struct.h
+[7.678s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/empty.h
+[7.678s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/environment/library_path.sh
+[7.678s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/environment/library_path.dsv
+[7.679s] -- Installing: /home/hiro/rust_ws/install/std_srvs/lib/libstd_srvs__rosidl_generator_c.so
+[7.679s] -- Set runtime path of "/home/hiro/rust_ws/install/std_srvs/lib/libstd_srvs__rosidl_generator_c.so" to ""
+[7.679s] -- Up-to-date: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs
+[7.679s] -- Up-to-date: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/msg
+[7.679s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.679s] -- Up-to-date: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv
+[7.679s] -- Up-to-date: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[7.679s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_c.h
+[7.679s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_c.h
+[7.679s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_c.h
+[7.679s] -- Installing: /home/hiro/rust_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so
+[7.679s] -- Set runtime path of "/home/hiro/rust_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.680s] -- Up-to-date: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs
+[7.680s] -- Up-to-date: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/msg
+[7.680s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.680s] -- Up-to-date: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv
+[7.680s] -- Up-to-date: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[7.680s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.c
+[7.682s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_c.h
+[7.683s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.c
+[7.683s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_c.h
+[7.683s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.c
+[7.683s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_c.h
+[7.684s] -- Installing: /home/hiro/rust_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
+[7.685s] -- Set runtime path of "/home/hiro/rust_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_c.so" to ""
+[7.685s] -- Installing: /home/hiro/rust_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_c.so
+[7.685s] -- Set runtime path of "/home/hiro/rust_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_c.so" to ""
+[7.685s] -- Up-to-date: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs
+[7.685s] -- Up-to-date: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv
+[7.685s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/empty.hpp
+[7.685s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/set_bool.hpp
+[7.685s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/trigger.hpp
+[7.685s] -- Up-to-date: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[7.685s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__struct.hpp
+[7.685s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__builder.hpp
+[7.685s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__struct.hpp
+[7.686s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__builder.hpp
+[7.686s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp
+[7.686s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__traits.hpp
+[7.688s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp
+[7.688s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__traits.hpp
+[7.688s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__traits.hpp
+[7.688s] -- Up-to-date: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs
+[7.688s] -- Up-to-date: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/msg
+[7.689s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.689s] -- Up-to-date: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv
+[7.689s] -- Up-to-date: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[7.689s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/dds_fastrtps
+[7.689s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[7.689s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_cpp.hpp
+[7.690s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_cpp.hpp
+[7.690s] -- Installing: /home/hiro/rust_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
+[7.690s] -- Set runtime path of "/home/hiro/rust_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.690s] -- Up-to-date: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs
+[7.690s] -- Up-to-date: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv
+[7.691s] -- Up-to-date: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[7.691s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_cpp.hpp
+[7.691s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_cpp.hpp
+[7.691s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.cpp
+[7.691s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.cpp
+[7.691s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_cpp.hpp
+[7.691s] -- Installing: /home/hiro/rust_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.cpp
+[7.692s] -- Installing: /home/hiro/rust_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
+[7.692s] -- Set runtime path of "/home/hiro/rust_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.692s] -- Installing: /home/hiro/rust_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_cpp.so
+[7.692s] -- Set runtime path of "/home/hiro/rust_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_cpp.so" to ""
+[7.692s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/ament_index/resource_index/rust_packages/std_srvs
+[7.692s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/rust
+[7.692s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/rust/Cargo.toml
+[7.692s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/rust/build.rs
+[7.692s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/rust/src
+[7.692s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/rust/src/srv.rs
+[7.693s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/rust/src/lib.rs
+[7.695s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/environment/pythonpath.sh
+[7.696s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/environment/pythonpath.dsv
+[7.696s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.2.4-py3.10.egg-info
+[7.696s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.2.4-py3.10.egg-info/top_level.txt
+[7.697s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.2.4-py3.10.egg-info/PKG-INFO
+[7.697s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.2.4-py3.10.egg-info/SOURCES.txt
+[7.697s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.2.4-py3.10.egg-info/dependency_links.txt
+[7.697s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs
+[7.698s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.698s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.700s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_c.c
+[7.700s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/libstd_srvs__rosidl_generator_py.so
+[7.703s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.703s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/__init__.py
+[7.703s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.703s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv
+[7.703s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_empty.py
+[7.703s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_set_bool_s.c
+[7.703s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_trigger_s.c
+[7.704s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_trigger.py
+[7.704s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_empty_s.c
+[7.704s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/__init__.py
+[7.704s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_set_bool.py
+[7.704s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[7.819s] Listing '/home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs'...
+[7.820s] Compiling '/home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/__init__.py'...
+[7.820s] Listing '/home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv'...
+[7.820s] Compiling '/home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/__init__.py'...
+[7.821s] Compiling '/home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_empty.py'...
+[7.821s] Compiling '/home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_set_bool.py'...
+[7.821s] Compiling '/home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_trigger.py'...
+[7.835s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.835s] -- Set runtime path of "/home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.836s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.836s] -- Set runtime path of "/home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.837s] -- Installing: /home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.838s] -- Set runtime path of "/home/hiro/rust_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.838s] -- Installing: /home/hiro/rust_ws/install/std_srvs/lib/libstd_srvs__rosidl_generator_py.so
+[7.839s] -- Set runtime path of "/home/hiro/rust_ws/install/std_srvs/lib/libstd_srvs__rosidl_generator_py.so" to ""
+[7.841s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/srv/Empty.idl
+[7.841s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/srv/SetBool.idl
+[7.841s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/srv/Trigger.idl
+[7.841s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/srv/Empty.srv
+[7.841s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/srv/Empty_Request.msg
+[7.842s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/srv/Empty_Response.msg
+[7.842s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/srv/SetBool.srv
+[7.842s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/srv/SetBool_Request.msg
+[7.842s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/srv/SetBool_Response.msg
+[7.842s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/srv/Trigger.srv
+[7.842s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/srv/Trigger_Request.msg
+[7.842s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/srv/Trigger_Response.msg
+[7.843s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/ament_index/resource_index/package_run_dependencies/std_srvs
+[7.844s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/ament_index/resource_index/parent_prefix_path/std_srvs
+[7.845s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/environment/ament_prefix_path.sh
+[7.845s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/environment/ament_prefix_path.dsv
+[7.846s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/environment/path.sh
+[7.846s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/environment/path.dsv
+[7.846s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/local_setup.bash
+[7.847s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/local_setup.sh
+[7.847s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/local_setup.zsh
+[7.848s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/local_setup.dsv
+[7.848s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/package.dsv
+[7.849s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/ament_index/resource_index/packages/std_srvs
+[7.850s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cExport.cmake
+[7.850s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cExport-noconfig.cmake
+[7.850s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.851s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.851s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport.cmake
+[7.852s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.852s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport.cmake
+[7.855s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[7.855s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cppExport.cmake
+[7.856s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.856s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.858s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[7.858s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.858s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport.cmake
+[7.858s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.858s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_pyExport.cmake
+[7.858s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_pyExport-noconfig.cmake
+[7.859s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake-extras.cmake
+[7.859s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.859s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.859s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[7.859s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.859s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.859s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.859s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/std_srvsConfig.cmake
+[7.859s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/cmake/std_srvsConfig-version.cmake
+[7.859s] -- Installing: /home/hiro/rust_ws/install/std_srvs/share/std_srvs/package.xml
+[7.873s] Invoked command in '/home/hiro/rust_ws/build/std_srvs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble PYTHONPATH=/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hiro/rust_ws/build/std_srvs

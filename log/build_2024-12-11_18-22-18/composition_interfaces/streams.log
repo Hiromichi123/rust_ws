@@ -1,0 +1,303 @@
+[0.574s] Invoking command in '/home/hiro/rust_ws/build/composition_interfaces': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hiro/rust_ws/src/src/ros2/rcl_interfaces/composition_interfaces -DCMAKE_INSTALL_PREFIX=/home/hiro/rust_ws/install/composition_interfaces
+[0.759s] -- The C compiler identification is GNU 11.4.0
+[1.282s] -- The CXX compiler identification is GNU 11.4.0
+[1.724s] -- Detecting C compiler ABI info
+[1.938s] -- Detecting C compiler ABI info - done
+[1.949s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.949s] -- Detecting C compile features
+[1.950s] -- Detecting C compile features - done
+[1.954s] -- Detecting CXX compiler ABI info
+[2.160s] -- Detecting CXX compiler ABI info - done
+[2.172s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.172s] -- Detecting CXX compile features
+[2.173s] -- Detecting CXX compile features - done
+[2.177s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.526s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.054s] -- Found rosidl_default_generators: 1.2.0 (/home/hiro/rust_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[4.084s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.097s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.603s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.812s] -- Found rcl_interfaces: 1.2.1 (/home/hiro/rust_ws/install/rcl_interfaces/share/rcl_interfaces/cmake)
+[5.723s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[5.727s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[5.731s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[5.742s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.306s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.477s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.791s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[7.796s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.311s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.312s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.312s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.313s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.421s] -- Found PythonExtra: .so  
+[8.664s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[8.676s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[8.748s] -- Configuring done
+[8.844s] -- Generating done
+[8.848s] -- Build files have been written to: /home/hiro/rust_ws/build/composition_interfaces
+[8.903s] Invoked command in '/home/hiro/rust_ws/build/composition_interfaces' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hiro/rust_ws/src/src/ros2/rcl_interfaces/composition_interfaces -DCMAKE_INSTALL_PREFIX=/home/hiro/rust_ws/install/composition_interfaces
+[8.904s] Invoking command in '/home/hiro/rust_ws/build/composition_interfaces': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hiro/rust_ws/build/composition_interfaces -- -j22 -l22
+[9.071s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.116s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.160s] [  6%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[9.165s] [  6%] Built target ament_cmake_python_copy_composition_interfaces
+[10.542s] running egg_info
+[10.566s] creating composition_interfaces.egg-info
+[10.675s] writing composition_interfaces.egg-info/PKG-INFO
+[10.694s] writing dependency_links to composition_interfaces.egg-info/dependency_links.txt
+[10.694s] writing top-level names to composition_interfaces.egg-info/top_level.txt
+[10.695s] writing manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[11.049s] reading manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[11.050s] writing manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[11.314s] [  6%] Built target ament_cmake_python_build_composition_interfaces_egg
+[11.474s] [  6%] Built target composition_interfaces__rs
+[12.357s] [  6%] Built target composition_interfaces__cpp
+[12.418s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.439s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.478s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[12.538s] [ 14%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/load_node__functions.c.o[0m
+[12.548s] [ 16%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/list_nodes__functions.c.o[0m
+[12.559s] [ 18%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/unload_node__functions.c.o[0m
+[12.728s] [ 20%] [32m[1mLinking C shared library libcomposition_interfaces__rosidl_generator_c.so[0m
+[12.991s] [ 20%] Built target composition_interfaces__rosidl_generator_c
+[13.034s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[13.058s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.077s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[14.024s] [ 29%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/load_node__type_support.cpp.o[0m
+[14.075s] [ 31%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/unload_node__type_support.cpp.o[0m
+[14.078s] [ 33%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/list_nodes__type_support.cpp.o[0m
+[14.184s] [ 35%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/composition_interfaces/srv/detail/dds_fastrtps/load_node__type_support.cpp.o[0m
+[14.190s] [ 37%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/composition_interfaces/srv/detail/dds_fastrtps/list_nodes__type_support.cpp.o[0m
+[14.225s] [ 39%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/composition_interfaces/srv/detail/dds_fastrtps/unload_node__type_support.cpp.o[0m
+[14.671s] [ 41%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/load_node__type_support.cpp.o[0m
+[14.692s] [ 43%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/list_nodes__type_support.cpp.o[0m
+[14.714s] [ 45%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/unload_node__type_support.cpp.o[0m
+[14.804s] [ 47%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/composition_interfaces/srv/detail/load_node__type_support.cpp.o[0m
+[14.825s] [ 50%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/composition_interfaces/srv/detail/unload_node__type_support.cpp.o[0m
+[14.827s] [ 52%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/composition_interfaces/srv/detail/list_nodes__type_support.cpp.o[0m
+[14.854s] [ 54%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_c.so[0m
+[14.925s] [ 56%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_cpp.so[0m
+[15.164s] [ 58%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/composition_interfaces/srv/detail/load_node__type_support_c.cpp.o[0m
+[15.185s] [ 60%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/composition_interfaces/srv/detail/list_nodes__type_support_c.cpp.o[0m
+[15.216s] [ 60%] Built target composition_interfaces__rosidl_typesupport_c
+[15.234s] [ 62%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/composition_interfaces/srv/detail/unload_node__type_support_c.cpp.o[0m
+[15.297s] [ 62%] Built target composition_interfaces__rosidl_typesupport_cpp
+[15.357s] [ 64%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/composition_interfaces/srv/detail/list_nodes__type_support.c.o[0m
+[15.361s] [ 66%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/composition_interfaces/srv/detail/load_node__type_support.c.o[0m
+[15.386s] [ 68%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/composition_interfaces/srv/detail/unload_node__type_support.c.o[0m
+[15.626s] [ 70%] [32m[1mLinking C shared library libcomposition_interfaces__rosidl_typesupport_introspection_c.so[0m
+[15.984s] [ 70%] Built target composition_interfaces__rosidl_typesupport_introspection_c
+[16.168s] [ 72%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.420s] [ 75%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[16.503s] [ 75%] Built target composition_interfaces__rosidl_typesupport_fastrtps_cpp
+[16.677s] [ 75%] Built target composition_interfaces__rosidl_typesupport_fastrtps_c
+[16.748s] [ 77%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[16.985s] [ 77%] Built target composition_interfaces__rosidl_typesupport_introspection_cpp
+[17.011s] [ 77%] Built target composition_interfaces
+[17.038s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[18.730s] [ 79%] Built target composition_interfaces__py
+[18.752s] [ 81%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/composition_interfaces/srv/_list_nodes_s.c.o[0m
+[18.752s] [ 83%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/composition_interfaces/srv/_load_node_s.c.o[0m
+[18.753s] [ 85%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/composition_interfaces/srv/_unload_node_s.c.o[0m
+[18.897s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/composition_interfaces/libcomposition_interfaces__rosidl_generator_py.so[0m
+[18.996s] [ 87%] Built target composition_interfaces__rosidl_generator_py
+[19.013s] [ 89%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.016s] [ 91%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[19.018s] [ 93%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[19.114s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.115s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.135s] [100%] [32m[1mLinking C shared library rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.208s] [100%] Built target composition_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[19.211s] [100%] Built target composition_interfaces__rosidl_typesupport_introspection_c__pyext
+[19.241s] [100%] Built target composition_interfaces__rosidl_typesupport_c__pyext
+[19.252s] Invoked command in '/home/hiro/rust_ws/build/composition_interfaces' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hiro/rust_ws/build/composition_interfaces -- -j22 -l22
+[19.343s] Invoking command in '/home/hiro/rust_ws/build/composition_interfaces': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hiro/rust_ws/build/composition_interfaces
+[19.351s] -- Install configuration: ""
+[19.353s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/ament_index/resource_index/rosidl_interfaces/composition_interfaces
+[19.356s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[19.357s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[19.357s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_generator_c__visibility_control.h
+[19.357s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[19.358s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/unload_node.h
+[19.358s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/list_nodes.h
+[19.358s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[19.358s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__functions.c
+[19.359s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__functions.h
+[19.359s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__struct.h
+[19.359s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__functions.h
+[19.359s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.h
+[19.359s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__functions.h
+[19.359s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__functions.c
+[19.359s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__functions.c
+[19.359s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__struct.h
+[19.359s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.h
+[19.359s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.h
+[19.360s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__struct.h
+[19.360s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/load_node.h
+[19.360s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/environment/library_path.sh
+[19.360s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/environment/library_path.dsv
+[19.362s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_c.so
+[19.362s] -- Set runtime path of "/home/hiro/rust_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_c.so" to ""
+[19.363s] -- Up-to-date: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[19.363s] -- Up-to-date: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[19.363s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.363s] -- Up-to-date: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[19.363s] -- Up-to-date: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[19.363s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_fastrtps_c.h
+[19.364s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_fastrtps_c.h
+[19.364s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_fastrtps_c.h
+[19.364s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
+[19.364s] -- Set runtime path of "/home/hiro/rust_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[19.364s] -- Up-to-date: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[19.365s] -- Up-to-date: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[19.365s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.365s] -- Up-to-date: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[19.365s] -- Up-to-date: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[19.365s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_introspection_c.h
+[19.365s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_introspection_c.h
+[19.365s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.c
+[19.365s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_introspection_c.h
+[19.365s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.c
+[19.366s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.c
+[19.366s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
+[19.366s] -- Set runtime path of "/home/hiro/rust_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[19.366s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_c.so
+[19.366s] -- Set runtime path of "/home/hiro/rust_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_c.so" to ""
+[19.367s] -- Up-to-date: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[19.367s] -- Up-to-date: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[19.367s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/list_nodes.hpp
+[19.367s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/load_node.hpp
+[19.367s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/unload_node.hpp
+[19.367s] -- Up-to-date: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[19.367s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__traits.hpp
+[19.368s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__struct.hpp
+[19.368s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__struct.hpp
+[19.369s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__builder.hpp
+[19.369s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__traits.hpp
+[19.369s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__builder.hpp
+[19.370s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__struct.hpp
+[19.370s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__traits.hpp
+[19.370s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__builder.hpp
+[19.370s] -- Up-to-date: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[19.370s] -- Up-to-date: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[19.370s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.370s] -- Up-to-date: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[19.370s] -- Up-to-date: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[19.371s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/dds_fastrtps
+[19.371s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_fastrtps_cpp.hpp
+[19.371s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_fastrtps_cpp.hpp
+[19.371s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_fastrtps_cpp.hpp
+[19.371s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[19.371s] -- Set runtime path of "/home/hiro/rust_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.371s] -- Up-to-date: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[19.371s] -- Up-to-date: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[19.371s] -- Up-to-date: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[19.372s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_introspection_cpp.hpp
+[19.372s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_introspection_cpp.hpp
+[19.372s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.cpp
+[19.372s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.cpp
+[19.372s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_introspection_cpp.hpp
+[19.373s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.cpp
+[19.373s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so
+[19.374s] -- Set runtime path of "/home/hiro/rust_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[19.374s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so
+[19.374s] -- Set runtime path of "/home/hiro/rust_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so" to ""
+[19.374s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/ament_index/resource_index/rust_packages/composition_interfaces
+[19.374s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/rust
+[19.374s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/rust/Cargo.toml
+[19.374s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/rust/build.rs
+[19.374s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/rust/src
+[19.374s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/rust/src/srv.rs
+[19.375s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/rust/src/lib.rs
+[19.375s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/environment/pythonpath.sh
+[19.376s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/environment/pythonpath.dsv
+[19.376s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces-1.2.1-py3.10.egg-info
+[19.376s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces-1.2.1-py3.10.egg-info/top_level.txt
+[19.376s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces-1.2.1-py3.10.egg-info/PKG-INFO
+[19.376s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces-1.2.1-py3.10.egg-info/SOURCES.txt
+[19.376s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces-1.2.1-py3.10.egg-info/dependency_links.txt
+[19.376s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces
+[19.377s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.377s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.377s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_c.c
+[19.377s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.378s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[19.378s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/__init__.py
+[19.378s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/libcomposition_interfaces__rosidl_generator_py.so
+[19.378s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv
+[19.378s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_load_node.py
+[19.378s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_load_node_s.c
+[19.378s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_list_nodes_s.c
+[19.378s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_list_nodes.py
+[19.378s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_unload_node_s.c
+[19.379s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/__init__.py
+[19.379s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_unload_node.py
+[19.379s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.443s] Listing '/home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces'...
+[19.443s] Compiling '/home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/__init__.py'...
+[19.443s] Listing '/home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv'...
+[19.443s] Compiling '/home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/__init__.py'...
+[19.443s] Compiling '/home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_list_nodes.py'...
+[19.443s] Compiling '/home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_load_node.py'...
+[19.443s] Compiling '/home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_unload_node.py'...
+[19.449s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.449s] -- Set runtime path of "/home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.450s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.450s] -- Set runtime path of "/home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.450s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.451s] -- Set runtime path of "/home/hiro/rust_ws/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.451s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_py.so
+[19.452s] -- Set runtime path of "/home/hiro/rust_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_py.so" to ""
+[19.452s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.idl
+[19.452s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.idl
+[19.452s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.idl
+[19.453s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.srv
+[19.453s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/srv/LoadNode_Request.msg
+[19.454s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/srv/LoadNode_Response.msg
+[19.454s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.srv
+[19.454s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/srv/ListNodes_Request.msg
+[19.454s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/srv/ListNodes_Response.msg
+[19.454s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.srv
+[19.454s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode_Request.msg
+[19.454s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode_Response.msg
+[19.455s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/ament_index/resource_index/package_run_dependencies/composition_interfaces
+[19.455s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/ament_index/resource_index/parent_prefix_path/composition_interfaces
+[19.455s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/environment/ament_prefix_path.sh
+[19.456s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/environment/ament_prefix_path.dsv
+[19.456s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/environment/path.sh
+[19.456s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/environment/path.dsv
+[19.456s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/local_setup.bash
+[19.457s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/local_setup.sh
+[19.457s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/local_setup.zsh
+[19.457s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/local_setup.dsv
+[19.457s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/package.dsv
+[19.458s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/ament_index/resource_index/packages/composition_interfaces
+[19.458s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cExport.cmake
+[19.459s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cExport-noconfig.cmake
+[19.459s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[19.459s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.459s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[19.459s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.460s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cExport.cmake
+[19.460s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[19.460s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cppExport.cmake
+[19.460s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.461s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.461s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[19.461s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.461s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cppExport.cmake
+[19.462s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[19.462s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_pyExport.cmake
+[19.462s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[19.463s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake-extras.cmake
+[19.463s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.464s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.464s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[19.464s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[19.464s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.464s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.464s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfacesConfig.cmake
+[19.464s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfacesConfig-version.cmake
+[19.464s] -- Installing: /home/hiro/rust_ws/install/composition_interfaces/share/composition_interfaces/package.xml
+[19.469s] Invoked command in '/home/hiro/rust_ws/build/composition_interfaces' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hiro/rust_ws/build/composition_interfaces

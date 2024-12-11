@@ -1,0 +1,237 @@
+[0.335s] Invoking command in '/home/hiro/rust_ws/build/stereo_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hiro/rust_ws/src/src/ros2/common_interfaces/stereo_msgs -DCMAKE_INSTALL_PREFIX=/home/hiro/rust_ws/install/stereo_msgs
+[0.415s] -- The C compiler identification is GNU 11.4.0
+[0.761s] -- The CXX compiler identification is GNU 11.4.0
+[1.081s] -- Detecting C compiler ABI info
+[1.182s] -- Detecting C compiler ABI info - done
+[1.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.188s] -- Detecting C compile features
+[1.188s] -- Detecting C compile features - done
+[1.191s] -- Detecting CXX compiler ABI info
+[1.299s] -- Detecting CXX compiler ABI info - done
+[1.305s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.306s] -- Detecting CXX compile features
+[1.306s] -- Detecting CXX compile features - done
+[1.308s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.843s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.913s] -- Found rosidl_default_generators: 1.2.0 (/home/hiro/rust_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[1.915s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.919s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.017s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.043s] -- Found sensor_msgs: 4.2.4 (/home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake)
+[2.322s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.323s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.325s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.327s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.537s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.836s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.972s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.973s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.303s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.303s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.303s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.303s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.320s] -- Found PythonExtra: .so  
+[3.411s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.413s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.418s] -- Configuring done
+[3.450s] -- Generating done
+[3.451s] -- Build files have been written to: /home/hiro/rust_ws/build/stereo_msgs
+[3.463s] Invoked command in '/home/hiro/rust_ws/build/stereo_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hiro/rust_ws/src/src/ros2/common_interfaces/stereo_msgs -DCMAKE_INSTALL_PREFIX=/home/hiro/rust_ws/install/stereo_msgs
+[3.465s] Invoking command in '/home/hiro/rust_ws/build/stereo_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hiro/rust_ws/build/stereo_msgs -- -j22 -l22
+[3.490s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.498s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.499s] [  9%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[3.504s] [  9%] Built target ament_cmake_python_copy_stereo_msgs
+[3.889s] running egg_info
+[3.891s] creating stereo_msgs.egg-info
+[3.904s] [  9%] Built target stereo_msgs__rs
+[3.907s] writing stereo_msgs.egg-info/PKG-INFO
+[3.908s] writing dependency_links to stereo_msgs.egg-info/dependency_links.txt
+[3.908s] writing top-level names to stereo_msgs.egg-info/top_level.txt
+[3.908s] writing manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[3.934s] [  9%] Built target stereo_msgs__cpp
+[3.943s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.943s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.944s] [ 18%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_generator_c.dir/rosidl_generator_c/stereo_msgs/msg/detail/disparity_image__functions.c.o[0m
+[3.946s] [ 21%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.957s] reading manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[3.957s] writing manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[4.001s] [ 25%] [32m[1mLinking C shared library libstereo_msgs__rosidl_generator_c.so[0m
+[4.010s] [ 25%] Built target ament_cmake_python_build_stereo_msgs_egg
+[4.102s] [ 25%] Built target stereo_msgs__rosidl_generator_c
+[4.113s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.114s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.114s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.384s] [ 37%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stereo_msgs/msg/disparity_image__type_support.cpp.o[0m
+[4.386s] [ 40%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stereo_msgs/msg/detail/dds_fastrtps/disparity_image__type_support.cpp.o[0m
+[4.412s] [ 43%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/detail/disparity_image__type_support.cpp.o[0m
+[4.561s] [ 46%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stereo_msgs/msg/detail/disparity_image__type_support_c.cpp.o[0m
+[4.562s] [ 50%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/stereo_msgs/msg/disparity_image__type_support.cpp.o[0m
+[4.565s] [ 53%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stereo_msgs/msg/detail/disparity_image__type_support.c.o[0m
+[4.593s] [ 56%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_c.so[0m
+[4.598s] [ 59%] [32m[1mLinking C shared library libstereo_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.682s] [ 62%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_cpp.so[0m
+[4.682s] [ 62%] Built target stereo_msgs__rosidl_typesupport_introspection_c
+[4.691s] [ 62%] Built target stereo_msgs__rosidl_typesupport_c
+[4.791s] [ 65%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.797s] [ 65%] Built target stereo_msgs__rosidl_typesupport_cpp
+[4.799s] [ 68%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.896s] [ 71%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.911s] [ 71%] Built target stereo_msgs__rosidl_typesupport_introspection_cpp
+[4.927s] [ 71%] Built target stereo_msgs__rosidl_typesupport_fastrtps_cpp
+[5.026s] [ 71%] Built target stereo_msgs__rosidl_typesupport_fastrtps_c
+[5.040s] [ 71%] Built target stereo_msgs
+[5.057s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.517s] [ 75%] Built target stereo_msgs__py
+[5.530s] [ 78%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_generator_py.dir/rosidl_generator_py/stereo_msgs/msg/_disparity_image_s.c.o[0m
+[5.613s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/stereo_msgs/libstereo_msgs__rosidl_generator_py.so[0m
+[5.704s] [ 81%] Built target stereo_msgs__rosidl_generator_py
+[5.718s] [ 87%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.718s] [ 87%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.719s] [ 90%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.798s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.799s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.799s] [100%] [32m[1mLinking C shared library rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.880s] [100%] Built target stereo_msgs__rosidl_typesupport_introspection_c__pyext
+[5.888s] [100%] Built target stereo_msgs__rosidl_typesupport_c__pyext
+[5.891s] [100%] Built target stereo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.899s] Invoked command in '/home/hiro/rust_ws/build/stereo_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hiro/rust_ws/build/stereo_msgs -- -j22 -l22
+[5.941s] Invoking command in '/home/hiro/rust_ws/build/stereo_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hiro/rust_ws/build/stereo_msgs
+[5.946s] -- Install configuration: ""
+[5.947s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/ament_index/resource_index/rosidl_interfaces/stereo_msgs
+[5.947s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[5.947s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[5.948s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.948s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[5.948s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__struct.h
+[5.948s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.h
+[5.948s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__functions.h
+[5.948s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__functions.c
+[5.948s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/disparity_image.h
+[5.949s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/environment/library_path.sh
+[5.949s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/environment/library_path.dsv
+[5.949s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_c.so
+[5.949s] -- Set runtime path of "/home/hiro/rust_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_c.so" to ""
+[5.949s] -- Up-to-date: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[5.950s] -- Up-to-date: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[5.950s] -- Up-to-date: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[5.950s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_fastrtps_c.h
+[5.950s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.950s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so
+[5.951s] -- Set runtime path of "/home/hiro/rust_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.951s] -- Up-to-date: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[5.951s] -- Up-to-date: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[5.951s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.951s] -- Up-to-date: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[5.951s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_introspection_c.h
+[5.951s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.c
+[5.952s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so
+[5.952s] -- Set runtime path of "/home/hiro/rust_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.952s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_c.so
+[5.952s] -- Set runtime path of "/home/hiro/rust_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_c.so" to ""
+[5.952s] -- Up-to-date: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[5.952s] -- Up-to-date: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[5.952s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/disparity_image.hpp
+[5.952s] -- Up-to-date: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[5.952s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__traits.hpp
+[5.952s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__struct.hpp
+[5.953s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__builder.hpp
+[5.953s] -- Up-to-date: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[5.953s] -- Up-to-date: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[5.953s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.953s] -- Up-to-date: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[5.953s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/dds_fastrtps
+[5.953s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_fastrtps_cpp.hpp
+[5.953s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.953s] -- Set runtime path of "/home/hiro/rust_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.954s] -- Up-to-date: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[5.954s] -- Up-to-date: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[5.954s] -- Up-to-date: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[5.954s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.cpp
+[5.954s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_introspection_cpp.hpp
+[5.954s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_cpp.so
+[5.954s] -- Set runtime path of "/home/hiro/rust_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.955s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_cpp.so
+[5.955s] -- Set runtime path of "/home/hiro/rust_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_cpp.so" to ""
+[5.955s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/ament_index/resource_index/rust_packages/stereo_msgs
+[5.955s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/rust
+[5.955s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/rust/Cargo.toml
+[5.955s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/rust/build.rs
+[5.955s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/rust/src
+[5.955s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/rust/src/msg.rs
+[5.955s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/rust/src/lib.rs
+[5.955s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/environment/pythonpath.sh
+[5.955s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/environment/pythonpath.dsv
+[5.955s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.2.4-py3.10.egg-info
+[5.955s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.2.4-py3.10.egg-info/top_level.txt
+[5.956s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.2.4-py3.10.egg-info/PKG-INFO
+[5.956s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.2.4-py3.10.egg-info/SOURCES.txt
+[5.956s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.2.4-py3.10.egg-info/dependency_links.txt
+[5.956s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs
+[5.956s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.956s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.956s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.956s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.956s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.956s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/__init__.py
+[5.956s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg
+[5.956s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg/_disparity_image.py
+[5.956s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg/_disparity_image_s.c
+[5.956s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg/__init__.py
+[5.956s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_c.c
+[5.956s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/libstereo_msgs__rosidl_generator_py.so
+[5.986s] Listing '/home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs'...
+[5.986s] Compiling '/home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/__init__.py'...
+[5.986s] Listing '/home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg'...
+[5.986s] Compiling '/home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg/__init__.py'...
+[5.986s] Compiling '/home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg/_disparity_image.py'...
+[5.990s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.990s] -- Set runtime path of "/home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.991s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.991s] -- Set runtime path of "/home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.991s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.991s] -- Set runtime path of "/home/hiro/rust_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.991s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_py.so
+[5.992s] -- Set runtime path of "/home/hiro/rust_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_py.so" to ""
+[5.992s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/msg/DisparityImage.idl
+[5.992s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/msg/DisparityImage.msg
+[5.992s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/ament_index/resource_index/package_run_dependencies/stereo_msgs
+[5.992s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/ament_index/resource_index/parent_prefix_path/stereo_msgs
+[5.992s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/environment/ament_prefix_path.sh
+[5.992s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/environment/ament_prefix_path.dsv
+[5.992s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/environment/path.sh
+[5.993s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/environment/path.dsv
+[5.993s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/local_setup.bash
+[5.993s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/local_setup.sh
+[5.993s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/local_setup.zsh
+[5.993s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/local_setup.dsv
+[5.993s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/package.dsv
+[5.993s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/ament_index/resource_index/packages/stereo_msgs
+[5.993s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cExport.cmake
+[5.993s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.994s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.994s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.994s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.994s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.994s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cExport.cmake
+[5.994s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.994s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cppExport.cmake
+[5.995s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.995s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.995s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.995s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.995s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cppExport.cmake
+[5.995s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.995s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_pyExport.cmake
+[5.996s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.996s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake-extras.cmake
+[5.996s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.996s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.996s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.996s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.996s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.996s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.996s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgsConfig.cmake
+[5.996s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgsConfig-version.cmake
+[5.996s] -- Installing: /home/hiro/rust_ws/install/stereo_msgs/share/stereo_msgs/package.xml
+[5.999s] Invoked command in '/home/hiro/rust_ws/build/stereo_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hiro/rust_ws/build/stereo_msgs

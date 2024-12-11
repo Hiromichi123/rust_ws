@@ -1,0 +1,16 @@
+cargo:rustc-link-search=native=/home/hiro/rust_ws/install/rclrs/lib
+cargo:rustc-link-search=native=/home/hiro/rust_ws/install/test_msgs/lib
+cargo:rustc-link-search=native=/home/hiro/rust_ws/install/rosgraph_msgs/lib
+cargo:rustc-link-search=native=/home/hiro/rust_ws/install/rcl_interfaces/lib
+cargo:rustc-link-search=native=/home/hiro/rust_ws/install/action_msgs/lib
+cargo:rustc-link-search=native=/home/hiro/rust_ws/install/unique_identifier_msgs/lib
+cargo:rustc-link-search=native=/home/hiro/rust_ws/install/rclrs_example_msgs/lib
+cargo:rustc-link-search=native=/home/hiro/rust_ws/install/builtin_interfaces/lib
+cargo:rustc-link-search=native=/home/hiro/rust_ws/install/rosidl_default_runtime/lib
+cargo:rustc-link-search=native=/home/hiro/rust_ws/install/rosidl_default_generators/lib
+cargo:rustc-link-search=native=/home/hiro/rust_ws/install/rosidl_generator_rs/lib
+cargo:rustc-link-search=native=/home/hiro/rust_ws/install/test_interface_files/lib
+cargo:rustc-link-search=native=/home/hiro/rust_ws/install/rosidl_runtime_rs/lib
+cargo:rustc-link-search=native=/home/hiro/ws_livox/install/livox_ros_driver2/lib
+cargo:rustc-link-search=native=/opt/ros/humble/lib
+cargo:rerun-if-changed=build.rs

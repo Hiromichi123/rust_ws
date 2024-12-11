@@ -1,0 +1,9 @@
+/home/hiro/rust_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/GridCells.idl
+/home/hiro/rust_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/MapMetaData.idl
+/home/hiro/rust_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/OccupancyGrid.idl
+/home/hiro/rust_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Odometry.idl
+/home/hiro/rust_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Path.idl
+/home/hiro/rust_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetMap.idl
+/home/hiro/rust_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetPlan.idl
+/home/hiro/rust_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/LoadMap.idl
+/home/hiro/rust_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/SetMap.idl

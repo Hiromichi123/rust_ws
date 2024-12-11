@@ -1,0 +1,17 @@
+/home/hiro/rust_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/FloatingPointRange.idl
+/home/hiro/rust_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/IntegerRange.idl
+/home/hiro/rust_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ListParametersResult.idl
+/home/hiro/rust_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/Log.idl
+/home/hiro/rust_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterDescriptor.idl
+/home/hiro/rust_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterEventDescriptors.idl
+/home/hiro/rust_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterEvent.idl
+/home/hiro/rust_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/Parameter.idl
+/home/hiro/rust_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterType.idl
+/home/hiro/rust_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterValue.idl
+/home/hiro/rust_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/SetParametersResult.idl
+/home/hiro/rust_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/DescribeParameters.idl
+/home/hiro/rust_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/GetParameters.idl
+/home/hiro/rust_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/GetParameterTypes.idl
+/home/hiro/rust_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/ListParameters.idl
+/home/hiro/rust_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/SetParametersAtomically.idl
+/home/hiro/rust_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/SetParameters.idl

@@ -1,0 +1,188 @@
+[0.237s] Invoking command in '/home/hiro/rust_ws/src/build/statistics_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/rust_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hiro/rust_ws/src/build/statistics_msgs -- -j22 -l22
+[0.301s] [  2%] Built target statistics_msgs__cpp
+[0.313s] [ 12%] Built target statistics_msgs__rosidl_generator_c
+[0.313s] [ 14%] Built target statistics_msgs__rs
+[0.328s] [ 14%] Built target ament_cmake_python_copy_statistics_msgs
+[0.348s] [ 25%] Built target statistics_msgs__rosidl_typesupport_fastrtps_cpp
+[0.349s] [ 35%] Built target statistics_msgs__rosidl_typesupport_cpp
+[0.350s] [ 45%] Built target statistics_msgs__rosidl_typesupport_introspection_c
+[0.350s] [ 56%] Built target statistics_msgs__rosidl_typesupport_introspection_cpp
+[0.356s] [ 66%] Built target statistics_msgs__rosidl_typesupport_fastrtps_c
+[0.359s] [ 77%] Built target statistics_msgs__rosidl_typesupport_c
+[0.382s] [ 77%] Built target statistics_msgs
+[0.410s] [ 79%] Built target statistics_msgs__py
+[0.438s] [ 87%] Built target statistics_msgs__rosidl_generator_py
+[0.463s] [ 91%] Built target statistics_msgs__rosidl_typesupport_introspection_c__pyext
+[0.465s] [ 95%] Built target statistics_msgs__rosidl_typesupport_c__pyext
+[0.468s] [100%] Built target statistics_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.753s] running egg_info
+[0.770s] writing statistics_msgs.egg-info/PKG-INFO
+[0.770s] writing dependency_links to statistics_msgs.egg-info/dependency_links.txt
+[0.770s] writing top-level names to statistics_msgs.egg-info/top_level.txt
+[0.810s] reading manifest file 'statistics_msgs.egg-info/SOURCES.txt'
+[0.811s] writing manifest file 'statistics_msgs.egg-info/SOURCES.txt'
+[0.864s] [100%] Built target ament_cmake_python_build_statistics_msgs_egg
+[0.878s] Invoked command in '/home/hiro/rust_ws/src/build/statistics_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/rust_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hiro/rust_ws/src/build/statistics_msgs -- -j22 -l22
+[0.995s] Invoking command in '/home/hiro/rust_ws/src/build/statistics_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/rust_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hiro/rust_ws/src/build/statistics_msgs
+[1.002s] -- Install configuration: ""
+[1.004s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/ament_index/resource_index/rosidl_interfaces/statistics_msgs
+[1.004s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[1.005s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[1.005s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/metrics_message.h
+[1.005s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_point.h
+[1.006s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.006s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_type.h
+[1.007s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[1.007s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__type_support.h
+[1.007s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__functions.h
+[1.007s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.h
+[1.007s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__functions.c
+[1.007s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__struct.h
+[1.009s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__type_support.h
+[1.009s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__functions.c
+[1.009s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__functions.h
+[1.009s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__functions.c
+[1.009s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.h
+[1.010s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__functions.h
+[1.010s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.h
+[1.011s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/environment/library_path.sh
+[1.011s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/environment/library_path.dsv
+[1.011s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_generator_c.so
+[1.011s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[1.012s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[1.012s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[1.013s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_fastrtps_c.h
+[1.013s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_fastrtps_c.h
+[1.013s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_fastrtps_c.h
+[1.014s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.014s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
+[1.014s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[1.014s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[1.015s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_point.hpp
+[1.015s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_type.hpp
+[1.015s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp
+[1.016s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[1.016s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp
+[1.016s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp
+[1.016s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__struct.hpp
+[1.017s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp
+[1.017s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__traits.hpp
+[1.017s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__builder.hpp
+[1.018s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp
+[1.018s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp
+[1.018s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__builder.hpp
+[1.018s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[1.019s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[1.019s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.020s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[1.021s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/dds_fastrtps
+[1.021s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_fastrtps_cpp.hpp
+[1.022s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_fastrtps_cpp.hpp
+[1.023s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_fastrtps_cpp.hpp
+[1.023s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.023s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[1.023s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[1.024s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.024s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[1.024s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.c
+[1.025s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_introspection_c.h
+[1.025s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__type_support.c
+[1.025s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_introspection_c.h
+[1.026s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_introspection_c.h
+[1.026s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__type_support.c
+[1.026s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
+[1.026s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_c.so
+[1.026s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[1.027s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[1.028s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[1.028s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_introspection_cpp.hpp
+[1.028s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__type_support.cpp
+[1.028s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_introspection_cpp.hpp
+[1.028s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__type_support.cpp
+[1.028s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_introspection_cpp.hpp
+[1.028s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.cpp
+[1.029s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
+[1.029s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+[1.029s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/ament_index/resource_index/rust_packages/statistics_msgs
+[1.030s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/rust
+[1.030s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/rust/Cargo.toml
+[1.030s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/rust/build.rs
+[1.030s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/rust/src
+[1.030s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/rust/src/msg.rs
+[1.031s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/rust/src/lib.rs
+[1.031s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/environment/pythonpath.sh
+[1.031s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/environment/pythonpath.dsv
+[1.031s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info
+[1.031s] -- Installing: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info/top_level.txt
+[1.032s] -- Installing: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info/PKG-INFO
+[1.032s] -- Installing: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info/SOURCES.txt
+[1.033s] -- Installing: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info/dependency_links.txt
+[1.033s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs
+[1.033s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.034s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/libstatistics_msgs__rosidl_generator_py.so
+[1.034s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_c.c
+[1.034s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.035s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.035s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/__init__.py
+[1.035s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg
+[1.035s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_type_s.c
+[1.036s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_metrics_message_s.c
+[1.036s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_type.py
+[1.036s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_point_s.c
+[1.037s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_metrics_message.py
+[1.038s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/__init__.py
+[1.040s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_point.py
+[1.042s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.042s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.065s] Listing '/home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs'...
+[1.065s] Listing '/home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg'...
+[1.086s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.086s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.086s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.086s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_generator_py.so
+[1.086s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/msg/MetricsMessage.idl
+[1.087s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataPoint.idl
+[1.087s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataType.idl
+[1.087s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/msg/MetricsMessage.msg
+[1.087s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataPoint.msg
+[1.087s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataType.msg
+[1.088s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/ament_index/resource_index/package_run_dependencies/statistics_msgs
+[1.088s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/ament_index/resource_index/parent_prefix_path/statistics_msgs
+[1.088s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/environment/ament_prefix_path.sh
+[1.089s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/environment/ament_prefix_path.dsv
+[1.089s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/environment/path.sh
+[1.089s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/environment/path.dsv
+[1.090s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/local_setup.bash
+[1.090s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/local_setup.sh
+[1.090s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/local_setup.zsh
+[1.090s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/local_setup.dsv
+[1.090s] -- Installing: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/package.dsv
+[1.091s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/ament_index/resource_index/packages/statistics_msgs
+[1.092s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_cExport.cmake
+[1.092s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.092s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.093s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.093s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_cppExport.cmake
+[1.094s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.095s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.095s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.095s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.096s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cExport.cmake
+[1.096s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.096s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.096s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.096s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cppExport.cmake
+[1.097s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.097s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_pyExport.cmake
+[1.097s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.097s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/rosidl_cmake-extras.cmake
+[1.097s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.097s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.098s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.098s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.098s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.098s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.099s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgsConfig.cmake
+[1.099s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgsConfig-version.cmake
+[1.099s] -- Up-to-date: /home/hiro/rust_ws/src/install/statistics_msgs/share/statistics_msgs/package.xml
+[1.115s] Invoked command in '/home/hiro/rust_ws/src/build/statistics_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/rust_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hiro/rust_ws/src/build/statistics_msgs

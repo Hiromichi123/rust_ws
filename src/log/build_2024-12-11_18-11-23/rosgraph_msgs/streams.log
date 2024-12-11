@@ -1,0 +1,239 @@
+[0.301s] Invoking command in '/home/hiro/rust_ws/src/build/rosgraph_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/rust_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rosgraph_msgs -DCMAKE_INSTALL_PREFIX=/home/hiro/rust_ws/src/install/rosgraph_msgs
+[0.498s] -- The C compiler identification is GNU 11.4.0
+[1.167s] -- The CXX compiler identification is GNU 11.4.0
+[1.553s] -- Detecting C compiler ABI info
+[1.666s] -- Detecting C compiler ABI info - done
+[1.671s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.671s] -- Detecting C compile features
+[1.671s] -- Detecting C compile features - done
+[1.673s] -- Detecting CXX compiler ABI info
+[1.784s] -- Detecting CXX compiler ABI info - done
+[1.789s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.789s] -- Detecting CXX compile features
+[1.789s] -- Detecting CXX compile features - done
+[1.791s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.364s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.450s] -- Found builtin_interfaces: 1.2.1 (/home/hiro/rust_ws/src/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[2.578s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.582s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.587s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.595s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.605s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.616s] -- Found rosidl_default_generators: 1.2.0 (/home/hiro/rust_ws/src/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[2.859s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.861s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.862s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.864s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.191s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.315s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.409s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.410s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.530s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.530s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.530s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.530s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.563s] -- Found PythonExtra: .so  
+[3.647s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.649s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.657s] -- Configuring done
+[3.690s] -- Generating done
+[3.692s] -- Build files have been written to: /home/hiro/rust_ws/src/build/rosgraph_msgs
+[3.701s] Invoked command in '/home/hiro/rust_ws/src/build/rosgraph_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/rust_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rosgraph_msgs -DCMAKE_INSTALL_PREFIX=/home/hiro/rust_ws/src/install/rosgraph_msgs
+[3.703s] Invoking command in '/home/hiro/rust_ws/src/build/rosgraph_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/rust_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hiro/rust_ws/src/build/rosgraph_msgs -- -j22 -l22
+[3.740s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.751s] [  9%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[3.751s] [  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.758s] [  9%] Built target ament_cmake_python_copy_rosgraph_msgs
+[4.103s] [  9%] Built target rosgraph_msgs__rs
+[4.127s] [  9%] Built target rosgraph_msgs__cpp
+[4.139s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.139s] [ 15%] [32mBuilding C object CMakeFiles/rosgraph_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosgraph_msgs/msg/detail/clock__functions.c.o[0m
+[4.139s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.142s] [ 21%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.212s] [ 25%] [32m[1mLinking C shared library librosgraph_msgs__rosidl_generator_c.so[0m
+[4.281s] running egg_info
+[4.281s] creating rosgraph_msgs.egg-info
+[4.311s] writing rosgraph_msgs.egg-info/PKG-INFO
+[4.312s] writing dependency_links to rosgraph_msgs.egg-info/dependency_links.txt
+[4.312s] writing top-level names to rosgraph_msgs.egg-info/top_level.txt
+[4.312s] writing manifest file 'rosgraph_msgs.egg-info/SOURCES.txt'
+[4.406s] reading manifest file 'rosgraph_msgs.egg-info/SOURCES.txt'
+[4.407s] writing manifest file 'rosgraph_msgs.egg-info/SOURCES.txt'
+[4.410s] [ 25%] Built target rosgraph_msgs__rosidl_generator_c
+[4.446s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.448s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.460s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.500s] [ 34%] Built target ament_cmake_python_build_rosgraph_msgs_egg
+[4.614s] [ 37%] [32mBuilding CXX object CMakeFiles/rosgraph_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosgraph_msgs/msg/clock__type_support.cpp.o[0m
+[4.648s] [ 40%] [32mBuilding CXX object CMakeFiles/rosgraph_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosgraph_msgs/msg/detail/clock__type_support.cpp.o[0m
+[4.656s] [ 43%] [32mBuilding CXX object CMakeFiles/rosgraph_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosgraph_msgs/msg/detail/dds_fastrtps/clock__type_support.cpp.o[0m
+[4.955s] [ 46%] [32mBuilding CXX object CMakeFiles/rosgraph_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosgraph_msgs/msg/clock__type_support.cpp.o[0m
+[5.024s] [ 50%] [32m[1mLinking CXX shared library librosgraph_msgs__rosidl_typesupport_c.so[0m
+[5.060s] [ 53%] [32mBuilding CXX object CMakeFiles/rosgraph_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosgraph_msgs/msg/detail/clock__type_support_c.cpp.o[0m
+[5.065s] [ 56%] [32mBuilding C object CMakeFiles/rosgraph_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosgraph_msgs/msg/detail/clock__type_support.c.o[0m
+[5.165s] [ 59%] [32m[1mLinking C shared library librosgraph_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.224s] [ 59%] Built target rosgraph_msgs__rosidl_typesupport_c
+[5.288s] [ 62%] [32m[1mLinking CXX shared library librosgraph_msgs__rosidl_typesupport_cpp.so[0m
+[5.428s] [ 62%] Built target rosgraph_msgs__rosidl_typesupport_introspection_c
+[5.525s] [ 62%] Built target rosgraph_msgs__rosidl_typesupport_cpp
+[5.546s] [ 65%] [32m[1mLinking CXX shared library librosgraph_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.584s] [ 68%] [32m[1mLinking CXX shared library librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.798s] [ 68%] Built target rosgraph_msgs__rosidl_typesupport_introspection_cpp
+[5.801s] [ 71%] [32m[1mLinking CXX shared library librosgraph_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.871s] [ 71%] Built target rosgraph_msgs__rosidl_typesupport_fastrtps_cpp
+[6.062s] [ 71%] Built target rosgraph_msgs__rosidl_typesupport_fastrtps_c
+[6.100s] [ 71%] Built target rosgraph_msgs
+[6.136s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.944s] [ 75%] Built target rosgraph_msgs__py
+[6.977s] [ 78%] [32mBuilding C object CMakeFiles/rosgraph_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosgraph_msgs/msg/_clock_s.c.o[0m
+[7.172s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/rosgraph_msgs/librosgraph_msgs__rosidl_generator_py.so[0m
+[7.347s] [ 81%] Built target rosgraph_msgs__rosidl_generator_py
+[7.376s] [ 84%] [32mBuilding C object CMakeFiles/rosgraph_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.377s] [ 90%] [32mBuilding C object CMakeFiles/rosgraph_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.377s] [ 90%] [32mBuilding C object CMakeFiles/rosgraph_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.522s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.542s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.583s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.677s] [100%] Built target rosgraph_msgs__rosidl_typesupport_c__pyext
+[7.721s] [100%] Built target rosgraph_msgs__rosidl_typesupport_fastrtps_c__pyext
+[7.732s] [100%] Built target rosgraph_msgs__rosidl_typesupport_introspection_c__pyext
+[7.753s] Invoked command in '/home/hiro/rust_ws/src/build/rosgraph_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/rust_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hiro/rust_ws/src/build/rosgraph_msgs -- -j22 -l22
+[7.860s] Invoking command in '/home/hiro/rust_ws/src/build/rosgraph_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/rust_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hiro/rust_ws/src/build/rosgraph_msgs
+[7.873s] -- Install configuration: ""
+[7.875s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/ament_index/resource_index/rosidl_interfaces/rosgraph_msgs
+[7.876s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs
+[7.878s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg
+[7.878s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.881s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/clock.h
+[7.882s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+[7.882s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__functions.h
+[7.884s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__type_support.h
+[7.886s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__functions.c
+[7.887s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__struct.h
+[7.891s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/environment/library_path.sh
+[7.893s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/environment/library_path.dsv
+[7.895s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_generator_c.so
+[7.898s] -- Set runtime path of "/home/hiro/rust_ws/src/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_generator_c.so" to ""
+[7.899s] -- Up-to-date: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs
+[7.899s] -- Up-to-date: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg
+[7.899s] -- Up-to-date: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+[7.899s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_fastrtps_c.h
+[7.899s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.899s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
+[7.900s] -- Set runtime path of "/home/hiro/rust_ws/src/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.900s] -- Up-to-date: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs
+[7.900s] -- Up-to-date: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg
+[7.900s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/clock.hpp
+[7.900s] -- Up-to-date: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+[7.900s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__struct.hpp
+[7.900s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__traits.hpp
+[7.901s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__builder.hpp
+[7.901s] -- Up-to-date: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs
+[7.901s] -- Up-to-date: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg
+[7.901s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.901s] -- Up-to-date: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+[7.901s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_fastrtps_cpp.hpp
+[7.901s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/dds_fastrtps
+[7.902s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.902s] -- Set runtime path of "/home/hiro/rust_ws/src/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.902s] -- Up-to-date: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs
+[7.902s] -- Up-to-date: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg
+[7.902s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.903s] -- Up-to-date: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+[7.903s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__type_support.c
+[7.903s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_introspection_c.h
+[7.904s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
+[7.904s] -- Set runtime path of "/home/hiro/rust_ws/src/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.904s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_c.so
+[7.904s] -- Set runtime path of "/home/hiro/rust_ws/src/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_c.so" to ""
+[7.904s] -- Up-to-date: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs
+[7.905s] -- Up-to-date: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg
+[7.905s] -- Up-to-date: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+[7.905s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_introspection_cpp.hpp
+[7.905s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__type_support.cpp
+[7.905s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so
+[7.905s] -- Set runtime path of "/home/hiro/rust_ws/src/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.906s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_cpp.so
+[7.912s] -- Set runtime path of "/home/hiro/rust_ws/src/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_cpp.so" to ""
+[7.913s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/ament_index/resource_index/rust_packages/rosgraph_msgs
+[7.913s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/rust
+[7.913s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/rust/Cargo.toml
+[7.914s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/rust/build.rs
+[7.914s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/rust/src
+[7.914s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/rust/src/msg.rs
+[7.915s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/rust/src/lib.rs
+[7.915s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/environment/pythonpath.sh
+[7.915s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/environment/pythonpath.dsv
+[7.916s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.1-py3.10.egg-info
+[7.917s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.1-py3.10.egg-info/top_level.txt
+[7.917s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.1-py3.10.egg-info/PKG-INFO
+[7.918s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.1-py3.10.egg-info/SOURCES.txt
+[7.918s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.1-py3.10.egg-info/dependency_links.txt
+[7.918s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs
+[7.918s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.918s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.919s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.919s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/librosgraph_msgs__rosidl_generator_py.so
+[7.919s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_c.c
+[7.920s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.920s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.921s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/__init__.py
+[7.921s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg
+[7.921s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg/_clock_s.c
+[7.921s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg/__init__.py
+[7.921s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg/_clock.py
+[8.008s] Listing '/home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs'...
+[8.009s] Compiling '/home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/__init__.py'...
+[8.009s] Listing '/home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg'...
+[8.009s] Compiling '/home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg/__init__.py'...
+[8.009s] Compiling '/home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg/_clock.py'...
+[8.022s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.022s] -- Set runtime path of "/home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.022s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.022s] -- Set runtime path of "/home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.022s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.022s] -- Set runtime path of "/home/hiro/rust_ws/src/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.022s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_generator_py.so
+[8.025s] -- Set runtime path of "/home/hiro/rust_ws/src/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_generator_py.so" to ""
+[8.026s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/msg/Clock.idl
+[8.027s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/msg/Clock.msg
+[8.028s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/ament_index/resource_index/package_run_dependencies/rosgraph_msgs
+[8.030s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/ament_index/resource_index/parent_prefix_path/rosgraph_msgs
+[8.031s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/environment/ament_prefix_path.sh
+[8.031s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/environment/ament_prefix_path.dsv
+[8.036s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/environment/path.sh
+[8.036s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/environment/path.dsv
+[8.039s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.bash
+[8.039s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.sh
+[8.040s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.zsh
+[8.042s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.dsv
+[8.045s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/package.dsv
+[8.046s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/ament_index/resource_index/packages/rosgraph_msgs
+[8.046s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_cExport.cmake
+[8.047s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.047s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.047s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.047s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_cppExport.cmake
+[8.048s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.048s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.048s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.055s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.056s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cExport.cmake
+[8.056s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.056s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.056s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.057s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cppExport.cmake
+[8.057s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.057s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_pyExport.cmake
+[8.061s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.062s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosidl_cmake-extras.cmake
+[8.062s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.062s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.063s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.063s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.063s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.063s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.064s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake
+[8.064s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake
+[8.064s] -- Installing: /home/hiro/rust_ws/src/install/rosgraph_msgs/share/rosgraph_msgs/package.xml
+[8.093s] Invoked command in '/home/hiro/rust_ws/src/build/rosgraph_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/rust_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces:/home/hiro/rust_ws/src/install/rosidl_default_runtime:/home/hiro/rust_ws/src/install/rosidl_default_generators:/home/hiro/rust_ws/src/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hiro/rust_ws/src/build/rosgraph_msgs

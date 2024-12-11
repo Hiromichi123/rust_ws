@@ -1,0 +1,323 @@
+[0.283s] Invoking command in '/home/hiro/rust_ws/build/shape_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hiro/rust_ws/src/src/ros2/common_interfaces/shape_msgs -DCMAKE_INSTALL_PREFIX=/home/hiro/rust_ws/install/shape_msgs
+[0.379s] -- The C compiler identification is GNU 11.4.0
+[0.981s] -- The CXX compiler identification is GNU 11.4.0
+[1.182s] -- Detecting C compiler ABI info
+[1.329s] -- Detecting C compiler ABI info - done
+[1.335s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.335s] -- Detecting C compile features
+[1.336s] -- Detecting C compile features - done
+[1.338s] -- Detecting CXX compiler ABI info
+[1.500s] -- Detecting CXX compiler ABI info - done
+[1.507s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.507s] -- Detecting CXX compile features
+[1.507s] -- Detecting CXX compile features - done
+[1.509s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.782s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.906s] -- Found geometry_msgs: 4.2.4 (/home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[3.035s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.041s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.053s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.070s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.090s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.140s] -- Found rosidl_default_generators: 1.2.0 (/home/hiro/rust_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[3.551s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[3.554s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[3.556s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[3.559s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.227s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.447s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.644s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.646s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.141s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.142s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.142s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.142s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.176s] -- Found PythonExtra: .so  
+[5.328s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[5.331s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[5.343s] -- Configuring done
+[5.407s] -- Generating done
+[5.411s] -- Build files have been written to: /home/hiro/rust_ws/build/shape_msgs
+[5.430s] Invoked command in '/home/hiro/rust_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hiro/rust_ws/src/src/ros2/common_interfaces/shape_msgs -DCMAKE_INSTALL_PREFIX=/home/hiro/rust_ws/install/shape_msgs
+[5.432s] Invoking command in '/home/hiro/rust_ws/build/shape_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hiro/rust_ws/build/shape_msgs -- -j22 -l22
+[5.481s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.492s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[5.493s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.504s] [  5%] Built target ament_cmake_python_copy_shape_msgs
+[6.189s] running egg_info
+[6.190s] creating shape_msgs.egg-info
+[6.215s] writing shape_msgs.egg-info/PKG-INFO
+[6.215s] writing dependency_links to shape_msgs.egg-info/dependency_links.txt
+[6.216s] writing top-level names to shape_msgs.egg-info/top_level.txt
+[6.216s] writing manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[6.298s] reading manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[6.299s] writing manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[6.392s] [  5%] Built target ament_cmake_python_build_shape_msgs_egg
+[6.573s] [  5%] Built target shape_msgs__rs
+[7.096s] [  5%] Built target shape_msgs__cpp
+[7.106s] [  7%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh__functions.c.o[0m
+[7.120s] [  8%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh_triangle__functions.c.o[0m
+[7.136s] [ 10%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/plane__functions.c.o[0m
+[7.146s] [ 12%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/solid_primitive__functions.c.o[0m
+[7.156s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.185s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.196s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.290s] [ 19%] [32m[1mLinking C shared library libshape_msgs__rosidl_generator_c.so[0m
+[7.545s] [ 19%] Built target shape_msgs__rosidl_generator_c
+[7.570s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.598s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.599s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.763s] [ 26%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp.o[0m
+[8.787s] [ 28%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/plane__type_support.cpp.o[0m
+[8.796s] [ 30%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp.o[0m
+[8.820s] [ 32%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/solid_primitive__type_support.cpp.o[0m
+[8.983s] [ 33%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp.o[0m
+[9.014s] [ 37%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/plane__type_support.cpp.o[0m
+[9.014s] [ 37%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/mesh_triangle__type_support.cpp.o[0m
+[9.029s] [ 39%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/mesh__type_support.cpp.o[0m
+[9.057s] [ 42%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/plane__type_support.cpp.o[0m
+[9.058s] [ 44%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/mesh_triangle__type_support.cpp.o[0m
+[9.059s] [ 44%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/solid_primitive__type_support.cpp.o[0m
+[9.091s] [ 46%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/solid_primitive__type_support.cpp.o[0m
+[9.174s] [ 48%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/mesh__type_support.cpp.o[0m
+[9.222s] [ 51%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/mesh_triangle__type_support.cpp.o[0m
+[9.230s] [ 51%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/plane__type_support.cpp.o[0m
+[9.259s] [ 53%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/solid_primitive__type_support.cpp.o[0m
+[9.277s] [ 55%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_c.so[0m
+[9.455s] [ 57%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/mesh_triangle__type_support.c.o[0m
+[9.470s] [ 58%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/mesh__type_support.c.o[0m
+[9.472s] [ 60%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/plane__type_support.c.o[0m
+[9.512s] [ 62%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/solid_primitive__type_support.c.o[0m
+[9.715s] [ 64%] [32m[1mLinking C shared library libshape_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.796s] [ 66%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/mesh__type_support_c.cpp.o[0m
+[9.804s] [ 67%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/plane__type_support_c.cpp.o[0m
+[9.806s] [ 69%] Built target shape_msgs__rosidl_typesupport_c
+[9.806s] [ 69%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/mesh_triangle__type_support_c.cpp.o[0m
+[9.853s] [ 71%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/solid_primitive__type_support_c.cpp.o[0m
+[9.986s] [ 71%] Built target shape_msgs__rosidl_typesupport_introspection_c
+[10.477s] [ 73%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_cpp.so[0m
+[10.896s] [ 73%] Built target shape_msgs__rosidl_typesupport_cpp
+[11.493s] [ 75%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.644s] [ 76%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.703s] [ 78%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.050s] [ 78%] Built target shape_msgs__rosidl_typesupport_introspection_cpp
+[12.157s] [ 78%] Built target shape_msgs__rosidl_typesupport_fastrtps_cpp
+[12.177s] [ 78%] Built target shape_msgs__rosidl_typesupport_fastrtps_c
+[12.298s] [ 78%] Built target shape_msgs
+[12.338s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.199s] [ 80%] Built target shape_msgs__py
+[15.232s] [ 82%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_mesh_s.c.o[0m
+[15.239s] [ 83%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_mesh_triangle_s.c.o[0m
+[15.243s] [ 85%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_solid_primitive_s.c.o[0m
+[15.245s] [ 87%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_plane_s.c.o[0m
+[15.454s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/shape_msgs/libshape_msgs__rosidl_generator_py.so[0m
+[15.642s] [ 89%] Built target shape_msgs__rosidl_generator_py
+[15.662s] [ 91%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[15.665s] [ 92%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.666s] [ 94%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.799s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.800s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.836s] [100%] [32m[1mLinking C shared library rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.921s] [100%] Built target shape_msgs__rosidl_typesupport_introspection_c__pyext
+[15.928s] [100%] Built target shape_msgs__rosidl_typesupport_c__pyext
+[15.962s] [100%] Built target shape_msgs__rosidl_typesupport_fastrtps_c__pyext
+[15.977s] Invoked command in '/home/hiro/rust_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hiro/rust_ws/build/shape_msgs -- -j22 -l22
+[16.104s] Invoking command in '/home/hiro/rust_ws/build/shape_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hiro/rust_ws/build/shape_msgs
+[16.115s] -- Install configuration: ""
+[16.115s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/ament_index/resource_index/rosidl_interfaces/shape_msgs
+[16.116s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[16.116s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[16.117s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_generator_c__visibility_control.h
+[16.117s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh.h
+[16.117s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/solid_primitive.h
+[16.118s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[16.119s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.h
+[16.119s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__functions.h
+[16.119s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.h
+[16.119s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__struct.h
+[16.119s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.h
+[16.120s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.h
+[16.120s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__functions.c
+[16.120s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__functions.h
+[16.123s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__functions.c
+[16.123s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__functions.c
+[16.124s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.h
+[16.124s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.h
+[16.124s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.h
+[16.125s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__functions.h
+[16.125s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__functions.c
+[16.125s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__functions.h
+[16.125s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/plane.h
+[16.125s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh_triangle.h
+[16.126s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/environment/library_path.sh
+[16.128s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/environment/library_path.dsv
+[16.128s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_c.so
+[16.128s] -- Set runtime path of "/home/hiro/rust_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_c.so" to ""
+[16.128s] -- Up-to-date: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[16.129s] -- Up-to-date: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[16.129s] -- Up-to-date: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[16.129s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_fastrtps_c.h
+[16.130s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_fastrtps_c.h
+[16.130s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_c.h
+[16.130s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_fastrtps_c.h
+[16.130s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.131s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_c.so
+[16.131s] -- Set runtime path of "/home/hiro/rust_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[16.131s] -- Up-to-date: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[16.132s] -- Up-to-date: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[16.133s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/plane.hpp
+[16.134s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh_triangle.hpp
+[16.134s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh.hpp
+[16.134s] -- Up-to-date: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[16.135s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__traits.hpp
+[16.135s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__builder.hpp
+[16.135s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.hpp
+[16.135s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.hpp
+[16.136s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__traits.hpp
+[16.136s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__builder.hpp
+[16.136s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__traits.hpp
+[16.137s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__traits.hpp
+[16.137s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__builder.hpp
+[16.138s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__builder.hpp
+[16.138s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.hpp
+[16.138s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__struct.hpp
+[16.138s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/solid_primitive.hpp
+[16.139s] -- Up-to-date: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[16.139s] -- Up-to-date: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[16.139s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.139s] -- Up-to-date: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[16.139s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_cpp.hpp
+[16.139s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/dds_fastrtps
+[16.140s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_fastrtps_cpp.hpp
+[16.140s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_fastrtps_cpp.hpp
+[16.140s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_fastrtps_cpp.hpp
+[16.140s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_cpp.so
+[16.141s] -- Set runtime path of "/home/hiro/rust_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.141s] -- Up-to-date: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[16.141s] -- Up-to-date: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[16.141s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.141s] -- Up-to-date: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[16.141s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.c
+[16.141s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.c
+[16.142s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_introspection_c.h
+[16.142s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_c.h
+[16.142s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_introspection_c.h
+[16.142s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_introspection_c.h
+[16.142s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.c
+[16.142s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.c
+[16.142s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_c.so
+[16.142s] -- Set runtime path of "/home/hiro/rust_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_c.so" to ""
+[16.143s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_c.so
+[16.143s] -- Set runtime path of "/home/hiro/rust_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_c.so" to ""
+[16.143s] -- Up-to-date: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[16.143s] -- Up-to-date: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[16.144s] -- Up-to-date: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[16.144s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.cpp
+[16.144s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_introspection_cpp.hpp
+[16.145s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.cpp
+[16.145s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_introspection_cpp.hpp
+[16.145s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_cpp.hpp
+[16.145s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.cpp
+[16.146s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.cpp
+[16.146s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_introspection_cpp.hpp
+[16.146s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so
+[16.146s] -- Set runtime path of "/home/hiro/rust_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[16.146s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_cpp.so
+[16.146s] -- Set runtime path of "/home/hiro/rust_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_cpp.so" to ""
+[16.147s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/ament_index/resource_index/rust_packages/shape_msgs
+[16.147s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/rust
+[16.147s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/rust/Cargo.toml
+[16.147s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/rust/build.rs
+[16.147s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/rust/src
+[16.147s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/rust/src/msg.rs
+[16.148s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/rust/src/lib.rs
+[16.148s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/environment/pythonpath.sh
+[16.148s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/environment/pythonpath.dsv
+[16.148s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs-4.2.4-py3.10.egg-info
+[16.149s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs-4.2.4-py3.10.egg-info/top_level.txt
+[16.149s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs-4.2.4-py3.10.egg-info/PKG-INFO
+[16.149s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs-4.2.4-py3.10.egg-info/SOURCES.txt
+[16.149s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs-4.2.4-py3.10.egg-info/dependency_links.txt
+[16.149s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs
+[16.150s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.150s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_c.c
+[16.150s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[16.150s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/libshape_msgs__rosidl_generator_py.so
+[16.150s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.150s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.151s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/__init__.py
+[16.151s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.151s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg
+[16.151s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh.py
+[16.151s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_solid_primitive.py
+[16.151s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh_triangle_s.c
+[16.152s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh_s.c
+[16.152s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_plane.py
+[16.152s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_plane_s.c
+[16.152s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/__init__.py
+[16.152s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh_triangle.py
+[16.153s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_solid_primitive_s.c
+[16.184s] Listing '/home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs'...
+[16.184s] Compiling '/home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/__init__.py'...
+[16.185s] Listing '/home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg'...
+[16.185s] Compiling '/home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/__init__.py'...
+[16.185s] Compiling '/home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh.py'...
+[16.185s] Compiling '/home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh_triangle.py'...
+[16.185s] Compiling '/home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_plane.py'...
+[16.185s] Compiling '/home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_solid_primitive.py'...
+[16.191s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.191s] -- Set runtime path of "/home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.193s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.194s] -- Set runtime path of "/home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.196s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.196s] -- Set runtime path of "/home/hiro/rust_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.196s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_py.so
+[16.196s] -- Set runtime path of "/home/hiro/rust_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_py.so" to ""
+[16.197s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/msg/Mesh.idl
+[16.197s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.idl
+[16.197s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/msg/Plane.idl
+[16.197s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.idl
+[16.197s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/msg/Mesh.msg
+[16.197s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.msg
+[16.198s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/msg/Plane.msg
+[16.198s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.msg
+[16.198s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/ament_index/resource_index/package_run_dependencies/shape_msgs
+[16.198s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/ament_index/resource_index/parent_prefix_path/shape_msgs
+[16.199s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/environment/ament_prefix_path.sh
+[16.200s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/environment/ament_prefix_path.dsv
+[16.200s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/environment/path.sh
+[16.200s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/environment/path.dsv
+[16.200s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/local_setup.bash
+[16.200s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/local_setup.sh
+[16.201s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/local_setup.zsh
+[16.201s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/local_setup.dsv
+[16.201s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/package.dsv
+[16.201s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/ament_index/resource_index/packages/shape_msgs
+[16.202s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cExport.cmake
+[16.202s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cExport-noconfig.cmake
+[16.203s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[16.203s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.203s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cppExport.cmake
+[16.204s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.204s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.206s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cExport.cmake
+[16.208s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.208s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cExport.cmake
+[16.209s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[16.209s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[16.209s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.210s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cppExport.cmake
+[16.210s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[16.210s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_pyExport.cmake
+[16.210s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_pyExport-noconfig.cmake
+[16.210s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake-extras.cmake
+[16.210s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.210s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.210s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[16.211s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[16.212s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.213s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.213s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgsConfig.cmake
+[16.213s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgsConfig-version.cmake
+[16.214s] -- Installing: /home/hiro/rust_ws/install/shape_msgs/share/shape_msgs/package.xml
+[16.230s] Invoked command in '/home/hiro/rust_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hiro/rust_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hiro/rust_ws/build/shape_msgs

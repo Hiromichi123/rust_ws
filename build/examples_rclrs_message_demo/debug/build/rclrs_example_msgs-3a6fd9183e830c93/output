@@ -1,0 +1,1 @@
+cargo:rustc-link-search=/home/hiro/rust_ws/src/install/rclrs_example_msgs/lib
