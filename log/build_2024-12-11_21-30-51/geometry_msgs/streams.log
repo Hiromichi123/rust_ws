@@ -1,0 +1,1049 @@
+[0.339s] Invoking command in '/home/hiro/rust_ws/build/geometry_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_runtime_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/ws_livox/install/livox_ros_driver2:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosidl_runtime_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:/home/hiro/rust_ws/install/visualization_msgs/lib:/home/hiro/rust_ws/install/test_msgs/lib:/home/hiro/rust_ws/install/example_interfaces/lib:/home/hiro/rust_ws/install/action_msgs/lib:/home/hiro/rust_ws/install/unique_identifier_msgs/lib:/home/hiro/rust_ws/install/trajectory_msgs/lib:/home/hiro/rust_ws/install/stereo_msgs/lib:/home/hiro/rust_ws/install/std_srvs/lib:/home/hiro/rust_ws/install/shape_msgs/lib:/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/nav_msgs/lib:/home/hiro/rust_ws/install/diagnostic_msgs/lib:/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/actionlib_msgs/lib:/home/hiro/rust_ws/install/statistics_msgs/lib:/home/hiro/rust_ws/install/rosgraph_msgs/lib:/home/hiro/rust_ws/install/rclrs_example_msgs/lib:/home/hiro/rust_ws/install/composition_interfaces/lib:/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/lifecycle_msgs/lib:/home/hiro/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/hiro/rust_ws/src/ros2/common_interfaces/geometry_msgs -DCMAKE_INSTALL_PREFIX=/home/hiro/rust_ws/install/geometry_msgs
+[0.464s] -- The C compiler identification is GNU 11.4.0
+[0.907s] -- The CXX compiler identification is GNU 11.4.0
+[1.266s] -- Detecting C compiler ABI info
+[1.561s] -- Detecting C compiler ABI info - done
+[1.581s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.581s] -- Detecting C compile features
+[1.581s] -- Detecting C compile features - done
+[1.605s] -- Detecting CXX compiler ABI info
+[1.835s] -- Detecting CXX compiler ABI info - done
+[1.848s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.849s] -- Detecting CXX compile features
+[1.850s] -- Detecting CXX compile features - done
+[1.855s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.072s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.374s] -- Found rosidl_default_generators: 1.2.0 (/home/hiro/rust_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[4.393s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.415s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.060s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.176s] -- Found std_msgs: 4.2.4 (/home/hiro/rust_ws/install/std_msgs/share/std_msgs/cmake)
+[7.381s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[7.386s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[7.407s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[7.415s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.319s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.086s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.588s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[10.591s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.851s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[11.851s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.851s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.851s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[12.009s] -- Found PythonExtra: .so  
+[12.540s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[12.585s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[12.665s] -- Configuring done
+[13.311s] -- Generating done
+[13.312s] -- Build files have been written to: /home/hiro/rust_ws/build/geometry_msgs
+[13.403s] Invoked command in '/home/hiro/rust_ws/build/geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_runtime_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/ws_livox/install/livox_ros_driver2:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosidl_runtime_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:/home/hiro/rust_ws/install/visualization_msgs/lib:/home/hiro/rust_ws/install/test_msgs/lib:/home/hiro/rust_ws/install/example_interfaces/lib:/home/hiro/rust_ws/install/action_msgs/lib:/home/hiro/rust_ws/install/unique_identifier_msgs/lib:/home/hiro/rust_ws/install/trajectory_msgs/lib:/home/hiro/rust_ws/install/stereo_msgs/lib:/home/hiro/rust_ws/install/std_srvs/lib:/home/hiro/rust_ws/install/shape_msgs/lib:/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/nav_msgs/lib:/home/hiro/rust_ws/install/diagnostic_msgs/lib:/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/actionlib_msgs/lib:/home/hiro/rust_ws/install/statistics_msgs/lib:/home/hiro/rust_ws/install/rosgraph_msgs/lib:/home/hiro/rust_ws/install/rclrs_example_msgs/lib:/home/hiro/rust_ws/install/composition_interfaces/lib:/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/lifecycle_msgs/lib:/home/hiro/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/hiro/rust_ws/src/ros2/common_interfaces/geometry_msgs -DCMAKE_INSTALL_PREFIX=/home/hiro/rust_ws/install/geometry_msgs
+[13.403s] Invoking command in '/home/hiro/rust_ws/build/geometry_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_runtime_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/ws_livox/install/livox_ros_driver2:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosidl_runtime_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:/home/hiro/rust_ws/install/visualization_msgs/lib:/home/hiro/rust_ws/install/test_msgs/lib:/home/hiro/rust_ws/install/example_interfaces/lib:/home/hiro/rust_ws/install/action_msgs/lib:/home/hiro/rust_ws/install/unique_identifier_msgs/lib:/home/hiro/rust_ws/install/trajectory_msgs/lib:/home/hiro/rust_ws/install/stereo_msgs/lib:/home/hiro/rust_ws/install/std_srvs/lib:/home/hiro/rust_ws/install/shape_msgs/lib:/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/nav_msgs/lib:/home/hiro/rust_ws/install/diagnostic_msgs/lib:/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/actionlib_msgs/lib:/home/hiro/rust_ws/install/statistics_msgs/lib:/home/hiro/rust_ws/install/rosgraph_msgs/lib:/home/hiro/rust_ws/install/rclrs_example_msgs/lib:/home/hiro/rust_ws/install/composition_interfaces/lib:/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/lifecycle_msgs/lib:/home/hiro/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hiro/rust_ws/build/geometry_msgs -- -j22 -l22
+[13.650s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.726s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[13.752s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.786s] [  2%] Built target ament_cmake_python_copy_geometry_msgs
+[15.256s] running egg_info
+[15.257s] creating geometry_msgs.egg-info
+[15.296s] writing geometry_msgs.egg-info/PKG-INFO
+[15.316s] writing dependency_links to geometry_msgs.egg-info/dependency_links.txt
+[15.317s] writing top-level names to geometry_msgs.egg-info/top_level.txt
+[15.317s] writing manifest file 'geometry_msgs.egg-info/SOURCES.txt'
+[15.485s] reading manifest file 'geometry_msgs.egg-info/SOURCES.txt'
+[15.512s] writing manifest file 'geometry_msgs.egg-info/SOURCES.txt'
+[15.755s] [  2%] Built target ament_cmake_python_build_geometry_msgs_egg
+[17.649s] [  2%] Built target geometry_msgs__rs
+[19.672s] [  2%] Built target geometry_msgs__cpp
+[19.686s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[19.686s] [  2%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[19.693s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[20.329s] [  2%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/accel_with_covariance_stamped__functions.c.o[0m
+[20.330s] [  2%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/point__functions.c.o[0m
+[20.332s] [  3%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/accel_with_covariance__functions.c.o[0m
+[20.332s] [  3%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/accel__functions.c.o[0m
+[20.333s] [  3%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/polygon__functions.c.o[0m
+[20.333s] [  3%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/accel_stamped__functions.c.o[0m
+[20.333s] [  3%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/inertia_stamped__functions.c.o[0m
+[20.333s] [  4%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/polygon_stamped__functions.c.o[0m
+[20.334s] [  5%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/inertia__functions.c.o[0m
+[20.335s] [  5%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/point_stamped__functions.c.o[0m
+[20.335s] [  5%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose__functions.c.o[0m
+[20.336s] [  6%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/point32__functions.c.o[0m
+[20.341s] [  7%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose2_d__functions.c.o[0m
+[20.418s] [  8%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/quaternion_stamped__functions.c.o[0m
+[20.422s] [  9%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/transform_stamped__functions.c.o[0m
+[20.423s] [  9%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/transform__functions.c.o[0m
+[20.441s] [  9%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/quaternion__functions.c.o[0m
+[20.441s] [  9%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/twist_stamped__functions.c.o[0m
+[20.441s] [  9%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/twist_with_covariance_stamped__functions.c.o[0m
+[20.441s] [  9%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose_with_covariance_stamped__functions.c.o[0m
+[20.442s] [  9%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/twist__functions.c.o[0m
+[20.453s] [ 10%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/twist_with_covariance__functions.c.o[0m
+[20.455s] [ 11%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose_with_covariance__functions.c.o[0m
+[20.467s] [ 12%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/wrench__functions.c.o[0m
+[20.473s] [ 12%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/wrench_stamped__functions.c.o[0m
+[20.483s] [ 12%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/velocity_stamped__functions.c.o[0m
+[20.500s] [ 13%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/vector3_stamped__functions.c.o[0m
+[20.512s] [ 13%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/vector3__functions.c.o[0m
+[20.524s] [ 13%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose_stamped__functions.c.o[0m
+[20.540s] [ 13%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose_array__functions.c.o[0m
+[20.606s] [ 13%] [32m[1mLinking C shared library libgeometry_msgs__rosidl_generator_c.so[0m
+[20.731s] [ 13%] Built target geometry_msgs__rosidl_generator_c
+[20.752s] [ 14%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[20.752s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[20.753s] [ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[22.031s] [ 17%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel__type_support.cpp.o[0m
+[22.032s] [ 18%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/inertia_stamped__type_support.cpp.o[0m
+[22.034s] [ 19%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_with_covariance__type_support.cpp.o[0m
+[22.035s] [ 19%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_stamped__type_support.cpp.o[0m
+[22.035s] [ 19%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_with_covariance_stamped__type_support.cpp.o[0m
+[22.036s] [ 19%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point32__type_support.cpp.o[0m
+[22.036s] [ 20%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point_stamped__type_support.cpp.o[0m
+[22.037s] [ 20%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/inertia__type_support.cpp.o[0m
+[22.037s] [ 20%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point__type_support.cpp.o[0m
+[22.044s] [ 20%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/polygon__type_support.cpp.o[0m
+[22.050s] [ 20%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose2_d__type_support.cpp.o[0m
+[22.050s] [ 21%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/polygon_stamped__type_support.cpp.o[0m
+[22.054s] [ 21%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose__type_support.cpp.o[0m
+[22.682s] [ 21%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_with_covariance__type_support.cpp.o[0m
+[22.713s] [ 21%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_stamped__type_support.cpp.o[0m
+[22.720s] [ 22%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_with_covariance_stamped__type_support.cpp.o[0m
+[22.720s] [ 23%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_array__type_support.cpp.o[0m
+[22.739s] [ 23%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/quaternion__type_support.cpp.o[0m
+[22.761s] [ 23%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/transform_stamped__type_support.cpp.o[0m
+[22.767s] [ 24%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist__type_support.cpp.o[0m
+[22.777s] [ 25%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/quaternion_stamped__type_support.cpp.o[0m
+[22.795s] [ 25%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/transform__type_support.cpp.o[0m
+[22.807s] [ 25%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_with_covariance__type_support.cpp.o[0m
+[22.810s] [ 25%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_stamped__type_support.cpp.o[0m
+[22.903s] [ 26%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_with_covariance_stamped__type_support.cpp.o[0m
+[23.004s] [ 26%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/vector3__type_support.cpp.o[0m
+[23.021s] [ 27%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/vector3_stamped__type_support.cpp.o[0m
+[23.061s] [ 27%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/velocity_stamped__type_support.cpp.o[0m
+[23.120s] [ 27%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/wrench__type_support.cpp.o[0m
+[23.452s] [ 28%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/wrench_stamped__type_support.cpp.o[0m
+[23.691s] [ 28%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/accel_stamped__type_support.cpp.o[0m
+[23.692s] [ 29%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/accel__type_support.cpp.o[0m
+[23.713s] [ 30%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/accel_with_covariance__type_support.cpp.o[0m
+[23.720s] [ 30%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.cpp.o[0m
+[23.740s] [ 31%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/inertia_stamped__type_support.cpp.o[0m
+[23.742s] [ 31%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/inertia__type_support.cpp.o[0m
+[23.766s] [ 31%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/point__type_support.cpp.o[0m
+[23.798s] [ 31%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/point32__type_support.cpp.o[0m
+[23.806s] [ 32%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/point_stamped__type_support.cpp.o[0m
+[23.840s] [ 32%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/polygon__type_support.cpp.o[0m
+[24.179s] [ 33%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/accel__type_support.cpp.o[0m
+[24.242s] [ 33%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/accel_stamped__type_support.cpp.o[0m
+[24.403s] [ 33%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_cpp.so[0m
+[24.758s] [ 33%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel__type_support.cpp.o[0m
+[24.838s] [ 33%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_stamped__type_support.cpp.o[0m
+[24.879s] [ 34%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose_with_covariance__type_support.cpp.o[0m
+[24.914s] [ 35%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose_array__type_support.cpp.o[0m
+[24.915s] [ 35%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose_stamped__type_support.cpp.o[0m
+[24.915s] [ 35%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_with_covariance__type_support.cpp.o[0m
+[24.928s] [ 35%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose__type_support.cpp.o[0m
+[24.935s] [ 35%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose2_d__type_support.cpp.o[0m
+[24.944s] [ 36%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/polygon_stamped__type_support.cpp.o[0m
+[24.957s] [ 36%] Built target geometry_msgs__rosidl_typesupport_cpp
+[24.960s] [ 37%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/accel_with_covariance__type_support.cpp.o[0m
+[24.973s] [ 37%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_with_covariance_stamped__type_support.cpp.o[0m
+[25.001s] [ 38%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.cpp.o[0m
+[25.003s] [ 38%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/inertia__type_support.cpp.o[0m
+[25.013s] [ 38%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/accel_with_covariance_stamped__type_support.cpp.o[0m
+[25.132s] [ 39%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/inertia_stamped__type_support.cpp.o[0m
+[25.144s] [ 39%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point__type_support.cpp.o[0m
+[25.144s] [ 39%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/quaternion__type_support.cpp.o[0m
+[25.174s] [ 40%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/quaternion_stamped__type_support.cpp.o[0m
+[25.188s] [ 40%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/transform__type_support.cpp.o[0m
+[25.201s] [ 41%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point32__type_support.cpp.o[0m
+[25.323s] [ 41%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point_stamped__type_support.cpp.o[0m
+[25.339s] [ 41%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/polygon__type_support.cpp.o[0m
+[25.339s] [ 41%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/transform_stamped__type_support.cpp.o[0m
+[25.361s] [ 42%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/polygon_stamped__type_support.cpp.o[0m
+[25.411s] [ 43%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/twist__type_support.cpp.o[0m
+[25.436s] [ 43%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose__type_support.cpp.o[0m
+[25.438s] [ 43%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/twist_stamped__type_support.cpp.o[0m
+[25.529s] [ 43%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose2_d__type_support.cpp.o[0m
+[25.554s] [ 44%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_array__type_support.cpp.o[0m
+[25.566s] [ 44%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_stamped__type_support.cpp.o[0m
+[25.602s] [ 44%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/inertia__type_support.cpp.o[0m
+[25.685s] [ 45%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_with_covariance__type_support.cpp.o[0m
+[25.712s] [ 45%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_with_covariance_stamped__type_support.cpp.o[0m
+[25.840s] [ 45%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/quaternion__type_support.cpp.o[0m
+[25.857s] [ 46%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/quaternion_stamped__type_support.cpp.o[0m
+[25.918s] [ 47%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/inertia_stamped__type_support.cpp.o[0m
+[25.929s] [ 47%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/transform__type_support.cpp.o[0m
+[26.087s] [ 47%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/transform_stamped__type_support.cpp.o[0m
+[26.094s] [ 48%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist__type_support.cpp.o[0m
+[26.143s] [ 48%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/point__type_support.cpp.o[0m
+[26.201s] [ 48%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_stamped__type_support.cpp.o[0m
+[26.202s] [ 48%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/point32__type_support.cpp.o[0m
+[26.202s] [ 49%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.cpp.o[0m
+[26.202s] [ 49%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/twist_with_covariance__type_support.cpp.o[0m
+[26.230s] [ 50%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_with_covariance__type_support.cpp.o[0m
+[26.254s] [ 50%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/vector3__type_support.cpp.o[0m
+[26.273s] [ 51%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/vector3_stamped__type_support.cpp.o[0m
+[26.303s] [ 51%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_with_covariance_stamped__type_support.cpp.o[0m
+[26.313s] [ 51%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/velocity_stamped__type_support.cpp.o[0m
+[26.335s] [ 51%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/vector3__type_support.cpp.o[0m
+[26.378s] [ 51%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/wrench__type_support.cpp.o[0m
+[26.454s] [ 52%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/vector3_stamped__type_support.cpp.o[0m
+[26.580s] [ 52%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/velocity_stamped__type_support.cpp.o[0m
+[26.586s] [ 53%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/wrench_stamped__type_support.cpp.o[0m
+[26.610s] [ 53%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/wrench__type_support.cpp.o[0m
+[26.643s] [ 54%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/wrench_stamped__type_support.cpp.o[0m
+[26.662s] [ 54%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/polygon__type_support.cpp.o[0m
+[26.677s] [ 55%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/polygon_stamped__type_support.cpp.o[0m
+[26.689s] [ 56%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/point_stamped__type_support.cpp.o[0m
+[26.692s] [ 56%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[26.693s] [ 57%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose_array__type_support.cpp.o[0m
+[26.696s] [ 57%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose2_d__type_support.cpp.o[0m
+[26.701s] [ 57%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/accel__type_support.c.o[0m
+[26.712s] [ 57%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/accel_stamped__type_support.c.o[0m
+[26.712s] [ 57%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose_stamped__type_support.cpp.o[0m
+[26.718s] [ 57%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_c.so[0m
+[26.772s] [ 58%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/accel_with_covariance__type_support.c.o[0m
+[26.804s] [ 58%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.c.o[0m
+[26.847s] [ 58%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose_with_covariance__type_support.cpp.o[0m
+[26.855s] [ 58%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/inertia__type_support.c.o[0m
+[26.863s] [ 58%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/accel__type_support_c.cpp.o[0m
+[26.906s] [ 59%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/inertia_stamped__type_support.c.o[0m
+[26.961s] [ 59%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/accel_stamped__type_support_c.cpp.o[0m
+[26.989s] [ 59%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/point__type_support.c.o[0m
+[27.008s] [ 59%] Built target geometry_msgs__rosidl_typesupport_c
+[27.043s] [ 60%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/accel_with_covariance__type_support_c.cpp.o[0m
+[27.074s] [ 61%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/point32__type_support.c.o[0m
+[27.091s] [ 62%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose_with_covariance_stamped__type_support.cpp.o[0m
+[27.123s] [ 62%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/point_stamped__type_support.c.o[0m
+[27.159s] [ 62%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/quaternion__type_support.cpp.o[0m
+[27.178s] [ 62%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/polygon__type_support.c.o[0m
+[27.231s] [ 63%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/quaternion_stamped__type_support.cpp.o[0m
+[27.256s] [ 64%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/polygon_stamped__type_support.c.o[0m
+[27.295s] [ 64%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support_c.cpp.o[0m
+[27.295s] [ 64%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose__type_support.c.o[0m
+[27.301s] [ 64%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose2_d__type_support.c.o[0m
+[27.339s] [ 64%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/inertia__type_support_c.cpp.o[0m
+[27.393s] [ 65%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/inertia_stamped__type_support_c.cpp.o[0m
+[27.408s] [ 66%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose_array__type_support.c.o[0m
+[27.425s] [ 66%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/transform__type_support.cpp.o[0m
+[27.437s] [ 66%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/point__type_support_c.cpp.o[0m
+[27.455s] [ 66%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose_stamped__type_support.c.o[0m
+[27.518s] [ 66%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/transform_stamped__type_support.cpp.o[0m
+[27.538s] [ 67%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose_with_covariance__type_support.c.o[0m
+[27.539s] [ 68%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/twist__type_support.cpp.o[0m
+[27.570s] [ 68%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.c.o[0m
+[27.582s] [ 69%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/point32__type_support_c.cpp.o[0m
+[27.585s] [ 69%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[27.663s] [ 69%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/quaternion__type_support.c.o[0m
+[27.711s] [ 70%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/quaternion_stamped__type_support.c.o[0m
+[27.726s] [ 70%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/twist_stamped__type_support.cpp.o[0m
+[27.753s] [ 70%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/transform__type_support.c.o[0m
+[27.799s] [ 70%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/twist_with_covariance__type_support.cpp.o[0m
+[27.810s] [ 70%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/transform_stamped__type_support.c.o[0m
+[27.837s] [ 70%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/point_stamped__type_support_c.cpp.o[0m
+[27.861s] [ 71%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/twist_with_covariance_stamped__type_support.cpp.o[0m
+[27.864s] [ 71%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/vector3__type_support.cpp.o[0m
+[27.943s] [ 72%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/twist__type_support.c.o[0m
+[27.943s] [ 72%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/twist_stamped__type_support.c.o[0m
+[27.966s] [ 72%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/polygon__type_support_c.cpp.o[0m
+[27.972s] [ 73%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/twist_with_covariance__type_support.c.o[0m
+[28.040s] [ 74%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/vector3_stamped__type_support.cpp.o[0m
+[28.076s] [ 74%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/velocity_stamped__type_support.cpp.o[0m
+[28.083s] [ 74%] Built target geometry_msgs__rosidl_typesupport_introspection_cpp
+[28.092s] [ 74%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.c.o[0m
+[28.095s] [ 75%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/polygon_stamped__type_support_c.cpp.o[0m
+[28.097s] [ 75%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/vector3__type_support.c.o[0m
+[28.109s] [ 76%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/vector3_stamped__type_support.c.o[0m
+[28.115s] [ 76%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/wrench__type_support.cpp.o[0m
+[28.166s] [ 76%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/velocity_stamped__type_support.c.o[0m
+[28.166s] [ 77%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/wrench_stamped__type_support.cpp.o[0m
+[28.199s] [ 78%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/wrench_stamped__type_support.c.o[0m
+[28.200s] [ 78%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/wrench__type_support.c.o[0m
+[28.230s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose__type_support_c.cpp.o[0m
+[28.265s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose2_d__type_support_c.cpp.o[0m
+[28.280s] [ 79%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose_array__type_support_c.cpp.o[0m
+[28.290s] [ 79%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose_stamped__type_support_c.cpp.o[0m
+[28.323s] [ 79%] [32m[1mLinking C shared library libgeometry_msgs__rosidl_typesupport_introspection_c.so[0m
+[28.352s] [ 80%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose_with_covariance__type_support_c.cpp.o[0m
+[28.354s] [ 80%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support_c.cpp.o[0m
+[28.474s] [ 80%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/quaternion__type_support_c.cpp.o[0m
+[28.508s] [ 81%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/quaternion_stamped__type_support_c.cpp.o[0m
+[28.548s] [ 81%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/transform__type_support_c.cpp.o[0m
+[28.675s] [ 81%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/transform_stamped__type_support_c.cpp.o[0m
+[28.694s] [ 81%] Built target geometry_msgs__rosidl_typesupport_introspection_c
+[28.759s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/twist__type_support_c.cpp.o[0m
+[28.817s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/twist_stamped__type_support_c.cpp.o[0m
+[28.882s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support_c.cpp.o[0m
+[28.888s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/twist_with_covariance__type_support_c.cpp.o[0m
+[28.951s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/vector3__type_support_c.cpp.o[0m
+[28.999s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/velocity_stamped__type_support_c.cpp.o[0m
+[29.000s] [ 84%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/vector3_stamped__type_support_c.cpp.o[0m
+[29.014s] [ 85%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/wrench_stamped__type_support_c.cpp.o[0m
+[29.016s] [ 85%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/wrench__type_support_c.cpp.o[0m
+[29.442s] [ 85%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[29.635s] [ 85%] Built target geometry_msgs__rosidl_typesupport_fastrtps_cpp
+[29.646s] [ 85%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[29.781s] [ 85%] Built target geometry_msgs__rosidl_typesupport_fastrtps_c
+[29.797s] [ 85%] Built target geometry_msgs
+[29.813s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[33.679s] [ 85%] Built target geometry_msgs__py
+[33.698s] [ 85%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_accel_stamped_s.c.o[0m
+[33.698s] [ 86%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_inertia_stamped_s.c.o[0m
+[33.699s] [ 87%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_accel_s.c.o[0m
+[33.700s] [ 87%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_point32_s.c.o[0m
+[33.700s] [ 87%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_inertia_s.c.o[0m
+[33.700s] [ 88%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_accel_with_covariance_s.c.o[0m
+[33.701s] [ 88%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_accel_with_covariance_stamped_s.c.o[0m
+[33.701s] [ 89%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_polygon_stamped_s.c.o[0m
+[33.701s] [ 89%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_polygon_s.c.o[0m
+[33.701s] [ 89%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_point_s.c.o[0m
+[33.702s] [ 89%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_pose_s.c.o[0m
+[33.703s] [ 90%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_point_stamped_s.c.o[0m
+[33.705s] [ 91%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_pose_array_s.c.o[0m
+[33.706s] [ 91%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_pose2_d_s.c.o[0m
+[33.848s] [ 92%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_twist_s.c.o[0m
+[33.849s] [ 92%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_twist_stamped_s.c.o[0m
+[33.850s] [ 93%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_twist_with_covariance_stamped_s.c.o[0m
+[33.852s] [ 93%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_twist_with_covariance_s.c.o[0m
+[33.855s] [ 93%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_transform_stamped_s.c.o[0m
+[33.856s] [ 93%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_vector3_s.c.o[0m
+[33.860s] [ 93%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_velocity_stamped_s.c.o[0m
+[33.865s] [ 94%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_wrench_stamped_s.c.o[0m
+[33.865s] [ 94%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_wrench_s.c.o[0m
+[33.867s] [ 95%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_vector3_stamped_s.c.o[0m
+[33.869s] [ 96%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_quaternion_stamped_s.c.o[0m
+[33.869s] [ 96%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_quaternion_s.c.o[0m
+[33.870s] [ 96%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_transform_s.c.o[0m
+[33.879s] [ 97%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_pose_with_covariance_stamped_s.c.o[0m
+[34.015s] [ 97%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_pose_with_covariance_s.c.o[0m
+[34.027s] [ 97%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_pose_stamped_s.c.o[0m
+[34.116s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/libgeometry_msgs__rosidl_generator_py.so[0m
+[34.212s] [ 97%] Built target geometry_msgs__rosidl_generator_py
+[34.228s] [ 99%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[34.228s] [ 99%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[34.228s] [100%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[34.376s] [100%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[34.384s] [100%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[34.399s] [100%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[34.499s] [100%] Built target geometry_msgs__rosidl_typesupport_fastrtps_c__pyext
+[34.499s] [100%] Built target geometry_msgs__rosidl_typesupport_c__pyext
+[34.520s] [100%] Built target geometry_msgs__rosidl_typesupport_introspection_c__pyext
+[34.532s] Invoked command in '/home/hiro/rust_ws/build/geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_runtime_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/ws_livox/install/livox_ros_driver2:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosidl_runtime_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:/home/hiro/rust_ws/install/visualization_msgs/lib:/home/hiro/rust_ws/install/test_msgs/lib:/home/hiro/rust_ws/install/example_interfaces/lib:/home/hiro/rust_ws/install/action_msgs/lib:/home/hiro/rust_ws/install/unique_identifier_msgs/lib:/home/hiro/rust_ws/install/trajectory_msgs/lib:/home/hiro/rust_ws/install/stereo_msgs/lib:/home/hiro/rust_ws/install/std_srvs/lib:/home/hiro/rust_ws/install/shape_msgs/lib:/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/nav_msgs/lib:/home/hiro/rust_ws/install/diagnostic_msgs/lib:/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/actionlib_msgs/lib:/home/hiro/rust_ws/install/statistics_msgs/lib:/home/hiro/rust_ws/install/rosgraph_msgs/lib:/home/hiro/rust_ws/install/rclrs_example_msgs/lib:/home/hiro/rust_ws/install/composition_interfaces/lib:/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/lifecycle_msgs/lib:/home/hiro/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hiro/rust_ws/build/geometry_msgs -- -j22 -l22
+[35.266s] Invoking command in '/home/hiro/rust_ws/build/geometry_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_runtime_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/ws_livox/install/livox_ros_driver2:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosidl_runtime_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:/home/hiro/rust_ws/install/visualization_msgs/lib:/home/hiro/rust_ws/install/test_msgs/lib:/home/hiro/rust_ws/install/example_interfaces/lib:/home/hiro/rust_ws/install/action_msgs/lib:/home/hiro/rust_ws/install/unique_identifier_msgs/lib:/home/hiro/rust_ws/install/trajectory_msgs/lib:/home/hiro/rust_ws/install/stereo_msgs/lib:/home/hiro/rust_ws/install/std_srvs/lib:/home/hiro/rust_ws/install/shape_msgs/lib:/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/nav_msgs/lib:/home/hiro/rust_ws/install/diagnostic_msgs/lib:/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/actionlib_msgs/lib:/home/hiro/rust_ws/install/statistics_msgs/lib:/home/hiro/rust_ws/install/rosgraph_msgs/lib:/home/hiro/rust_ws/install/rclrs_example_msgs/lib:/home/hiro/rust_ws/install/composition_interfaces/lib:/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/lifecycle_msgs/lib:/home/hiro/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hiro/rust_ws/build/geometry_msgs
+[35.272s] -- Install configuration: ""
+[35.272s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/ament_index/resource_index/rosidl_interfaces/geometry_msgs
+[35.273s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs
+[35.273s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg
+[35.273s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point.h
+[35.273s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_with_covariance_stamped.h
+[35.273s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point_stamped.h
+[35.273s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_stamped.h
+[35.273s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_with_covariance.h
+[35.273s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.h
+[35.273s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/transform_stamped.h
+[35.274s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon_stamped.h
+[35.274s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose2_d.h
+[35.274s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point32.h
+[35.274s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/quaternion_stamped.h
+[35.274s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_stamped.h
+[35.274s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/inertia.h
+[35.275s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h
+[35.275s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/wrench.h
+[35.275s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.h
+[35.275s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_with_covariance.h
+[35.275s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist.h
+[35.275s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail
+[35.275s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.h
+[35.275s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__functions.c
+[35.275s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__functions.h
+[35.276s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__functions.c
+[35.276s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__functions.c
+[35.276s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.h
+[35.276s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__type_support.h
+[35.276s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__type_support.h
+[35.276s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__functions.h
+[35.276s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.h
+[35.276s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__functions.c
+[35.276s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.h
+[35.276s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h
+[35.277s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__functions.h
+[35.277s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.h
+[35.277s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__functions.h
+[35.277s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.h
+[35.277s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__functions.c
+[35.277s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.h
+[35.278s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.h
+[35.278s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__functions.h
+[35.278s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.h
+[35.278s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__type_support.h
+[35.278s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__functions.h
+[35.278s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.h
+[35.278s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__functions.c
+[35.279s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h
+[35.279s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__functions.c
+[35.279s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__functions.h
+[35.279s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__struct.h
+[35.279s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__functions.c
+[35.279s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__struct.h
+[35.279s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__struct.h
+[35.279s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__functions.c
+[35.279s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h
+[35.279s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__functions.h
+[35.280s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__functions.c
+[35.280s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.h
+[35.280s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__struct.h
+[35.280s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__functions.h
+[35.280s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__functions.h
+[35.281s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.h
+[35.281s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.h
+[35.281s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__type_support.h
+[35.281s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__functions.c
+[35.281s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__functions.c
+[35.281s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.h
+[35.281s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__functions.h
+[35.282s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__functions.h
+[35.282s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.h
+[35.282s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__struct.h
+[35.282s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.h
+[35.282s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__functions.h
+[35.282s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__type_support.h
+[35.282s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__struct.h
+[35.283s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.h
+[35.283s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.h
+[35.283s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__functions.h
+[35.283s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__functions.h
+[35.283s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__functions.c
+[35.283s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__functions.c
+[35.283s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__functions.c
+[35.283s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__functions.c
+[35.284s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.h
+[35.284s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__type_support.h
+[35.284s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.h
+[35.284s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__functions.c
+[35.284s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__functions.c
+[35.284s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.h
+[35.284s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h
+[35.284s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.h
+[35.284s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.h
+[35.285s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__functions.c
+[35.285s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__functions.h
+[35.285s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__functions.h
+[35.285s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__functions.h
+[35.285s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__functions.c
+[35.285s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.h
+[35.285s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__functions.c
+[35.285s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.h
+[35.286s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.c
+[35.286s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.h
+[35.286s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__functions.h
+[35.286s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.h
+[35.286s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__type_support.h
+[35.286s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__functions.h
+[35.286s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__functions.c
+[35.287s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__functions.c
+[35.287s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__functions.c
+[35.287s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.h
+[35.287s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h
+[35.287s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__type_support.h
+[35.288s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__functions.h
+[35.288s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__functions.h
+[35.288s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.h
+[35.288s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__functions.c
+[35.288s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__functions.c
+[35.288s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__functions.h
+[35.288s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__functions.h
+[35.289s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.h
+[35.289s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__functions.c
+[35.289s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__struct.h
+[35.289s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.h
+[35.289s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.h
+[35.290s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__struct.h
+[35.290s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__functions.h
+[35.290s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__functions.h
+[35.290s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__functions.c
+[35.290s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.h
+[35.290s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.h
+[35.290s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__functions.h
+[35.290s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__functions.h
+[35.290s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.h
+[35.290s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__struct.h
+[35.291s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__functions.c
+[35.291s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.h
+[35.291s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__type_support.h
+[35.291s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__functions.h
+[35.291s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.h
+[35.291s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.h
+[35.291s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/quaternion.h
+[35.291s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon.h
+[35.292s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.h
+[35.292s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/vector3.h
+[35.292s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose.h
+[35.292s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_stamped.h
+[35.292s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/inertia_stamped.h
+[35.292s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_array.h
+[35.292s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance.h
+[35.292s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.h
+[35.292s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_with_covariance_stamped.h
+[35.293s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel.h
+[35.293s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/transform.h
+[35.293s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/environment/library_path.sh
+[35.293s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/environment/library_path.dsv
+[35.293s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_generator_c.so
+[35.293s] -- Set runtime path of "/home/hiro/rust_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_generator_c.so" to ""
+[35.293s] -- Up-to-date: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs
+[35.293s] -- Up-to-date: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg
+[35.293s] -- Up-to-date: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail
+[35.294s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_fastrtps_c.h
+[35.294s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_fastrtps_c.h
+[35.294s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[35.294s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__rosidl_typesupport_fastrtps_c.h
+[35.294s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[35.294s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__rosidl_typesupport_fastrtps_c.h
+[35.295s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_fastrtps_c.h
+[35.295s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_fastrtps_c.h
+[35.295s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__rosidl_typesupport_fastrtps_c.h
+[35.295s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_fastrtps_c.h
+[35.295s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__rosidl_typesupport_fastrtps_c.h
+[35.295s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__rosidl_typesupport_fastrtps_c.h
+[35.295s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__rosidl_typesupport_fastrtps_c.h
+[35.296s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[35.296s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__rosidl_typesupport_fastrtps_c.h
+[35.296s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[35.296s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_fastrtps_c.h
+[35.296s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_fastrtps_c.h
+[35.296s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_c.h
+[35.296s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_fastrtps_c.h
+[35.296s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_fastrtps_c.h
+[35.296s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_fastrtps_c.h
+[35.297s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[35.297s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__rosidl_typesupport_fastrtps_c.h
+[35.297s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_fastrtps_c.h
+[35.297s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__rosidl_typesupport_fastrtps_c.h
+[35.297s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_fastrtps_c.h
+[35.297s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[35.297s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_fastrtps_c.h
+[35.297s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_fastrtps_c.h
+[35.298s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[35.298s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+[35.298s] -- Set runtime path of "/home/hiro/rust_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[35.298s] -- Up-to-date: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs
+[35.298s] -- Up-to-date: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg
+[35.298s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[35.298s] -- Up-to-date: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail
+[35.298s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[35.299s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.c
+[35.299s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.c
+[35.299s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__rosidl_typesupport_introspection_c.h
+[35.299s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__rosidl_typesupport_introspection_c.h
+[35.299s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__type_support.c
+[35.299s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.c
+[35.300s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__rosidl_typesupport_introspection_c.h
+[35.300s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[35.300s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__type_support.c
+[35.300s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.c
+[35.300s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_introspection_c.h
+[35.300s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_introspection_c.h
+[35.300s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__rosidl_typesupport_introspection_c.h
+[35.301s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.c
+[35.301s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__type_support.c
+[35.301s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.c
+[35.301s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__rosidl_typesupport_introspection_c.h
+[35.301s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.c
+[35.301s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_introspection_c.h
+[35.301s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.c
+[35.301s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_introspection_c.h
+[35.301s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__type_support.c
+[35.301s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__type_support.c
+[35.302s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.c
+[35.302s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_introspection_c.h
+[35.302s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[35.302s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.c
+[35.302s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__type_support.c
+[35.302s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__type_support.c
+[35.303s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.c
+[35.303s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_introspection_c.h
+[35.303s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__rosidl_typesupport_introspection_c.h
+[35.303s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__rosidl_typesupport_introspection_c.h
+[35.303s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__type_support.c
+[35.303s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__rosidl_typesupport_introspection_c.h
+[35.303s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_introspection_c.h
+[35.304s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_introspection_c.h
+[35.304s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.c
+[35.304s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.c
+[35.304s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[35.304s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.c
+[35.304s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_introspection_c.h
+[35.304s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_introspection_c.h
+[35.305s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.c
+[35.305s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[35.305s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.c
+[35.305s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__rosidl_typesupport_introspection_c.h
+[35.305s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.c
+[35.305s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.c
+[35.305s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_introspection_c.h
+[35.305s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_introspection_c.h
+[35.306s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.c
+[35.306s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__type_support.c
+[35.306s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_introspection_c.h
+[35.306s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_introspection_c.h
+[35.306s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[35.306s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.c
+[35.306s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.c
+[35.307s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_introspection_c.h
+[35.307s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+[35.307s] -- Set runtime path of "/home/hiro/rust_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so" to ""
+[35.307s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_c.so
+[35.307s] -- Set runtime path of "/home/hiro/rust_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_c.so" to ""
+[35.307s] -- Up-to-date: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs
+[35.307s] -- Up-to-date: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg
+[35.307s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance.hpp
+[35.308s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp
+[35.308s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp
+[35.308s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_with_covariance_stamped.hpp
+[35.308s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/quaternion_stamped.hpp
+[35.308s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp
+[35.308s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.hpp
+[35.308s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon_stamped.hpp
+[35.308s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose.hpp
+[35.308s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp
+[35.309s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_stamped.hpp
+[35.309s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon.hpp
+[35.309s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_with_covariance.hpp
+[35.309s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp
+[35.309s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/wrench.hpp
+[35.309s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_with_covariance.hpp
+[35.309s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel.hpp
+[35.309s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/inertia.hpp
+[35.309s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_with_covariance_stamped.hpp
+[35.309s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point.hpp
+[35.309s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/transform.hpp
+[35.310s] -- Up-to-date: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail
+[35.310s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__builder.hpp
+[35.310s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp
+[35.310s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__struct.hpp
+[35.310s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__traits.hpp
+[35.310s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__traits.hpp
+[35.310s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__builder.hpp
+[35.310s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__builder.hpp
+[35.310s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp
+[35.311s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp
+[35.311s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__traits.hpp
+[35.311s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__struct.hpp
+[35.311s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__struct.hpp
+[35.311s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp
+[35.311s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp
+[35.311s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp
+[35.311s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp
+[35.311s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__struct.hpp
+[35.312s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp
+[35.312s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp
+[35.312s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp
+[35.312s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp
+[35.312s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp
+[35.312s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp
+[35.312s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp
+[35.312s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp
+[35.312s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__struct.hpp
+[35.313s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__builder.hpp
+[35.313s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp
+[35.313s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp
+[35.313s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__builder.hpp
+[35.313s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp
+[35.313s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.hpp
+[35.313s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__traits.hpp
+[35.313s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp
+[35.313s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__struct.hpp
+[35.314s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp
+[35.314s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__traits.hpp
+[35.314s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__builder.hpp
+[35.314s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__builder.hpp
+[35.314s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp
+[35.314s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp
+[35.315s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__builder.hpp
+[35.315s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp
+[35.315s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp
+[35.315s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp
+[35.315s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__traits.hpp
+[35.315s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__builder.hpp
+[35.315s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__traits.hpp
+[35.315s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__struct.hpp
+[35.315s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp
+[35.316s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__struct.hpp
+[35.316s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__struct.hpp
+[35.316s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__builder.hpp
+[35.316s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__traits.hpp
+[35.316s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp
+[35.316s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp
+[35.316s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp
+[35.316s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp
+[35.316s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp
+[35.317s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__traits.hpp
+[35.317s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp
+[35.317s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__builder.hpp
+[35.317s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp
+[35.317s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp
+[35.317s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp
+[35.317s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__builder.hpp
+[35.317s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp
+[35.317s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.hpp
+[35.318s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp
+[35.318s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp
+[35.318s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp
+[35.318s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp
+[35.318s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp
+[35.318s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__traits.hpp
+[35.318s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__builder.hpp
+[35.318s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__builder.hpp
+[35.318s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp
+[35.318s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__builder.hpp
+[35.318s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp
+[35.318s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp
+[35.318s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__builder.hpp
+[35.318s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__builder.hpp
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__builder.hpp
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__traits.hpp
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/inertia_stamped.hpp
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose2_d.hpp
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/vector3.hpp
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist.hpp
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point32.hpp
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp
+[35.319s] -- Up-to-date: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs
+[35.319s] -- Up-to-date: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[35.319s] -- Up-to-date: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/dds_fastrtps
+[35.319s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__rosidl_typesupport_fastrtps_cpp.hpp
+[35.320s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[35.321s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[35.321s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[35.321s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[35.321s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__rosidl_typesupport_fastrtps_cpp.hpp
+[35.321s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[35.321s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__rosidl_typesupport_fastrtps_cpp.hpp
+[35.321s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__rosidl_typesupport_fastrtps_cpp.hpp
+[35.321s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[35.321s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+[35.321s] -- Set runtime path of "/home/hiro/rust_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[35.321s] -- Up-to-date: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs
+[35.321s] -- Up-to-date: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg
+[35.321s] -- Up-to-date: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail
+[35.321s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__type_support.cpp
+[35.321s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__type_support.cpp
+[35.321s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.cpp
+[35.321s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.cpp
+[35.321s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.cpp
+[35.321s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__rosidl_typesupport_introspection_cpp.hpp
+[35.321s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_introspection_cpp.hpp
+[35.321s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__type_support.cpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.cpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.cpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.cpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__rosidl_typesupport_introspection_cpp.hpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__rosidl_typesupport_introspection_cpp.hpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__type_support.cpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__rosidl_typesupport_introspection_cpp.hpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.cpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.cpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__type_support.cpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__type_support.cpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_introspection_cpp.hpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.cpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__rosidl_typesupport_introspection_cpp.hpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_introspection_cpp.hpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_introspection_cpp.hpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_introspection_cpp.hpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.cpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_introspection_cpp.hpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__type_support.cpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.cpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__rosidl_typesupport_introspection_cpp.hpp
+[35.322s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.cpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_introspection_cpp.hpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.cpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.cpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__type_support.cpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.cpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__rosidl_typesupport_introspection_cpp.hpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_introspection_cpp.hpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_introspection_cpp.hpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.cpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__rosidl_typesupport_introspection_cpp.hpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_introspection_cpp.hpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.cpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__rosidl_typesupport_introspection_cpp.hpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.cpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_introspection_cpp.hpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.cpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_introspection_cpp.hpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__type_support.cpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.cpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.cpp
+[35.323s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+[35.324s] -- Set runtime path of "/home/hiro/rust_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+[35.324s] -- Set runtime path of "/home/hiro/rust_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_cpp.so" to ""
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/ament_index/resource_index/rust_packages/geometry_msgs
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/rust
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/rust/Cargo.toml
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/rust/build.rs
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/rust/src
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/rust/src/msg.rs
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/rust/src/lib.rs
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/environment/pythonpath.sh
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/environment/pythonpath.dsv
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs-4.2.4-py3.10.egg-info
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs-4.2.4-py3.10.egg-info/top_level.txt
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs-4.2.4-py3.10.egg-info/PKG-INFO
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs-4.2.4-py3.10.egg-info/SOURCES.txt
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs-4.2.4-py3.10.egg-info/dependency_links.txt
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_c.c
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/__init__.py
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/libgeometry_msgs__rosidl_generator_py.so
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_with_covariance_stamped.py
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_with_covariance_s.c
+[35.324s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_transform_s.c
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_with_covariance.py
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_stamped_s.c
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_vector3_s.c
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_wrench_stamped.py
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point_stamped_s.c
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_polygon.py
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_stamped.py
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_inertia_stamped_s.c
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose2_d.py
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_polygon_stamped.py
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_with_covariance_stamped.py
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose2_d_s.c
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point_s.c
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_with_covariance_stamped_s.c
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_stamped_s.c
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_s.c
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_inertia.py
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_with_covariance_stamped.py
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_with_covariance_s.c
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_stamped.py
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_quaternion_s.c
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_quaternion.py
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_inertia_s.c
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_with_covariance_s.c
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_with_covariance.py
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_transform.py
+[35.325s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point32_s.c
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_stamped_s.c
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_s.c
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_wrench_s.c
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_transform_stamped_s.c
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_vector3.py
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_velocity_stamped_s.c
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_polygon_stamped_s.c
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_transform_stamped.py
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_s.c
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist.py
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_inertia_stamped.py
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point_stamped.py
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/__init__.py
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel.py
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_stamped.py
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_with_covariance_stamped_s.c
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point.py
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point32.py
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_quaternion_stamped.py
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_vector3_stamped_s.c
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_array_s.c
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_quaternion_stamped_s.c
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_array.py
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_wrench.py
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_with_covariance.py
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_vector3_stamped.py
+[35.326s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_wrench_stamped_s.c
+[35.327s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose.py
+[35.327s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_polygon_s.c
+[35.327s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_with_covariance_stamped_s.c
+[35.327s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_velocity_stamped.py
+[35.327s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[35.327s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[35.327s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[35.375s] Listing '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/__init__.py'...
+[35.376s] Listing '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/__init__.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_stamped.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_with_covariance.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_with_covariance_stamped.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_inertia.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_inertia_stamped.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point32.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point_stamped.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_polygon.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_polygon_stamped.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose2_d.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_array.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_stamped.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_with_covariance.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_with_covariance_stamped.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_quaternion.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_quaternion_stamped.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_transform.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_transform_stamped.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_stamped.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_with_covariance.py'...
+[35.376s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_with_covariance_stamped.py'...
+[35.377s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_vector3.py'...
+[35.377s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_vector3_stamped.py'...
+[35.377s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_velocity_stamped.py'...
+[35.377s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_wrench.py'...
+[35.377s] Compiling '/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_wrench_stamped.py'...
+[35.382s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[35.382s] -- Set runtime path of "/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[35.382s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[35.383s] -- Set runtime path of "/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[35.383s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[35.383s] -- Set runtime path of "/home/hiro/rust_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[35.383s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_generator_py.so
+[35.383s] -- Set runtime path of "/home/hiro/rust_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_generator_py.so" to ""
+[35.384s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Accel.idl
+[35.384s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelStamped.idl
+[35.384s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovariance.idl
+[35.384s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
+[35.384s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Inertia.idl
+[35.385s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/InertiaStamped.idl
+[35.385s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Point.idl
+[35.385s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Point32.idl
+[35.385s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/PointStamped.idl
+[35.386s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Polygon.idl
+[35.386s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/PolygonStamped.idl
+[35.386s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Pose.idl
+[35.386s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Pose2D.idl
+[35.386s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseArray.idl
+[35.386s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseStamped.idl
+[35.387s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovariance.idl
+[35.387s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
+[35.387s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Quaternion.idl
+[35.387s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/QuaternionStamped.idl
+[35.387s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Transform.idl
+[35.388s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/TransformStamped.idl
+[35.388s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Twist.idl
+[35.388s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistStamped.idl
+[35.389s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovariance.idl
+[35.389s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
+[35.389s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Vector3.idl
+[35.389s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Vector3Stamped.idl
+[35.389s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/VelocityStamped.idl
+[35.390s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Wrench.idl
+[35.390s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/WrenchStamped.idl
+[35.390s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Accel.msg
+[35.390s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelStamped.msg
+[35.390s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovariance.msg
+[35.390s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovarianceStamped.msg
+[35.390s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Inertia.msg
+[35.390s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/InertiaStamped.msg
+[35.391s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Point.msg
+[35.391s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Point32.msg
+[35.391s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/PointStamped.msg
+[35.391s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Polygon.msg
+[35.391s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/PolygonStamped.msg
+[35.391s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Pose.msg
+[35.391s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Pose2D.msg
+[35.391s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseArray.msg
+[35.392s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseStamped.msg
+[35.392s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovariance.msg
+[35.392s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
+[35.392s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Quaternion.msg
+[35.392s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/QuaternionStamped.msg
+[35.392s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Transform.msg
+[35.392s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/TransformStamped.msg
+[35.392s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Twist.msg
+[35.392s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistStamped.msg
+[35.392s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovariance.msg
+[35.392s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovarianceStamped.msg
+[35.393s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Vector3.msg
+[35.393s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Vector3Stamped.msg
+[35.393s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/VelocityStamped.msg
+[35.393s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/Wrench.msg
+[35.393s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/msg/WrenchStamped.msg
+[35.393s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/ament_index/resource_index/package_run_dependencies/geometry_msgs
+[35.393s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/ament_index/resource_index/parent_prefix_path/geometry_msgs
+[35.393s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/environment/ament_prefix_path.sh
+[35.393s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/environment/ament_prefix_path.dsv
+[35.393s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/environment/path.sh
+[35.393s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/environment/path.dsv
+[35.393s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/local_setup.bash
+[35.393s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/local_setup.sh
+[35.394s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/local_setup.zsh
+[35.394s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/local_setup.dsv
+[35.394s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/package.dsv
+[35.394s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/ament_index/resource_index/packages/geometry_msgs
+[35.394s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_cExport.cmake
+[35.394s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_cExport-noconfig.cmake
+[35.395s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[35.395s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[35.395s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cExport.cmake
+[35.395s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[35.395s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cExport.cmake
+[35.396s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[35.396s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_cppExport.cmake
+[35.396s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[35.396s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[35.396s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[35.396s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[35.397s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cppExport.cmake
+[35.397s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[35.397s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_pyExport.cmake
+[35.397s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_pyExport-noconfig.cmake
+[35.397s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/rosidl_cmake-extras.cmake
+[35.397s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.397s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.397s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[35.397s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[35.398s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[35.398s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[35.398s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgsConfig.cmake
+[35.398s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgsConfig-version.cmake
+[35.398s] -- Installing: /home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/package.xml
+[35.402s] Invoked command in '/home/hiro/rust_ws/build/geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_runtime_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/ws_livox/install/livox_ros_driver2:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosidl_runtime_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:/home/hiro/rust_ws/install/visualization_msgs/lib:/home/hiro/rust_ws/install/test_msgs/lib:/home/hiro/rust_ws/install/example_interfaces/lib:/home/hiro/rust_ws/install/action_msgs/lib:/home/hiro/rust_ws/install/unique_identifier_msgs/lib:/home/hiro/rust_ws/install/trajectory_msgs/lib:/home/hiro/rust_ws/install/stereo_msgs/lib:/home/hiro/rust_ws/install/std_srvs/lib:/home/hiro/rust_ws/install/shape_msgs/lib:/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/nav_msgs/lib:/home/hiro/rust_ws/install/diagnostic_msgs/lib:/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/actionlib_msgs/lib:/home/hiro/rust_ws/install/statistics_msgs/lib:/home/hiro/rust_ws/install/rosgraph_msgs/lib:/home/hiro/rust_ws/install/rclrs_example_msgs/lib:/home/hiro/rust_ws/install/composition_interfaces/lib:/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/lifecycle_msgs/lib:/home/hiro/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hiro/rust_ws/build/geometry_msgs

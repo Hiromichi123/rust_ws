@@ -1,4 +1,4 @@
-# Install script for directory: /home/hiro/rust_ws/src/src/ros2/rcl_interfaces/composition_interfaces
+# Install script for directory: /home/hiro/rust_ws/src/ros2/rcl_interfaces/composition_interfaces
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -376,7 +376,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/composition_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/composition_interfaces/srv/LoadNode.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/composition_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/composition_interfaces/srv/LoadNode.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -388,7 +388,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/composition_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/composition_interfaces/srv/ListNodes.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/composition_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/composition_interfaces/srv/ListNodes.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -400,7 +400,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/composition_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/composition_interfaces/srv/UnloadNode.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/composition_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/composition_interfaces/srv/UnloadNode.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -663,7 +663,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/composition_interfaces" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/composition_interfaces/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/composition_interfaces" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/composition_interfaces/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

@@ -1,4 +1,4 @@
-# Install script for directory: /home/hiro/rust_ws/src/src/ros2/test_interface_files
+# Install script for directory: /home/hiro/rust_ws/src/ros2/test_interface_files
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,31 +39,31 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_interface_files/msg" TYPE FILE FILES
-    "/home/hiro/rust_ws/src/src/ros2/test_interface_files/msg/Arrays.msg"
-    "/home/hiro/rust_ws/src/src/ros2/test_interface_files/msg/BasicTypes.msg"
-    "/home/hiro/rust_ws/src/src/ros2/test_interface_files/msg/BoundedPlainSequences.msg"
-    "/home/hiro/rust_ws/src/src/ros2/test_interface_files/msg/BoundedSequences.msg"
-    "/home/hiro/rust_ws/src/src/ros2/test_interface_files/msg/Constants.msg"
-    "/home/hiro/rust_ws/src/src/ros2/test_interface_files/msg/Defaults.msg"
-    "/home/hiro/rust_ws/src/src/ros2/test_interface_files/msg/Empty.msg"
-    "/home/hiro/rust_ws/src/src/ros2/test_interface_files/msg/MultiNested.msg"
-    "/home/hiro/rust_ws/src/src/ros2/test_interface_files/msg/Nested.msg"
-    "/home/hiro/rust_ws/src/src/ros2/test_interface_files/msg/Strings.msg"
-    "/home/hiro/rust_ws/src/src/ros2/test_interface_files/msg/UnboundedSequences.msg"
-    "/home/hiro/rust_ws/src/src/ros2/test_interface_files/msg/WStrings.msg"
+    "/home/hiro/rust_ws/src/ros2/test_interface_files/msg/Arrays.msg"
+    "/home/hiro/rust_ws/src/ros2/test_interface_files/msg/BasicTypes.msg"
+    "/home/hiro/rust_ws/src/ros2/test_interface_files/msg/BoundedPlainSequences.msg"
+    "/home/hiro/rust_ws/src/ros2/test_interface_files/msg/BoundedSequences.msg"
+    "/home/hiro/rust_ws/src/ros2/test_interface_files/msg/Constants.msg"
+    "/home/hiro/rust_ws/src/ros2/test_interface_files/msg/Defaults.msg"
+    "/home/hiro/rust_ws/src/ros2/test_interface_files/msg/Empty.msg"
+    "/home/hiro/rust_ws/src/ros2/test_interface_files/msg/MultiNested.msg"
+    "/home/hiro/rust_ws/src/ros2/test_interface_files/msg/Nested.msg"
+    "/home/hiro/rust_ws/src/ros2/test_interface_files/msg/Strings.msg"
+    "/home/hiro/rust_ws/src/ros2/test_interface_files/msg/UnboundedSequences.msg"
+    "/home/hiro/rust_ws/src/ros2/test_interface_files/msg/WStrings.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_interface_files/srv" TYPE FILE FILES
-    "/home/hiro/rust_ws/src/src/ros2/test_interface_files/srv/Arrays.srv"
-    "/home/hiro/rust_ws/src/src/ros2/test_interface_files/srv/BasicTypes.srv"
-    "/home/hiro/rust_ws/src/src/ros2/test_interface_files/srv/Empty.srv"
+    "/home/hiro/rust_ws/src/ros2/test_interface_files/srv/Arrays.srv"
+    "/home/hiro/rust_ws/src/ros2/test_interface_files/srv/BasicTypes.srv"
+    "/home/hiro/rust_ws/src/ros2/test_interface_files/srv/Empty.srv"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_interface_files/action" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/test_interface_files/action/Fibonacci.action")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_interface_files/action" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/test_interface_files/action/Fibonacci.action")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -126,7 +126,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_interface_files" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/test_interface_files/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_interface_files" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/test_interface_files/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

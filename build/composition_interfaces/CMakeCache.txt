@@ -361,7 +361,7 @@ composition_interfaces_BINARY_DIR:STATIC=/home/hiro/rust_ws/build/composition_in
 composition_interfaces_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-composition_interfaces_SOURCE_DIR:STATIC=/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/composition_interfaces
+composition_interfaces_SOURCE_DIR:STATIC=/home/hiro/rust_ws/src/ros2/rcl_interfaces/composition_interfaces
 
 //Dependencies for the target
 composition_interfaces__rosidl_generator_c_LIB_DEPENDS:STATIC=general;rcl_interfaces::rcl_interfaces__rosidl_generator_c;general;builtin_interfaces::builtin_interfaces__rosidl_generator_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rcutils::rcutils;
@@ -553,7 +553,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/composition_interfaces
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/hiro/rust_ws/src/ros2/rcl_interfaces/composition_interfaces
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

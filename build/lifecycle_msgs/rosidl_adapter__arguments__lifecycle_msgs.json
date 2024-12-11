@@ -1,13 +1,13 @@
 {
   "package_name": "lifecycle_msgs",
   "non_idl_tuples": [
-    "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs:msg/State.msg",
-    "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs:msg/Transition.msg",
-    "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs:msg/TransitionDescription.msg",
-    "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs:msg/TransitionEvent.msg",
-    "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs:srv/ChangeState.srv",
-    "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs:srv/GetAvailableStates.srv",
-    "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs:srv/GetAvailableTransitions.srv",
-    "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs:srv/GetState.srv"
+    "/home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs:msg/State.msg",
+    "/home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs:msg/Transition.msg",
+    "/home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs:msg/TransitionDescription.msg",
+    "/home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs:msg/TransitionEvent.msg",
+    "/home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs:srv/ChangeState.srv",
+    "/home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs:srv/GetAvailableStates.srv",
+    "/home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs:srv/GetAvailableTransitions.srv",
+    "/home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs:srv/GetState.srv"
   ]
 }

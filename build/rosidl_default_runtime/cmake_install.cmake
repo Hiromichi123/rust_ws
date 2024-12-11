@@ -1,4 +1,4 @@
-# Install script for directory: /home/hiro/rust_ws/src/src/ros2/rosidl_defaults/rosidl_default_runtime
+# Install script for directory: /home/hiro/rust_ws/src/ros2/rosidl_defaults/rosidl_default_runtime
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -97,7 +97,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosidl_default_runtime" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rosidl_defaults/rosidl_default_runtime/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosidl_default_runtime" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rosidl_defaults/rosidl_default_runtime/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

@@ -3,7 +3,7 @@
   "output_dir": "/home/hiro/rust_ws/build/rclrs_example_msgs/rosidl_generator_py/rclrs_example_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/hiro/rust_ws/src/src/ros2_rust/examples/rclrs_example_msgs:msg/MyMessage.idl",
+    "/home/hiro/rust_ws/src/ros2_rust/examples/rclrs_example_msgs:msg/MyMessage.idl",
     "/home/hiro/rust_ws/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs:msg/NestedType.idl",
     "/home/hiro/rust_ws/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs:msg/VariousTypes.idl"
   ],
@@ -21,7 +21,7 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/hiro/rust_ws/src/src/ros2_rust/examples/rclrs_example_msgs/msg/MyMessage.idl",
+    "/home/hiro/rust_ws/src/ros2_rust/examples/rclrs_example_msgs/msg/MyMessage.idl",
     "/home/hiro/rust_ws/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs/msg/NestedType.idl",
     "/home/hiro/rust_ws/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs/msg/VariousTypes.idl"
   ]

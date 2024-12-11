@@ -1,4 +1,4 @@
-# Install script for directory: /home/hiro/rust_ws/src/src/ros2/example_interfaces
+# Install script for directory: /home/hiro/rust_ws/src/ros2/example_interfaces
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -496,127 +496,127 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/action" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/action/Fibonacci.action")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/action" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/action/Fibonacci.action")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/Bool.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/Bool.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/Byte.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/Byte.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/ByteMultiArray.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/ByteMultiArray.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/Char.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/Char.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/Empty.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/Empty.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/Float32.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/Float32.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/Float32MultiArray.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/Float32MultiArray.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/Float64.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/Float64.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/Float64MultiArray.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/Float64MultiArray.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/Int16.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/Int16.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/Int16MultiArray.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/Int16MultiArray.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/Int32.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/Int32.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/Int32MultiArray.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/Int32MultiArray.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/Int64.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/Int64.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/Int64MultiArray.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/Int64MultiArray.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/Int8.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/Int8.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/Int8MultiArray.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/Int8MultiArray.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/MultiArrayDimension.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/MultiArrayDimension.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/MultiArrayLayout.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/MultiArrayLayout.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/String.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/String.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/UInt16.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/UInt16.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/UInt16MultiArray.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/UInt16MultiArray.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/UInt32.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/UInt32.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/UInt32MultiArray.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/UInt32MultiArray.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/UInt64.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/UInt64.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/UInt64MultiArray.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/UInt64MultiArray.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/UInt8.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/UInt8.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/UInt8MultiArray.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/UInt8MultiArray.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/msg/WString.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/msg/WString.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/srv/AddTwoInts.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/srv/AddTwoInts.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -628,7 +628,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/srv/SetBool.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/srv/SetBool.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -640,7 +640,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/srv/Trigger.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/srv/Trigger.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -652,7 +652,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/mapping_rules.yaml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/mapping_rules.yaml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -907,7 +907,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/example_interfaces/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_interfaces" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/example_interfaces/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

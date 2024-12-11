@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/src/ros2/common_interfaces/std_srvs
+CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/ros2/common_interfaces/std_srvs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hiro/rust_ws/build/std_srvs
@@ -175,6 +175,6 @@ CMakeFiles/std_srvs__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typ
 CMakeFiles/std_srvs__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/std_srvs/srv/detail/set_bool__type_support.cpp
 CMakeFiles/std_srvs__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_cpp.hpp
 CMakeFiles/std_srvs__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/std_srvs/srv/detail/trigger__type_support.cpp
-	cd /home/hiro/rust_ws/build/std_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/src/ros2/common_interfaces/std_srvs /home/hiro/rust_ws/src/src/ros2/common_interfaces/std_srvs /home/hiro/rust_ws/build/std_srvs /home/hiro/rust_ws/build/std_srvs /home/hiro/rust_ws/build/std_srvs/CMakeFiles/std_srvs__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hiro/rust_ws/build/std_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/ros2/common_interfaces/std_srvs /home/hiro/rust_ws/src/ros2/common_interfaces/std_srvs /home/hiro/rust_ws/build/std_srvs /home/hiro/rust_ws/build/std_srvs /home/hiro/rust_ws/build/std_srvs/CMakeFiles/std_srvs__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_srvs__rosidl_typesupport_introspection_cpp.dir/depend
 

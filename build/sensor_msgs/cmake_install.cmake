@@ -1,4 +1,4 @@
-# Install script for directory: /home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs
+# Install script for directory: /home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -476,115 +476,115 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/BatteryState.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/BatteryState.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/CameraInfo.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/CameraInfo.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/ChannelFloat32.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/ChannelFloat32.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/CompressedImage.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/CompressedImage.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/FluidPressure.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/FluidPressure.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/Illuminance.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/Illuminance.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/Image.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/Image.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/Imu.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/Imu.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/JointState.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/JointState.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/Joy.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/Joy.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/JoyFeedback.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/JoyFeedback.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/JoyFeedbackArray.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/JoyFeedbackArray.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/LaserEcho.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/LaserEcho.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/LaserScan.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/LaserScan.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/MagneticField.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/MagneticField.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/MultiDOFJointState.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/MultiDOFJointState.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/MultiEchoLaserScan.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/MultiEchoLaserScan.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/NavSatFix.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/NavSatFix.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/NavSatStatus.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/NavSatStatus.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/PointCloud.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/PointCloud.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/PointCloud2.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/PointCloud2.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/PointField.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/PointField.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/Range.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/Range.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/RegionOfInterest.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/RegionOfInterest.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/RelativeHumidity.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/RelativeHumidity.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/Temperature.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/Temperature.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/msg/TimeReference.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/msg/TimeReference.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/srv/SetCameraInfo.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/srv/SetCameraInfo.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -596,7 +596,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/sensor_msgs" TYPE DIRECTORY FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/sensor_msgs" TYPE DIRECTORY FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -867,7 +867,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_msgs" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

@@ -268,7 +268,7 @@ action_msgs_BINARY_DIR:STATIC=/home/hiro/rust_ws/build/action_msgs
 action_msgs_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-action_msgs_SOURCE_DIR:STATIC=/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/action_msgs
+action_msgs_SOURCE_DIR:STATIC=/home/hiro/rust_ws/src/ros2/rcl_interfaces/action_msgs
 
 //Dependencies for the target
 action_msgs__rosidl_generator_c_LIB_DEPENDS:STATIC=general;builtin_interfaces::builtin_interfaces__rosidl_generator_c;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rcutils::rcutils;
@@ -580,7 +580,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/action_msgs
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/hiro/rust_ws/src/ros2/rcl_interfaces/action_msgs
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

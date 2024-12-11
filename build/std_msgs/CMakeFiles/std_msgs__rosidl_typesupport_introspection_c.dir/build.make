@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/src/ros2/common_interfaces/std_msgs
+CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/ros2/common_interfaces/std_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hiro/rust_ws/build/std_msgs
@@ -854,6 +854,6 @@ CMakeFiles/std_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_types
 CMakeFiles/std_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/std_msgs/msg/detail/u_int8__type_support.c
 CMakeFiles/std_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/std_msgs/msg/detail/u_int8_multi_array__rosidl_typesupport_introspection_c.h
 CMakeFiles/std_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/std_msgs/msg/detail/u_int8_multi_array__type_support.c
-	cd /home/hiro/rust_ws/build/std_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/src/ros2/common_interfaces/std_msgs /home/hiro/rust_ws/src/src/ros2/common_interfaces/std_msgs /home/hiro/rust_ws/build/std_msgs /home/hiro/rust_ws/build/std_msgs /home/hiro/rust_ws/build/std_msgs/CMakeFiles/std_msgs__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hiro/rust_ws/build/std_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/ros2/common_interfaces/std_msgs /home/hiro/rust_ws/src/ros2/common_interfaces/std_msgs /home/hiro/rust_ws/build/std_msgs /home/hiro/rust_ws/build/std_msgs /home/hiro/rust_ws/build/std_msgs/CMakeFiles/std_msgs__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs__rosidl_typesupport_introspection_c.dir/depend
 

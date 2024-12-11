@@ -1,4 +1,4 @@
-# Install script for directory: /home/hiro/rust_ws/src/src/ros2/common_interfaces/stereo_msgs
+# Install script for directory: /home/hiro/rust_ws/src/ros2/common_interfaces/stereo_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -368,7 +368,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stereo_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/stereo_msgs/msg/DisparityImage.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stereo_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/stereo_msgs/msg/DisparityImage.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -623,7 +623,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stereo_msgs" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/stereo_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stereo_msgs" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/stereo_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

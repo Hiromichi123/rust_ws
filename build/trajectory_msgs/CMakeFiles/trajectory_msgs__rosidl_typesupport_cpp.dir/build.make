@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/src/ros2/common_interfaces/trajectory_msgs
+CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/ros2/common_interfaces/trajectory_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hiro/rust_ws/build/trajectory_msgs
@@ -247,6 +247,6 @@ CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/depend: rosidl_typesuppor
 CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp
 CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp
 CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp
-	cd /home/hiro/rust_ws/build/trajectory_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/src/ros2/common_interfaces/trajectory_msgs /home/hiro/rust_ws/src/src/ros2/common_interfaces/trajectory_msgs /home/hiro/rust_ws/build/trajectory_msgs /home/hiro/rust_ws/build/trajectory_msgs /home/hiro/rust_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hiro/rust_ws/build/trajectory_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/ros2/common_interfaces/trajectory_msgs /home/hiro/rust_ws/src/ros2/common_interfaces/trajectory_msgs /home/hiro/rust_ws/build/trajectory_msgs /home/hiro/rust_ws/build/trajectory_msgs /home/hiro/rust_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/depend
 

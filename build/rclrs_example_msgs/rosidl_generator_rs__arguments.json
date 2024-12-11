@@ -3,12 +3,12 @@
   "output_dir": "/home/hiro/rust_ws/build/rclrs_example_msgs/rosidl_generator_rs/rclrs_example_msgs",
   "template_dir": "/home/hiro/rust_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource",
   "idl_tuples": [
-    "/home/hiro/rust_ws/src/src/ros2_rust/examples/rclrs_example_msgs:msg/MyMessage.idl",
+    "/home/hiro/rust_ws/src/ros2_rust/examples/rclrs_example_msgs:msg/MyMessage.idl",
     "/home/hiro/rust_ws/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs:msg/NestedType.idl",
     "/home/hiro/rust_ws/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs:msg/VariousTypes.idl"
   ],
   "ros_interface_files": [
-    "/home/hiro/rust_ws/src/src/ros2_rust/examples/rclrs_example_msgs/msg/MyMessage.idl",
+    "/home/hiro/rust_ws/src/ros2_rust/examples/rclrs_example_msgs/msg/MyMessage.idl",
     "/home/hiro/rust_ws/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs/msg/NestedType.idl",
     "/home/hiro/rust_ws/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs/msg/VariousTypes.idl"
   ],
@@ -22,10 +22,10 @@
     "/home/hiro/rust_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/srv_idiomatic.rs.em",
     "/home/hiro/rust_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/srv_rmw.rs.em",
     "/home/hiro/rust_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/srv.rs.em",
-    "/home/hiro/rust_ws/src/src/ros2_rust/examples/rclrs_example_msgs/msg/MyMessage.idl",
+    "/home/hiro/rust_ws/src/ros2_rust/examples/rclrs_example_msgs/msg/MyMessage.idl",
     "/home/hiro/rust_ws/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs/msg/NestedType.idl",
     "/home/hiro/rust_ws/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs/msg/VariousTypes.idl",
-    "/home/hiro/rust_ws/src/src/ros2_rust/examples/rclrs_example_msgs/msg/MyMessage.idl",
+    "/home/hiro/rust_ws/src/ros2_rust/examples/rclrs_example_msgs/msg/MyMessage.idl",
     "/home/hiro/rust_ws/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs/msg/NestedType.idl",
     "/home/hiro/rust_ws/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs/msg/VariousTypes.idl"
   ],

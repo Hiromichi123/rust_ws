@@ -1,4 +1,4 @@
-# Install script for directory: /home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs
+# Install script for directory: /home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -396,23 +396,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lifecycle_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs/msg/State.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lifecycle_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs/msg/State.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lifecycle_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs/msg/Transition.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lifecycle_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs/msg/Transition.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lifecycle_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs/msg/TransitionDescription.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lifecycle_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs/msg/TransitionDescription.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lifecycle_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs/msg/TransitionEvent.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lifecycle_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs/msg/TransitionEvent.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lifecycle_msgs/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs/srv/ChangeState.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lifecycle_msgs/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs/srv/ChangeState.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -424,7 +424,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lifecycle_msgs/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs/srv/GetAvailableStates.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lifecycle_msgs/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs/srv/GetAvailableStates.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -436,7 +436,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lifecycle_msgs/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs/srv/GetAvailableTransitions.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lifecycle_msgs/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs/srv/GetAvailableTransitions.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -448,7 +448,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lifecycle_msgs/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs/srv/GetState.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lifecycle_msgs/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs/srv/GetState.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -711,7 +711,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lifecycle_msgs" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lifecycle_msgs" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

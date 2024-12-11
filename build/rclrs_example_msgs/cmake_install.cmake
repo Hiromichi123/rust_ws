@@ -1,4 +1,4 @@
-# Install script for directory: /home/hiro/rust_ws/src/src/ros2_rust/examples/rclrs_example_msgs
+# Install script for directory: /home/hiro/rust_ws/src/ros2_rust/examples/rclrs_example_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -364,7 +364,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rclrs_example_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2_rust/examples/rclrs_example_msgs/msg/MyMessage.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rclrs_example_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2_rust/examples/rclrs_example_msgs/msg/MyMessage.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -376,11 +376,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rclrs_example_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2_rust/examples/rclrs_example_msgs/msg/NestedType.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rclrs_example_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2_rust/examples/rclrs_example_msgs/msg/NestedType.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rclrs_example_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2_rust/examples/rclrs_example_msgs/msg/VariousTypes.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rclrs_example_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2_rust/examples/rclrs_example_msgs/msg/VariousTypes.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -635,7 +635,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rclrs_example_msgs" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2_rust/examples/rclrs_example_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rclrs_example_msgs" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2_rust/examples/rclrs_example_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

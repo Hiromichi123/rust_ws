@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/src/ros2_rust/rosidl_generator_rs
+CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/ros2_rust/rosidl_generator_rs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hiro/rust_ws/build/rosidl_generator_rs
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_rosidl_generator_rs.dir/compiler_depe
 include CMakeFiles/ament_cmake_python_copy_rosidl_generator_rs.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_rosidl_generator_rs:
-	/usr/bin/cmake -E copy_directory /home/hiro/rust_ws/src/src/ros2_rust/rosidl_generator_rs/rosidl_generator_rs /home/hiro/rust_ws/build/rosidl_generator_rs/ament_cmake_python/rosidl_generator_rs/rosidl_generator_rs
+	/usr/bin/cmake -E copy_directory /home/hiro/rust_ws/src/ros2_rust/rosidl_generator_rs/rosidl_generator_rs /home/hiro/rust_ws/build/rosidl_generator_rs/ament_cmake_python/rosidl_generator_rs/rosidl_generator_rs
 
 ament_cmake_python_copy_rosidl_generator_rs: CMakeFiles/ament_cmake_python_copy_rosidl_generator_rs
 ament_cmake_python_copy_rosidl_generator_rs: CMakeFiles/ament_cmake_python_copy_rosidl_generator_rs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_rosidl_generator_rs.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_rosidl_generator_rs.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_rosidl_generator_rs.dir/depend:
-	cd /home/hiro/rust_ws/build/rosidl_generator_rs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/src/ros2_rust/rosidl_generator_rs /home/hiro/rust_ws/src/src/ros2_rust/rosidl_generator_rs /home/hiro/rust_ws/build/rosidl_generator_rs /home/hiro/rust_ws/build/rosidl_generator_rs /home/hiro/rust_ws/build/rosidl_generator_rs/CMakeFiles/ament_cmake_python_copy_rosidl_generator_rs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hiro/rust_ws/build/rosidl_generator_rs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/ros2_rust/rosidl_generator_rs /home/hiro/rust_ws/src/ros2_rust/rosidl_generator_rs /home/hiro/rust_ws/build/rosidl_generator_rs /home/hiro/rust_ws/build/rosidl_generator_rs /home/hiro/rust_ws/build/rosidl_generator_rs/CMakeFiles/ament_cmake_python_copy_rosidl_generator_rs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_rosidl_generator_rs.dir/depend
 

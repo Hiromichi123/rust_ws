@@ -1,4 +1,4 @@
-# Install script for directory: /home/hiro/rust_ws/src/src/ros2/unique_identifier_msgs
+# Install script for directory: /home/hiro/rust_ws/src/ros2/unique_identifier_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -368,7 +368,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unique_identifier_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/unique_identifier_msgs/msg/UUID.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unique_identifier_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/unique_identifier_msgs/msg/UUID.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -623,11 +623,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unique_identifier_msgs" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/unique_identifier_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unique_identifier_msgs" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/unique_identifier_msgs/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unique_identifier_msgs" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/unique_identifier_msgs/mapping_rules.yaml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unique_identifier_msgs" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/unique_identifier_msgs/mapping_rules.yaml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs
+CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hiro/rust_ws/build/sensor_msgs
@@ -866,6 +866,6 @@ CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_types
 CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/sensor_msgs/srv/detail/dds_fastrtps/set_camera_info__type_support.cpp
 CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
-	cd /home/hiro/rust_ws/build/sensor_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs /home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs /home/hiro/rust_ws/build/sensor_msgs /home/hiro/rust_ws/build/sensor_msgs /home/hiro/rust_ws/build/sensor_msgs/CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hiro/rust_ws/build/sensor_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs /home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs /home/hiro/rust_ws/build/sensor_msgs /home/hiro/rust_ws/build/sensor_msgs /home/hiro/rust_ws/build/sensor_msgs/CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend
 

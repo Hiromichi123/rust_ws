@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/src/ros2/common_interfaces/stereo_msgs
+CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/ros2/common_interfaces/stereo_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hiro/rust_ws/build/stereo_msgs
@@ -214,6 +214,6 @@ stereo_msgs__py/CMakeFiles/stereo_msgs__py.dir/clean:
 .PHONY : stereo_msgs__py/CMakeFiles/stereo_msgs__py.dir/clean
 
 stereo_msgs__py/CMakeFiles/stereo_msgs__py.dir/depend:
-	cd /home/hiro/rust_ws/build/stereo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/src/ros2/common_interfaces/stereo_msgs /home/hiro/rust_ws/build/stereo_msgs/stereo_msgs__py /home/hiro/rust_ws/build/stereo_msgs /home/hiro/rust_ws/build/stereo_msgs/stereo_msgs__py /home/hiro/rust_ws/build/stereo_msgs/stereo_msgs__py/CMakeFiles/stereo_msgs__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hiro/rust_ws/build/stereo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/ros2/common_interfaces/stereo_msgs /home/hiro/rust_ws/build/stereo_msgs/stereo_msgs__py /home/hiro/rust_ws/build/stereo_msgs /home/hiro/rust_ws/build/stereo_msgs/stereo_msgs__py /home/hiro/rust_ws/build/stereo_msgs/stereo_msgs__py/CMakeFiles/stereo_msgs__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : stereo_msgs__py/CMakeFiles/stereo_msgs__py.dir/depend
 

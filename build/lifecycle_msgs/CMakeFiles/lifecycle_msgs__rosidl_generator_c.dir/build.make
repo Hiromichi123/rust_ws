@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs
+CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hiro/rust_ws/build/lifecycle_msgs
@@ -399,6 +399,6 @@ CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/lif
 CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/lifecycle_msgs/srv/get_available_states.h
 CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/lifecycle_msgs/srv/get_available_transitions.h
 CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/lifecycle_msgs/srv/get_state.h
-	cd /home/hiro/rust_ws/build/lifecycle_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs /home/hiro/rust_ws/src/src/ros2/rcl_interfaces/lifecycle_msgs /home/hiro/rust_ws/build/lifecycle_msgs /home/hiro/rust_ws/build/lifecycle_msgs /home/hiro/rust_ws/build/lifecycle_msgs/CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hiro/rust_ws/build/lifecycle_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs /home/hiro/rust_ws/src/ros2/rcl_interfaces/lifecycle_msgs /home/hiro/rust_ws/build/lifecycle_msgs /home/hiro/rust_ws/build/lifecycle_msgs /home/hiro/rust_ws/build/lifecycle_msgs/CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/depend
 

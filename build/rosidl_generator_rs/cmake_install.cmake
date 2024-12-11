@@ -1,4 +1,4 @@
-# Install script for directory: /home/hiro/rust_ws/src/src/ros2_rust/rosidl_generator_rs
+# Install script for directory: /home/hiro/rust_ws/src/ros2_rust/rosidl_generator_rs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -63,7 +63,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/rosidl_generator_rs" TYPE DIRECTORY FILES "/home/hiro/rust_ws/src/src/ros2_rust/rosidl_generator_rs/rosidl_generator_rs/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/rosidl_generator_rs" TYPE DIRECTORY FILES "/home/hiro/rust_ws/src/ros2_rust/rosidl_generator_rs/rosidl_generator_rs/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -127,7 +127,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosidl_generator_rs/cmake" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2_rust/rosidl_generator_rs/cmake/register_rs.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosidl_generator_rs/cmake" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2_rust/rosidl_generator_rs/cmake/register_rs.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -142,21 +142,21 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosidl_generator_rs" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2_rust/rosidl_generator_rs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosidl_generator_rs" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2_rust/rosidl_generator_rs/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosidl_generator_rs" TYPE DIRECTORY FILES "/home/hiro/rust_ws/src/src/ros2_rust/rosidl_generator_rs/cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosidl_generator_rs" TYPE DIRECTORY FILES "/home/hiro/rust_ws/src/ros2_rust/rosidl_generator_rs/cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rosidl_generator_rs" TYPE PROGRAM FILES "/home/hiro/rust_ws/src/src/ros2_rust/rosidl_generator_rs/bin/rosidl_generator_rs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rosidl_generator_rs" TYPE PROGRAM FILES "/home/hiro/rust_ws/src/ros2_rust/rosidl_generator_rs/bin/rosidl_generator_rs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosidl_generator_rs" TYPE DIRECTORY FILES
-    "/home/hiro/rust_ws/src/src/ros2_rust/rosidl_generator_rs/cmake"
-    "/home/hiro/rust_ws/src/src/ros2_rust/rosidl_generator_rs/resource"
+    "/home/hiro/rust_ws/src/ros2_rust/rosidl_generator_rs/cmake"
+    "/home/hiro/rust_ws/src/ros2_rust/rosidl_generator_rs/resource"
     )
 endif()
 

@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/src/ros2/rcl_interfaces/statistics_msgs
+CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/ros2/rcl_interfaces/statistics_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hiro/rust_ws/build/statistics_msgs
@@ -117,6 +117,6 @@ statistics_msgs__rs/CMakeFiles/statistics_msgs__rs.dir/clean:
 .PHONY : statistics_msgs__rs/CMakeFiles/statistics_msgs__rs.dir/clean
 
 statistics_msgs__rs/CMakeFiles/statistics_msgs__rs.dir/depend:
-	cd /home/hiro/rust_ws/build/statistics_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/src/ros2/rcl_interfaces/statistics_msgs /home/hiro/rust_ws/build/statistics_msgs/statistics_msgs__rs /home/hiro/rust_ws/build/statistics_msgs /home/hiro/rust_ws/build/statistics_msgs/statistics_msgs__rs /home/hiro/rust_ws/build/statistics_msgs/statistics_msgs__rs/CMakeFiles/statistics_msgs__rs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hiro/rust_ws/build/statistics_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/ros2/rcl_interfaces/statistics_msgs /home/hiro/rust_ws/build/statistics_msgs/statistics_msgs__rs /home/hiro/rust_ws/build/statistics_msgs /home/hiro/rust_ws/build/statistics_msgs/statistics_msgs__rs /home/hiro/rust_ws/build/statistics_msgs/statistics_msgs__rs/CMakeFiles/statistics_msgs__rs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : statistics_msgs__rs/CMakeFiles/statistics_msgs__rs.dir/depend
 

@@ -1,9 +1,9 @@
 {
   "package_name": "action_msgs",
   "non_idl_tuples": [
-    "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/action_msgs:msg/GoalInfo.msg",
-    "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/action_msgs:msg/GoalStatus.msg",
-    "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/action_msgs:msg/GoalStatusArray.msg",
-    "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/action_msgs:srv/CancelGoal.srv"
+    "/home/hiro/rust_ws/src/ros2/rcl_interfaces/action_msgs:msg/GoalInfo.msg",
+    "/home/hiro/rust_ws/src/ros2/rcl_interfaces/action_msgs:msg/GoalStatus.msg",
+    "/home/hiro/rust_ws/src/ros2/rcl_interfaces/action_msgs:msg/GoalStatusArray.msg",
+    "/home/hiro/rust_ws/src/ros2/rcl_interfaces/action_msgs:srv/CancelGoal.srv"
   ]
 }

@@ -1,0 +1,1 @@
+cargo:rustc-link-search=/home/hiro/rust_ws/install/unique_identifier_msgs/lib

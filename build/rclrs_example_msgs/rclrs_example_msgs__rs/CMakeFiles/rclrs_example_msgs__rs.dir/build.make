@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/src/ros2_rust/examples/rclrs_example_msgs
+CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/ros2_rust/examples/rclrs_example_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hiro/rust_ws/build/rclrs_example_msgs
@@ -80,10 +80,10 @@ rosidl_generator_rs/rclrs_example_msgs/rust/src/lib.rs: /home/hiro/rust_ws/insta
 rosidl_generator_rs/rclrs_example_msgs/rust/src/lib.rs: /home/hiro/rust_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/srv_idiomatic.rs.em
 rosidl_generator_rs/rclrs_example_msgs/rust/src/lib.rs: /home/hiro/rust_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/srv_rmw.rs.em
 rosidl_generator_rs/rclrs_example_msgs/rust/src/lib.rs: /home/hiro/rust_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/srv.rs.em
-rosidl_generator_rs/rclrs_example_msgs/rust/src/lib.rs: /home/hiro/rust_ws/src/src/ros2_rust/examples/rclrs_example_msgs/msg/MyMessage.idl
+rosidl_generator_rs/rclrs_example_msgs/rust/src/lib.rs: /home/hiro/rust_ws/src/ros2_rust/examples/rclrs_example_msgs/msg/MyMessage.idl
 rosidl_generator_rs/rclrs_example_msgs/rust/src/lib.rs: rosidl_adapter/rclrs_example_msgs/msg/NestedType.idl
 rosidl_generator_rs/rclrs_example_msgs/rust/src/lib.rs: rosidl_adapter/rclrs_example_msgs/msg/VariousTypes.idl
-rosidl_generator_rs/rclrs_example_msgs/rust/src/lib.rs: /home/hiro/rust_ws/src/src/ros2_rust/examples/rclrs_example_msgs/msg/MyMessage.idl
+rosidl_generator_rs/rclrs_example_msgs/rust/src/lib.rs: /home/hiro/rust_ws/src/ros2_rust/examples/rclrs_example_msgs/msg/MyMessage.idl
 rosidl_generator_rs/rclrs_example_msgs/rust/src/lib.rs: rosidl_adapter/rclrs_example_msgs/msg/NestedType.idl
 rosidl_generator_rs/rclrs_example_msgs/rust/src/lib.rs: rosidl_adapter/rclrs_example_msgs/msg/VariousTypes.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hiro/rust_ws/build/rclrs_example_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Rust code for ROS interfaces"
@@ -115,6 +115,6 @@ rclrs_example_msgs__rs/CMakeFiles/rclrs_example_msgs__rs.dir/clean:
 .PHONY : rclrs_example_msgs__rs/CMakeFiles/rclrs_example_msgs__rs.dir/clean
 
 rclrs_example_msgs__rs/CMakeFiles/rclrs_example_msgs__rs.dir/depend:
-	cd /home/hiro/rust_ws/build/rclrs_example_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/src/ros2_rust/examples/rclrs_example_msgs /home/hiro/rust_ws/build/rclrs_example_msgs/rclrs_example_msgs__rs /home/hiro/rust_ws/build/rclrs_example_msgs /home/hiro/rust_ws/build/rclrs_example_msgs/rclrs_example_msgs__rs /home/hiro/rust_ws/build/rclrs_example_msgs/rclrs_example_msgs__rs/CMakeFiles/rclrs_example_msgs__rs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hiro/rust_ws/build/rclrs_example_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/ros2_rust/examples/rclrs_example_msgs /home/hiro/rust_ws/build/rclrs_example_msgs/rclrs_example_msgs__rs /home/hiro/rust_ws/build/rclrs_example_msgs /home/hiro/rust_ws/build/rclrs_example_msgs/rclrs_example_msgs__rs /home/hiro/rust_ws/build/rclrs_example_msgs/rclrs_example_msgs__rs/CMakeFiles/rclrs_example_msgs__rs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rclrs_example_msgs__rs/CMakeFiles/rclrs_example_msgs__rs.dir/depend
 

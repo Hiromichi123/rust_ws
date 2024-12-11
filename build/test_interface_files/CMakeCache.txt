@@ -78,7 +78,7 @@ test_interface_files_BINARY_DIR:STATIC=/home/hiro/rust_ws/build/test_interface_f
 test_interface_files_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-test_interface_files_SOURCE_DIR:STATIC=/home/hiro/rust_ws/src/src/ros2/test_interface_files
+test_interface_files_SOURCE_DIR:STATIC=/home/hiro/rust_ws/src/ros2/test_interface_files
 
 
 ########################
@@ -115,7 +115,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/hiro/rust_ws/src/src/ros2/test_interface_files
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/hiro/rust_ws/src/ros2/test_interface_files
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MAKE_PROGRAM

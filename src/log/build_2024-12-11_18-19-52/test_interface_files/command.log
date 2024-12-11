@@ -1,4 +1,0 @@
-Invoking command in '/home/hiro/rust_ws/src/build/test_interface_files': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hiro/rust_ws/src/build/test_interface_files -- -j22 -l22
-Invoked command in '/home/hiro/rust_ws/src/build/test_interface_files' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hiro/rust_ws/src/build/test_interface_files -- -j22 -l22
-Invoking command in '/home/hiro/rust_ws/src/build/test_interface_files': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hiro/rust_ws/src/build/test_interface_files
-Invoked command in '/home/hiro/rust_ws/src/build/test_interface_files' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hiro/rust_ws/src/build/test_interface_files

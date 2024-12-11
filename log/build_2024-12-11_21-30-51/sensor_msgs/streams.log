@@ -1,0 +1,1055 @@
+[0.331s] Invoking command in '/home/hiro/rust_ws/build/sensor_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_runtime_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/ws_livox/install/livox_ros_driver2:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosidl_runtime_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:/home/hiro/rust_ws/install/visualization_msgs/lib:/home/hiro/rust_ws/install/test_msgs/lib:/home/hiro/rust_ws/install/example_interfaces/lib:/home/hiro/rust_ws/install/action_msgs/lib:/home/hiro/rust_ws/install/unique_identifier_msgs/lib:/home/hiro/rust_ws/install/trajectory_msgs/lib:/home/hiro/rust_ws/install/stereo_msgs/lib:/home/hiro/rust_ws/install/std_srvs/lib:/home/hiro/rust_ws/install/shape_msgs/lib:/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/nav_msgs/lib:/home/hiro/rust_ws/install/diagnostic_msgs/lib:/home/hiro/rust_ws/install/actionlib_msgs/lib:/home/hiro/rust_ws/install/statistics_msgs/lib:/home/hiro/rust_ws/install/rosgraph_msgs/lib:/home/hiro/rust_ws/install/rclrs_example_msgs/lib:/home/hiro/rust_ws/install/composition_interfaces/lib:/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/lifecycle_msgs/lib:/home/hiro/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs -DCMAKE_INSTALL_PREFIX=/home/hiro/rust_ws/install/sensor_msgs
+[0.435s] -- The C compiler identification is GNU 11.4.0
+[0.906s] -- The CXX compiler identification is GNU 11.4.0
+[1.417s] -- Detecting C compiler ABI info
+[1.558s] -- Detecting C compiler ABI info - done
+[1.564s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.564s] -- Detecting C compile features
+[1.564s] -- Detecting C compile features - done
+[1.568s] -- Detecting CXX compiler ABI info
+[1.735s] -- Detecting CXX compiler ABI info - done
+[1.743s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.743s] -- Detecting CXX compile features
+[1.743s] -- Detecting CXX compile features - done
+[1.746s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.401s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.571s] -- Found builtin_interfaces: 1.2.1 (/home/hiro/rust_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[3.770s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.782s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.797s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.819s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.846s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.870s] -- Found geometry_msgs: 4.2.4 (/home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[3.910s] -- Found rosidl_default_generators: 1.2.0 (/home/hiro/rust_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[4.901s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[4.908s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[4.912s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[4.916s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.631s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.913s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.128s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.131s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.502s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.502s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.503s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.503s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.545s] -- Found PythonExtra: .so  
+[6.770s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[6.774s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[6.785s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.819s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.824s] -- Looking for pthread.h
+[7.128s] -- Looking for pthread.h - found
+[7.129s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.790s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.791s] -- Found Threads: TRUE  
+[7.813s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.821s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs/include>
+[7.821s] -- Configured cppcheck exclude dirs and/or files: 
+[7.823s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.823s] -- Configured cpplint exclude dirs and/or files: 
+[7.825s] -- Added test 'uncrustify' to check C / C++ code style
+[7.826s] -- Configured uncrustify additional arguments: 
+[7.827s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.830s] -- Added test 'lint_cmake' to check CMake code style
+[7.832s] -- Added test 'xmllint' to check XML markup files
+[7.841s] -- Configuring done
+[8.057s] -- Generating done
+[8.061s] -- Build files have been written to: /home/hiro/rust_ws/build/sensor_msgs
+[8.090s] Invoked command in '/home/hiro/rust_ws/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_runtime_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/ws_livox/install/livox_ros_driver2:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosidl_runtime_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:/home/hiro/rust_ws/install/visualization_msgs/lib:/home/hiro/rust_ws/install/test_msgs/lib:/home/hiro/rust_ws/install/example_interfaces/lib:/home/hiro/rust_ws/install/action_msgs/lib:/home/hiro/rust_ws/install/unique_identifier_msgs/lib:/home/hiro/rust_ws/install/trajectory_msgs/lib:/home/hiro/rust_ws/install/stereo_msgs/lib:/home/hiro/rust_ws/install/std_srvs/lib:/home/hiro/rust_ws/install/shape_msgs/lib:/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/nav_msgs/lib:/home/hiro/rust_ws/install/diagnostic_msgs/lib:/home/hiro/rust_ws/install/actionlib_msgs/lib:/home/hiro/rust_ws/install/statistics_msgs/lib:/home/hiro/rust_ws/install/rosgraph_msgs/lib:/home/hiro/rust_ws/install/rclrs_example_msgs/lib:/home/hiro/rust_ws/install/composition_interfaces/lib:/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/lifecycle_msgs/lib:/home/hiro/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs -DCMAKE_INSTALL_PREFIX=/home/hiro/rust_ws/install/sensor_msgs
+[8.093s] Invoking command in '/home/hiro/rust_ws/build/sensor_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_runtime_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/ws_livox/install/livox_ros_driver2:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosidl_runtime_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:/home/hiro/rust_ws/install/visualization_msgs/lib:/home/hiro/rust_ws/install/test_msgs/lib:/home/hiro/rust_ws/install/example_interfaces/lib:/home/hiro/rust_ws/install/action_msgs/lib:/home/hiro/rust_ws/install/unique_identifier_msgs/lib:/home/hiro/rust_ws/install/trajectory_msgs/lib:/home/hiro/rust_ws/install/stereo_msgs/lib:/home/hiro/rust_ws/install/std_srvs/lib:/home/hiro/rust_ws/install/shape_msgs/lib:/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/nav_msgs/lib:/home/hiro/rust_ws/install/diagnostic_msgs/lib:/home/hiro/rust_ws/install/actionlib_msgs/lib:/home/hiro/rust_ws/install/statistics_msgs/lib:/home/hiro/rust_ws/install/rosgraph_msgs/lib:/home/hiro/rust_ws/install/rclrs_example_msgs/lib:/home/hiro/rust_ws/install/composition_interfaces/lib:/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/lifecycle_msgs/lib:/home/hiro/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hiro/rust_ws/build/sensor_msgs -- -j22 -l22
+[8.184s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.196s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[8.210s] [  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[8.210s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[8.211s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.214s] [  1%] Built target ament_cmake_python_copy_sensor_msgs
+[9.063s] running egg_info
+[9.065s] creating sensor_msgs.egg-info
+[9.131s] writing sensor_msgs.egg-info/PKG-INFO
+[9.131s] writing dependency_links to sensor_msgs.egg-info/dependency_links.txt
+[9.137s] writing top-level names to sensor_msgs.egg-info/top_level.txt
+[9.137s] writing manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[9.230s] reading manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[9.231s] writing manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[9.427s] [  1%] Built target ament_cmake_python_build_sensor_msgs_egg
+[10.187s] [  1%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.460s] [  1%] Built target gtest_main
+[16.720s] [  1%] [32m[1mLinking CXX static library libgtest.a[0m
+[16.797s] [  1%] Built target gtest
+[17.431s] [  1%] Built target sensor_msgs__rs
+[18.140s] [  3%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/battery_state__functions.c.o[0m
+[18.140s] [  3%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/compressed_image__functions.c.o[0m
+[18.141s] [  3%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/channel_float32__functions.c.o[0m
+[18.141s] [  3%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/camera_info__functions.c.o[0m
+[18.142s] [  3%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/fluid_pressure__functions.c.o[0m
+[18.240s] [  3%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud2__functions.c.o[0m
+[18.243s] [  4%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud__functions.c.o[0m
+[18.243s] [  4%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_field__functions.c.o[0m
+[18.251s] [  4%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/relative_humidity__functions.c.o[0m
+[18.255s] [  5%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/region_of_interest__functions.c.o[0m
+[18.329s] [  5%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/temperature__functions.c.o[0m
+[18.337s] [  6%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/time_reference__functions.c.o[0m
+[18.340s] [  6%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/srv/detail/set_camera_info__functions.c.o[0m
+[18.343s] [  6%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/range__functions.c.o[0m
+[18.352s] [  7%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_status__functions.c.o[0m
+[18.413s] [  7%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_fix__functions.c.o[0m
+[18.424s] [  8%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.c.o[0m
+[18.425s] [  8%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_dof_joint_state__functions.c.o[0m
+[18.435s] [  8%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/magnetic_field__functions.c.o[0m
+[18.451s] [  9%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_scan__functions.c.o[0m
+[18.503s] [  9%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_echo__functions.c.o[0m
+[18.519s] [  9%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback_array__functions.c.o[0m
+[18.519s] [ 10%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback__functions.c.o[0m
+[18.526s] [ 10%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy__functions.c.o[0m
+[18.564s] [ 10%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/imu__functions.c.o[0m
+[18.565s] [ 11%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joint_state__functions.c.o[0m
+[18.565s] [ 11%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/image__functions.c.o[0m
+[18.593s] [ 12%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/illuminance__functions.c.o[0m
+[18.654s] [ 13%] [32m[1mLinking C shared library libsensor_msgs__rosidl_generator_c.so[0m
+[18.778s] [ 13%] Built target sensor_msgs__rosidl_generator_c
+[18.794s] [ 13%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[18.796s] [ 14%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[18.796s] [ 15%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[19.263s] [ 15%] Built target sensor_msgs__cpp
+[19.277s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[19.277s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[24.763s] [ 15%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/camera_info__type_support.cpp.o[0m
+[24.781s] [ 16%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/battery_state__type_support.cpp.o[0m
+[24.792s] [ 17%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/compressed_image__type_support.cpp.o[0m
+[24.830s] [ 17%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/channel_float32__type_support.cpp.o[0m
+[24.838s] [ 17%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/fluid_pressure__type_support.cpp.o[0m
+[24.851s] [ 18%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/illuminance__type_support.cpp.o[0m
+[24.871s] [ 18%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/image__type_support.cpp.o[0m
+[24.954s] [ 18%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/imu__type_support.cpp.o[0m
+[24.959s] [ 18%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o[0m
+[24.966s] [ 19%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joint_state__type_support.cpp.o[0m
+[24.983s] [ 19%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy__type_support.cpp.o[0m
+[25.032s] [ 20%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback__type_support.cpp.o[0m
+[25.105s] [ 20%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud__type_support.cpp.o[0m
+[25.118s] [ 20%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o[0m
+[25.197s] [ 21%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_status__type_support.cpp.o[0m
+[25.283s] [ 21%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/range__type_support.cpp.o[0m
+[25.285s] [ 22%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[25.352s] [ 23%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_field__type_support.cpp.o[0m
+[25.398s] [ 23%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/relative_humidity__type_support.cpp.o[0m
+[25.411s] [ 23%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/temperature__type_support.cpp.o[0m
+[25.507s] [ 24%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/time_reference__type_support.cpp.o[0m
+[25.521s] [ 24%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/srv/set_camera_info__type_support.cpp.o[0m
+[25.583s] [ 24%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud2__type_support.cpp.o[0m
+[25.631s] [ 24%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o[0m
+[25.767s] [ 24%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_echo__type_support.cpp.o[0m
+[25.775s] [ 25%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o[0m
+[25.788s] [ 26%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_scan__type_support.cpp.o[0m
+[25.789s] [ 26%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/magnetic_field__type_support.cpp.o[0m
+[26.309s] [ 27%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_c.so[0m
+[27.023s] [ 27%] Built target sensor_msgs__rosidl_typesupport_c
+[27.173s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[31.103s] [ 28%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/battery_state__type_support_c.cpp.o[0m
+[32.050s] [ 28%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/battery_state__type_support.c.o[0m
+[32.329s] [ 28%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/channel_float32__type_support.c.o[0m
+[32.523s] [ 29%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/camera_info__type_support.c.o[0m
+[32.759s] [ 29%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/compressed_image__type_support.c.o[0m
+[32.974s] [ 29%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/battery_state__type_support.cpp.o[0m
+[32.977s] [ 30%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/fluid_pressure__type_support.c.o[0m
+[33.217s] [ 30%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/illuminance__type_support.c.o[0m
+[33.277s] [ 31%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/nav_sat_fix__type_support_c.cpp.o[0m
+[33.398s] [ 31%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/image__type_support.c.o[0m
+[33.533s] [ 32%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/imu__type_support.c.o[0m
+[33.658s] [ 33%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/battery_state__type_support.cpp.o[0m
+[33.793s] [ 33%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joint_state__type_support.c.o[0m
+[34.164s] [ 34%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy__type_support.c.o[0m
+[34.431s] [ 34%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy_feedback__type_support.c.o[0m
+[34.689s] [ 34%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy_feedback_array__type_support.c.o[0m
+[34.902s] [ 35%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/laser_echo__type_support.c.o[0m
+[34.924s] [ 36%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/camera_info__type_support.cpp.o[0m
+[35.107s] [ 36%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/laser_scan__type_support.c.o[0m
+[35.165s] [ 36%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/camera_info__type_support.cpp.o[0m
+[35.328s] [ 36%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support_c.cpp.o[0m
+[35.328s] [ 37%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/magnetic_field__type_support.c.o[0m
+[35.513s] [ 37%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c.o[0m
+[35.759s] [ 37%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c.o[0m
+[35.993s] [ 38%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/nav_sat_fix__type_support.c.o[0m
+[36.190s] [ 38%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/nav_sat_status__type_support.c.o[0m
+[36.370s] [ 39%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_cloud__type_support.c.o[0m
+[36.514s] [ 40%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support_c.cpp.o[0m
+[36.615s] [ 40%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_cloud2__type_support.c.o[0m
+[36.930s] [ 40%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/channel_float32__type_support.cpp.o[0m
+[36.931s] [ 40%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_field__type_support.c.o[0m
+[37.113s] [ 40%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/channel_float32__type_support.cpp.o[0m
+[37.219s] [ 40%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/region_of_interest__type_support.c.o[0m
+[37.427s] [ 41%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/range__type_support.c.o[0m
+[37.683s] [ 41%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/relative_humidity__type_support.c.o[0m
+[37.770s] [ 41%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/nav_sat_status__type_support_c.cpp.o[0m
+[37.919s] [ 42%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/temperature__type_support.c.o[0m
+[38.045s] [ 42%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/time_reference__type_support.c.o[0m
+[38.259s] [ 43%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/srv/detail/set_camera_info__type_support.c.o[0m
+[38.461s] [ 43%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/fluid_pressure__type_support.cpp.o[0m
+[38.485s] [ 43%] [32m[1mLinking C shared library libsensor_msgs__rosidl_typesupport_introspection_c.so[0m
+[38.897s] [ 43%] Built target sensor_msgs__rosidl_typesupport_introspection_c
+[38.914s] [ 44%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/compressed_image__type_support.cpp.o[0m
+[39.474s] [ 45%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_cloud2__type_support_c.cpp.o[0m
+[39.951s] [ 46%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/compressed_image__type_support.cpp.o[0m
+[41.087s] [ 46%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_field__type_support_c.cpp.o[0m
+[41.115s] [ 47%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/illuminance__type_support.cpp.o[0m
+[41.698s] [ 47%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/illuminance__type_support.cpp.o[0m
+[42.206s] [ 47%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/fluid_pressure__type_support.cpp.o[0m
+[42.599s] [ 48%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/region_of_interest__type_support_c.cpp.o[0m
+[43.170s] [ 48%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/image__type_support.cpp.o[0m
+[43.171s] [ 49%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/image__type_support.cpp.o[0m
+[43.794s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/temperature__type_support_c.cpp.o[0m
+[44.009s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/battery_state__type_support.cpp.o[0m
+[44.073s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/imu__type_support.cpp.o[0m
+[44.212s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/imu__type_support.cpp.o[0m
+[44.321s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/time_reference__type_support_c.cpp.o[0m
+[44.541s] [ 51%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/camera_info__type_support.cpp.o[0m
+[44.712s] [ 52%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joint_state__type_support.cpp.o[0m
+[44.849s] [ 52%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/relative_humidity__type_support_c.cpp.o[0m
+[44.988s] [ 52%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/channel_float32__type_support.cpp.o[0m
+[45.263s] [ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joint_state__type_support.cpp.o[0m
+[45.409s] [ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/compressed_image__type_support.cpp.o[0m
+[45.410s] [ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/range__type_support_c.cpp.o[0m
+[45.445s] [ 54%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy_feedback__type_support.cpp.o[0m
+[45.951s] [ 55%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/fluid_pressure__type_support.cpp.o[0m
+[46.043s] [ 55%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/srv/detail/set_camera_info__type_support_c.cpp.o[0m
+[46.176s] [ 55%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy_feedback_array__type_support.cpp.o[0m
+[46.273s] [ 55%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy__type_support.cpp.o[0m
+[46.390s] [ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/image__type_support.cpp.o[0m
+[46.609s] [ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_cloud__type_support_c.cpp.o[0m
+[46.740s] [ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy__type_support.cpp.o[0m
+[46.747s] [ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joint_state__type_support.cpp.o[0m
+[47.008s] [ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy_feedback__type_support.cpp.o[0m
+[47.100s] [ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/magnetic_field__type_support_c.cpp.o[0m
+[47.150s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy__type_support.cpp.o[0m
+[47.388s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/laser_echo__type_support.cpp.o[0m
+[47.724s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback__type_support.cpp.o[0m
+[47.775s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/laser_scan__type_support_c.cpp.o[0m
+[47.998s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/laser_echo__type_support.cpp.o[0m
+[49.033s] [ 58%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/laser_scan__type_support.cpp.o[0m
+[49.129s] [ 58%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_scan__type_support.cpp.o[0m
+[49.293s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy_feedback_array__type_support.cpp.o[0m
+[49.468s] [ 60%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/laser_echo__type_support_c.cpp.o[0m
+[49.809s] [ 61%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/magnetic_field__type_support.cpp.o[0m
+[50.237s] [ 61%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/magnetic_field__type_support.cpp.o[0m
+[50.341s] [ 62%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/magnetic_field__type_support.cpp.o[0m
+[50.433s] [ 62%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy_feedback_array__type_support_c.cpp.o[0m
+[50.496s] [ 62%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o[0m
+[51.039s] [ 62%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.cpp.o[0m
+[51.042s] [ 63%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_echo__type_support.cpp.o[0m
+[51.170s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy_feedback__type_support_c.cpp.o[0m
+[51.258s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/nav_sat_fix__type_support.cpp.o[0m
+[51.494s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_status__type_support.cpp.o[0m
+[51.792s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy__type_support_c.cpp.o[0m
+[51.955s] [ 65%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.cpp.o[0m
+[51.981s] [ 66%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud__type_support.cpp.o[0m
+[51.981s] [ 66%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/nav_sat_status__type_support.cpp.o[0m
+[52.477s] [ 66%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joint_state__type_support_c.cpp.o[0m
+[52.509s] [ 66%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud2__type_support.cpp.o[0m
+[52.852s] [ 67%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_cloud__type_support.cpp.o[0m
+[52.991s] [ 68%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/nav_sat_status__type_support.cpp.o[0m
+[53.076s] [ 69%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/range__type_support.cpp.o[0m
+[53.178s] [ 70%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/imu__type_support_c.cpp.o[0m
+[53.494s] [ 70%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[53.591s] [ 70%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_cloud2__type_support.cpp.o[0m
+[53.737s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/multi_echo_laser_scan__type_support.cpp.o[0m
+[53.762s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/image__type_support_c.cpp.o[0m
+[53.954s] [ 72%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/relative_humidity__type_support.cpp.o[0m
+[54.375s] [ 73%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_field__type_support.cpp.o[0m
+[54.388s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/illuminance__type_support_c.cpp.o[0m
+[54.424s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/temperature__type_support.cpp.o[0m
+[54.540s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/range__type_support.cpp.o[0m
+[54.886s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/time_reference__type_support.cpp.o[0m
+[54.988s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/fluid_pressure__type_support_c.cpp.o[0m
+[55.109s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/range__type_support.cpp.o[0m
+[55.278s] [ 75%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/relative_humidity__type_support.cpp.o[0m
+[55.369s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/srv/set_camera_info__type_support.cpp.o[0m
+[55.637s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/compressed_image__type_support_c.cpp.o[0m
+[55.761s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/region_of_interest__type_support.cpp.o[0m
+[55.891s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_field__type_support.cpp.o[0m
+[55.977s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/srv/detail/dds_fastrtps/set_camera_info__type_support.cpp.o[0m
+[56.224s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/channel_float32__type_support_c.cpp.o[0m
+[56.319s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o[0m
+[56.370s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/srv/detail/set_camera_info__type_support.cpp.o[0m
+[56.653s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/time_reference__type_support.cpp.o[0m
+[56.740s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o[0m
+[56.835s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/camera_info__type_support_c.cpp.o[0m
+[57.072s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/time_reference__type_support.cpp.o[0m
+[57.177s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o[0m
+[57.320s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/temperature__type_support.cpp.o[0m
+[57.524s] [ 82%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[57.829s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/imu__type_support.cpp.o[0m
+[57.932s] [ 82%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c
+[57.974s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/temperature__type_support.cpp.o[0m
+[58.293s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/region_of_interest__type_support.cpp.o[0m
+[58.508s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/illuminance__type_support.cpp.o[0m
+[59.124s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/relative_humidity__type_support.cpp.o[0m
+[59.687s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_field__type_support.cpp.o[0m
+[59.759s] [ 83%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_cpp.so[0m
+[60.304s] [ 83%] Built target sensor_msgs__rosidl_typesupport_cpp
+[60.642s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_cloud__type_support.cpp.o[0m
+[60.968s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_cloud2__type_support.cpp.o[0m
+[62.009s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/nav_sat_fix__type_support.cpp.o[0m
+[62.222s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/multi_dof_joint_state__type_support.cpp.o[0m
+[62.831s] [ 84%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[63.094s] [ 84%] Built target sensor_msgs__rosidl_typesupport_introspection_cpp
+[63.241s] [ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/laser_scan__type_support.cpp.o[0m
+[63.820s] [ 84%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[64.017s] [ 84%] Built target sensor_msgs__rosidl_typesupport_fastrtps_cpp
+[64.042s] [ 84%] [32mBuilding CXX object CMakeFiles/test_sensor_msgs.dir/test/test_image_encodings.cpp.o[0m
+[64.851s] [ 84%] [32mBuilding CXX object CMakeFiles/test_sensor_msgs.dir/test/test_pointcloud_iterator.cpp.o[0m
+[65.674s] [ 85%] [32mBuilding CXX object CMakeFiles/test_sensor_msgs.dir/test/test_pointcloud_conversion.cpp.o[0m
+[66.490s] [ 86%] [32m[1mLinking CXX executable test_sensor_msgs[0m
+[66.653s] [ 86%] Built target test_sensor_msgs
+[66.667s] [ 86%] Built target sensor_msgs
+[66.682s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[73.237s] [ 87%] Built target sensor_msgs__py
+[73.255s] [ 88%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_channel_float32_s.c.o[0m
+[73.255s] [ 88%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_compressed_image_s.c.o[0m
+[73.256s] [ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_fluid_pressure_s.c.o[0m
+[73.256s] [ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_illuminance_s.c.o[0m
+[73.256s] [ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_camera_info_s.c.o[0m
+[73.256s] [ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_battery_state_s.c.o[0m
+[73.256s] [ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_image_s.c.o[0m
+[73.257s] [ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_imu_s.c.o[0m
+[73.260s] [ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_s.c.o[0m
+[73.261s] [ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joint_state_s.c.o[0m
+[73.374s] [ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_field_s.c.o[0m
+[73.390s] [ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_range_s.c.o[0m
+[73.391s] [ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_region_of_interest_s.c.o[0m
+[73.397s] [ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_temperature_s.c.o[0m
+[73.397s] [ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_relative_humidity_s.c.o[0m
+[73.406s] [ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_cloud2_s.c.o[0m
+[73.406s] [ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_time_reference_s.c.o[0m
+[73.407s] [ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/srv/_set_camera_info_s.c.o[0m
+[73.425s] [ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_cloud_s.c.o[0m
+[73.425s] [ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_nav_sat_status_s.c.o[0m
+[73.497s] [ 95%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_nav_sat_fix_s.c.o[0m
+[73.516s] [ 95%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_multi_echo_laser_scan_s.c.o[0m
+[73.525s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_multi_dof_joint_state_s.c.o[0m
+[73.526s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_laser_scan_s.c.o[0m
+[73.527s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_magnetic_field_s.c.o[0m
+[73.530s] [ 97%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_laser_echo_s.c.o[0m
+[73.540s] [ 97%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_feedback_array_s.c.o[0m
+[73.544s] [ 98%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_feedback_s.c.o[0m
+[73.656s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/libsensor_msgs__rosidl_generator_py.so[0m
+[73.766s] [ 98%] Built target sensor_msgs__rosidl_generator_py
+[73.782s] [ 98%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[73.782s] [ 98%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[73.782s] [ 98%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[73.920s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[73.920s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[73.926s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[74.013s] [100%] Built target sensor_msgs__rosidl_typesupport_c__pyext
+[74.013s] [100%] Built target sensor_msgs__rosidl_typesupport_introspection_c__pyext
+[74.040s] [100%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[74.051s] Invoked command in '/home/hiro/rust_ws/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_runtime_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/ws_livox/install/livox_ros_driver2:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosidl_runtime_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:/home/hiro/rust_ws/install/visualization_msgs/lib:/home/hiro/rust_ws/install/test_msgs/lib:/home/hiro/rust_ws/install/example_interfaces/lib:/home/hiro/rust_ws/install/action_msgs/lib:/home/hiro/rust_ws/install/unique_identifier_msgs/lib:/home/hiro/rust_ws/install/trajectory_msgs/lib:/home/hiro/rust_ws/install/stereo_msgs/lib:/home/hiro/rust_ws/install/std_srvs/lib:/home/hiro/rust_ws/install/shape_msgs/lib:/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/nav_msgs/lib:/home/hiro/rust_ws/install/diagnostic_msgs/lib:/home/hiro/rust_ws/install/actionlib_msgs/lib:/home/hiro/rust_ws/install/statistics_msgs/lib:/home/hiro/rust_ws/install/rosgraph_msgs/lib:/home/hiro/rust_ws/install/rclrs_example_msgs/lib:/home/hiro/rust_ws/install/composition_interfaces/lib:/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/lifecycle_msgs/lib:/home/hiro/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hiro/rust_ws/build/sensor_msgs -- -j22 -l22
+[74.564s] Invoking command in '/home/hiro/rust_ws/build/sensor_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_runtime_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/ws_livox/install/livox_ros_driver2:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosidl_runtime_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:/home/hiro/rust_ws/install/visualization_msgs/lib:/home/hiro/rust_ws/install/test_msgs/lib:/home/hiro/rust_ws/install/example_interfaces/lib:/home/hiro/rust_ws/install/action_msgs/lib:/home/hiro/rust_ws/install/unique_identifier_msgs/lib:/home/hiro/rust_ws/install/trajectory_msgs/lib:/home/hiro/rust_ws/install/stereo_msgs/lib:/home/hiro/rust_ws/install/std_srvs/lib:/home/hiro/rust_ws/install/shape_msgs/lib:/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/nav_msgs/lib:/home/hiro/rust_ws/install/diagnostic_msgs/lib:/home/hiro/rust_ws/install/actionlib_msgs/lib:/home/hiro/rust_ws/install/statistics_msgs/lib:/home/hiro/rust_ws/install/rosgraph_msgs/lib:/home/hiro/rust_ws/install/rclrs_example_msgs/lib:/home/hiro/rust_ws/install/composition_interfaces/lib:/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/lifecycle_msgs/lib:/home/hiro/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hiro/rust_ws/build/sensor_msgs
+[74.570s] -- Install configuration: ""
+[74.571s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/ament_index/resource_index/rosidl_interfaces/sensor_msgs
+[74.571s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[74.571s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[74.571s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud2.h
+[74.571s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_echo_laser_scan.h
+[74.571s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud.h
+[74.572s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/relative_humidity.h
+[74.572s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/magnetic_field.h
+[74.572s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.h
+[74.572s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback_array.h
+[74.572s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/temperature.h
+[74.572s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/illuminance.h
+[74.572s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/range.h
+[74.572s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/region_of_interest.h
+[74.573s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/battery_state.h
+[74.573s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_status.h
+[74.573s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy.h
+[74.573s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.h
+[74.573s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_dof_joint_state.h
+[74.573s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joint_state.h
+[74.573s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/channel_float32.h
+[74.573s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_c__visibility_control.h
+[74.573s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/time_reference.h
+[74.574s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[74.574s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__functions.h
+[74.574s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__struct.h
+[74.574s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__functions.c
+[74.574s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__functions.h
+[74.574s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__functions.c
+[74.574s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.h
+[74.574s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__functions.c
+[74.574s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__functions.h
+[74.575s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__functions.h
+[74.575s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__functions.c
+[74.575s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__functions.h
+[74.575s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__functions.c
+[74.575s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.h
+[74.575s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.h
+[74.575s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.h
+[74.575s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__functions.c
+[74.575s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__functions.h
+[74.576s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.h
+[74.576s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.h
+[74.576s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.h
+[74.576s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.h
+[74.576s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.h
+[74.576s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.h
+[74.577s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__functions.c
+[74.577s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.h
+[74.577s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__functions.c
+[74.577s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__functions.c
+[74.577s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__functions.c
+[74.577s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.h
+[74.577s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.h
+[74.577s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__functions.h
+[74.577s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.h
+[74.578s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__struct.h
+[74.578s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.h
+[74.578s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__functions.c
+[74.578s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.h
+[74.578s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__functions.h
+[74.578s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__struct.h
+[74.578s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__functions.c
+[74.578s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__functions.h
+[74.578s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.h
+[74.579s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__functions.h
+[74.579s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.h
+[74.579s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__functions.h
+[74.579s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__functions.c
+[74.579s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__functions.c
+[74.579s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__functions.h
+[74.579s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__functions.h
+[74.579s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.h
+[74.580s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__struct.h
+[74.580s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.h
+[74.580s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.h
+[74.580s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__functions.c
+[74.580s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.h
+[74.580s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__functions.c
+[74.580s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__functions.h
+[74.580s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__functions.h
+[74.581s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.h
+[74.581s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.h
+[74.581s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.h
+[74.581s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__functions.h
+[74.581s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__functions.c
+[74.581s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.h
+[74.581s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.h
+[74.581s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__functions.c
+[74.581s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.h
+[74.581s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__functions.h
+[74.582s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__struct.h
+[74.582s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__functions.h
+[74.582s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.h
+[74.582s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__struct.h
+[74.582s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__functions.h
+[74.582s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.h
+[74.582s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.h
+[74.582s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__functions.c
+[74.582s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__struct.h
+[74.582s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__functions.c
+[74.583s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.h
+[74.583s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.h
+[74.583s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.h
+[74.583s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__functions.c
+[74.583s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__struct.h
+[74.583s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__functions.c
+[74.583s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.h
+[74.583s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.h
+[74.584s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__functions.h
+[74.584s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.h
+[74.584s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__functions.c
+[74.584s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__functions.h
+[74.584s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__functions.h
+[74.584s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__functions.h
+[74.585s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.c
+[74.585s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__functions.h
+[74.585s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.h
+[74.585s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h
+[74.585s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__functions.c
+[74.585s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__struct.h
+[74.585s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__functions.h
+[74.586s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.h
+[74.586s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.c
+[74.586s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.h
+[74.586s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.h
+[74.586s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__struct.h
+[74.586s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.h
+[74.587s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.h
+[74.587s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.h
+[74.587s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__functions.c
+[74.587s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.h
+[74.587s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_field.h
+[74.587s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_scan.h
+[74.587s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/camera_info.h
+[74.587s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/compressed_image.h
+[74.587s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_echo.h
+[74.588s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback.h
+[74.588s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/imu.h
+[74.588s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/image.h
+[74.588s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[74.589s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/set_camera_info.h
+[74.589s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[74.589s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.h
+[74.589s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__functions.h
+[74.589s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__functions.c
+[74.590s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.h
+[74.590s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/environment/library_path.sh
+[74.590s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/environment/library_path.dsv
+[74.590s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_c.so
+[74.590s] -- Set runtime path of "/home/hiro/rust_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_c.so" to ""
+[74.590s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[74.590s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[74.590s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[74.591s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_c.h
+[74.591s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_c.h
+[74.591s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_c.h
+[74.591s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_c.h
+[74.591s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_c.h
+[74.591s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_c.h
+[74.591s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_c.h
+[74.591s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_c.h
+[74.592s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_c.h
+[74.592s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_c.h
+[74.592s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_c.h
+[74.592s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_c.h
+[74.592s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[74.592s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_c.h
+[74.592s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_c.h
+[74.593s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_c.h
+[74.593s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_c.h
+[74.593s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_c.h
+[74.593s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_c.h
+[74.593s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_c.h
+[74.593s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_c.h
+[74.593s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_c.h
+[74.593s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_c.h
+[74.593s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_c.h
+[74.594s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_c.h
+[74.594s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_c.h
+[74.594s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_c.h
+[74.594s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[74.594s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[74.594s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[74.594s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_c.h
+[74.594s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+[74.595s] -- Set runtime path of "/home/hiro/rust_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[74.595s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[74.595s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[74.595s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy.hpp
+[74.595s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/illuminance.hpp
+[74.595s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp
+[74.595s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/battery_state.hpp
+[74.595s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.hpp
+[74.596s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/time_reference.hpp
+[74.596s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_status.hpp
+[74.596s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/imu.hpp
+[74.596s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp
+[74.596s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp
+[74.596s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_echo_laser_scan.hpp
+[74.596s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp
+[74.596s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_dof_joint_state.hpp
+[74.596s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp
+[74.596s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/image.hpp
+[74.596s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp
+[74.596s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[74.597s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__traits.hpp
+[74.597s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__traits.hpp
+[74.597s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__traits.hpp
+[74.597s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__traits.hpp
+[74.597s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp
+[74.597s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__builder.hpp
+[74.597s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp
+[74.597s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__traits.hpp
+[74.597s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__traits.hpp
+[74.597s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__traits.hpp
+[74.598s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.hpp
+[74.598s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__traits.hpp
+[74.598s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__struct.hpp
+[74.598s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__builder.hpp
+[74.598s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp
+[74.598s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__struct.hpp
+[74.598s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__builder.hpp
+[74.598s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__builder.hpp
+[74.598s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.hpp
+[74.599s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.hpp
+[74.599s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__builder.hpp
+[74.599s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__builder.hpp
+[74.599s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__traits.hpp
+[74.599s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__struct.hpp
+[74.599s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__builder.hpp
+[74.599s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__builder.hpp
+[74.599s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__builder.hpp
+[74.599s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.hpp
+[74.600s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp
+[74.600s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__builder.hpp
+[74.600s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__traits.hpp
+[74.600s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp
+[74.600s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__traits.hpp
+[74.600s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp
+[74.600s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp
+[74.600s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__builder.hpp
+[74.600s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.hpp
+[74.600s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__builder.hpp
+[74.601s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__struct.hpp
+[74.601s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__struct.hpp
+[74.601s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp
+[74.601s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__traits.hpp
+[74.601s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp
+[74.601s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__builder.hpp
+[74.601s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__builder.hpp
+[74.601s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__struct.hpp
+[74.601s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__traits.hpp
+[74.602s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp
+[74.602s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__traits.hpp
+[74.602s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp
+[74.602s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__struct.hpp
+[74.602s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp
+[74.602s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__traits.hpp
+[74.602s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__struct.hpp
+[74.602s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp
+[74.602s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__builder.hpp
+[74.602s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp
+[74.603s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__builder.hpp
+[74.603s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__struct.hpp
+[74.603s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp
+[74.603s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__traits.hpp
+[74.603s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__traits.hpp
+[74.603s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__traits.hpp
+[74.603s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.hpp
+[74.603s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__builder.hpp
+[74.603s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.hpp
+[74.604s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp
+[74.604s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp
+[74.604s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp
+[74.604s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp
+[74.604s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp
+[74.604s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__struct.hpp
+[74.604s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__builder.hpp
+[74.604s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__builder.hpp
+[74.604s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__builder.hpp
+[74.604s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__traits.hpp
+[74.605s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__builder.hpp
+[74.605s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp
+[74.605s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp
+[74.605s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__traits.hpp
+[74.605s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp
+[74.605s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/relative_humidity.hpp
+[74.605s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback.hpp
+[74.605s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/channel_float32.hpp
+[74.606s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_field.hpp
+[74.606s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/temperature.hpp
+[74.606s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_echo.hpp
+[74.606s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud.hpp
+[74.606s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/region_of_interest.hpp
+[74.606s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/range.hpp
+[74.606s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback_array.hpp
+[74.606s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.hpp
+[74.607s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[74.607s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/set_camera_info.hpp
+[74.607s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[74.607s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.hpp
+[74.607s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__builder.hpp
+[74.607s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__traits.hpp
+[74.607s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[74.607s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[74.607s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[74.607s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[74.608s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/dds_fastrtps
+[74.608s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_cpp.hpp
+[74.608s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_cpp.hpp
+[74.608s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_cpp.hpp
+[74.608s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_cpp.hpp
+[74.608s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_cpp.hpp
+[74.608s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_cpp.hpp
+[74.608s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_cpp.hpp
+[74.608s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_cpp.hpp
+[74.609s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_cpp.hpp
+[74.609s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[74.609s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_cpp.hpp
+[74.609s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[74.609s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_cpp.hpp
+[74.609s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_cpp.hpp
+[74.610s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_cpp.hpp
+[74.610s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_cpp.hpp
+[74.610s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[74.610s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[74.611s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_cpp.hpp
+[74.611s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_cpp.hpp
+[74.611s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[74.611s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_cpp.hpp
+[74.611s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_cpp.hpp
+[74.611s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[74.611s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[74.612s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_cpp.hpp
+[74.612s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_cpp.hpp
+[74.612s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[74.612s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[74.612s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/dds_fastrtps
+[74.612s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[74.612s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[74.612s] -- Set runtime path of "/home/hiro/rust_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[74.613s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[74.613s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[74.613s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[74.613s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[74.613s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_c.h
+[74.613s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_c.h
+[74.613s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.c
+[74.613s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_c.h
+[74.614s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.c
+[74.614s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.c
+[74.614s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c
+[74.614s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_c.h
+[74.614s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.c
+[74.614s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_c.h
+[74.614s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.c
+[74.614s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_c.h
+[74.615s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.c
+[74.615s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_c.h
+[74.615s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.c
+[74.615s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.c
+[74.615s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.c
+[74.615s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_c.h
+[74.615s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_c.h
+[74.615s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.c
+[74.615s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.c
+[74.616s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.c
+[74.616s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_c.h
+[74.616s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.c
+[74.616s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_c.h
+[74.616s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_c.h
+[74.616s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.c
+[74.616s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_c.h
+[74.616s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_c.h
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.c
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.c
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.c
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_c.h
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.c
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.c
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_c.h
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_c.h
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.c
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_c.h
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_c.h
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.c
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_c.h
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_c.h
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_c.h
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_c.h
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_c.h
+[74.617s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.c
+[74.618s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.c
+[74.618s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.c
+[74.618s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_c.h
+[74.618s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_c.h
+[74.618s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.c
+[74.618s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[74.618s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[74.618s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_c.h
+[74.618s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.c
+[74.618s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+[74.618s] -- Set runtime path of "/home/hiro/rust_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so" to ""
+[74.618s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so
+[74.618s] -- Set runtime path of "/home/hiro/rust_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so" to ""
+[74.618s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[74.618s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[74.618s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[74.618s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.cpp
+[74.618s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.cpp
+[74.618s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.cpp
+[74.618s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_cpp.hpp
+[74.618s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.cpp
+[74.618s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.cpp
+[74.618s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.cpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.cpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_cpp.hpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_cpp.hpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.cpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.cpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_cpp.hpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_cpp.hpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_cpp.hpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_cpp.hpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.cpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.cpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_cpp.hpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.cpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.cpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_cpp.hpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.cpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.cpp
+[74.619s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_cpp.hpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_cpp.hpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_cpp.hpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.cpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.cpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.cpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.cpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_cpp.hpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_cpp.hpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.cpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_cpp.hpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_cpp.hpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_cpp.hpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.cpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_cpp.hpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.cpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.cpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.cpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_cpp.hpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_cpp.hpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_cpp.hpp
+[74.620s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_cpp.hpp
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.cpp
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_cpp.hpp
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.cpp
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.cpp
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_cpp.hpp
+[74.621s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[74.621s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.cpp
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+[74.621s] -- Set runtime path of "/home/hiro/rust_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+[74.621s] -- Set runtime path of "/home/hiro/rust_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so" to ""
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/ament_index/resource_index/rust_packages/sensor_msgs
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/rust
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/rust/Cargo.toml
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/rust/build.rs
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/rust/src
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/rust/src/msg.rs
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/rust/src/srv.rs
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/rust/src/lib.rs
+[74.621s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/environment/pythonpath.sh
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/environment/pythonpath.dsv
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.4-py3.10.egg-info
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.4-py3.10.egg-info/top_level.txt
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.4-py3.10.egg-info/PKG-INFO
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.4-py3.10.egg-info/SOURCES.txt
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.4-py3.10.egg-info/dependency_links.txt
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/libsensor_msgs__rosidl_generator_py.so
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_c.c
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/__init__.py
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_echo_laser_scan_s.c
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_imu_s.c
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback.py
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_field.py
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_magnetic_field_s.c
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud2_s.c
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_relative_humidity_s.c
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_time_reference_s.c
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_s.c
+[74.622s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_relative_humidity.py
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_region_of_interest_s.c
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_temperature_s.c
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_scan_s.c
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_fix_s.c
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_status_s.c
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_echo.py
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_dof_joint_state_s.c
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_illuminance_s.c
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_fluid_pressure.py
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud2.py
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_array.py
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_field_s.c
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_scan.py
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_fix.py
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_echo_laser_scan.py
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_magnetic_field.py
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_dof_joint_state.py
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_time_reference.py
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_echo_s.c
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_channel_float32.py
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_compressed_image_s.c
+[74.623s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_range_s.c
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_battery_state.py
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_camera_info.py
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_imu.py
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_region_of_interest.py
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_temperature.py
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/__init__.py
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_array_s.c
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud_s.c
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_image.py
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_compressed_image.py
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_s.c
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_status.py
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_battery_state_s.c
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_range.py
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_image_s.c
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_camera_info_s.c
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud.py
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_channel_float32_s.c
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_fluid_pressure_s.c
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy.py
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joint_state.py
+[74.624s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_illuminance.py
+[74.625s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joint_state_s.c
+[74.625s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv
+[74.625s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/_set_camera_info.py
+[74.625s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/__init__.py
+[74.625s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/_set_camera_info_s.c
+[74.625s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[74.625s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[74.625s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[74.681s] Listing '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs'...
+[74.681s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/__init__.py'...
+[74.681s] Listing '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/__init__.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_battery_state.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_camera_info.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_channel_float32.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_compressed_image.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_fluid_pressure.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_illuminance.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_image.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_imu.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joint_state.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_array.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_echo.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_scan.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_magnetic_field.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_dof_joint_state.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_echo_laser_scan.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_fix.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_status.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud2.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_field.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_range.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_region_of_interest.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_relative_humidity.py'...
+[74.682s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_temperature.py'...
+[74.683s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_time_reference.py'...
+[74.683s] Listing '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv'...
+[74.683s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/__init__.py'...
+[74.683s] Compiling '/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/_set_camera_info.py'...
+[74.686s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[74.687s] -- Set runtime path of "/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[74.687s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[74.687s] -- Set runtime path of "/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[74.687s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[74.687s] -- Set runtime path of "/home/hiro/rust_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[74.687s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_py.so
+[74.688s] -- Set runtime path of "/home/hiro/rust_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_py.so" to ""
+[74.688s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.idl
+[74.689s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.idl
+[74.689s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.idl
+[74.689s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.idl
+[74.689s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.idl
+[74.690s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.idl
+[74.690s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/Image.idl
+[74.691s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/Imu.idl
+[74.692s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/JointState.idl
+[74.692s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/Joy.idl
+[74.693s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.idl
+[74.693s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.idl
+[74.693s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.idl
+[74.694s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.idl
+[74.694s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.idl
+[74.694s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.idl
+[74.695s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.idl
+[74.695s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.idl
+[74.695s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.idl
+[74.695s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.idl
+[74.695s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.idl
+[74.695s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/PointField.idl
+[74.695s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/Range.idl
+[74.695s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.idl
+[74.695s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.idl
+[74.695s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/Temperature.idl
+[74.695s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.idl
+[74.695s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.idl
+[74.695s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.msg
+[74.696s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.msg
+[74.696s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.msg
+[74.696s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.msg
+[74.696s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.msg
+[74.696s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.msg
+[74.696s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/Image.msg
+[74.696s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/Imu.msg
+[74.696s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/JointState.msg
+[74.696s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/Joy.msg
+[74.696s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.msg
+[74.696s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.msg
+[74.696s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.msg
+[74.696s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.msg
+[74.697s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.msg
+[74.697s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.msg
+[74.697s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.msg
+[74.697s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.msg
+[74.697s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.msg
+[74.697s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.msg
+[74.697s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.msg
+[74.697s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/PointField.msg
+[74.697s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/Range.msg
+[74.697s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.msg
+[74.697s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.msg
+[74.697s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/Temperature.msg
+[74.698s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.msg
+[74.698s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.srv
+[74.698s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo_Request.msg
+[74.698s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo_Response.msg
+[74.698s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs
+[74.698s] -- Up-to-date: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[74.698s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/fill_image.hpp
+[74.698s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/image_encodings.hpp
+[74.699s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp
+[74.699s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_cloud2_iterator.hpp
+[74.699s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/distortion_models.hpp
+[74.699s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/impl
+[74.699s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/impl/point_cloud2_iterator.hpp
+[74.699s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_field_conversion.hpp
+[74.700s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/ament_index/resource_index/package_run_dependencies/sensor_msgs
+[74.700s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/ament_index/resource_index/parent_prefix_path/sensor_msgs
+[74.700s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/environment/ament_prefix_path.sh
+[74.700s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/environment/ament_prefix_path.dsv
+[74.700s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/environment/path.sh
+[74.700s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/environment/path.dsv
+[74.700s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/local_setup.bash
+[74.700s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/local_setup.sh
+[74.700s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/local_setup.zsh
+[74.700s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/local_setup.dsv
+[74.701s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/package.dsv
+[74.701s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/ament_index/resource_index/packages/sensor_msgs
+[74.701s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport.cmake
+[74.701s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport-noconfig.cmake
+[74.701s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[74.701s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[74.701s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cppExport.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_pyExport.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_pyExport-noconfig.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgsExport.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake-extras.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgsConfig.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake
+[74.702s] -- Installing: /home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/package.xml
+[74.705s] Invoked command in '/home/hiro/rust_ws/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_runtime_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/ws_livox/install/livox_ros_driver2:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosidl_runtime_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:/home/hiro/rust_ws/install/visualization_msgs/lib:/home/hiro/rust_ws/install/test_msgs/lib:/home/hiro/rust_ws/install/example_interfaces/lib:/home/hiro/rust_ws/install/action_msgs/lib:/home/hiro/rust_ws/install/unique_identifier_msgs/lib:/home/hiro/rust_ws/install/trajectory_msgs/lib:/home/hiro/rust_ws/install/stereo_msgs/lib:/home/hiro/rust_ws/install/std_srvs/lib:/home/hiro/rust_ws/install/shape_msgs/lib:/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/nav_msgs/lib:/home/hiro/rust_ws/install/diagnostic_msgs/lib:/home/hiro/rust_ws/install/actionlib_msgs/lib:/home/hiro/rust_ws/install/statistics_msgs/lib:/home/hiro/rust_ws/install/rosgraph_msgs/lib:/home/hiro/rust_ws/install/rclrs_example_msgs/lib:/home/hiro/rust_ws/install/composition_interfaces/lib:/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/lifecycle_msgs/lib:/home/hiro/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hiro/rust_ws/build/sensor_msgs

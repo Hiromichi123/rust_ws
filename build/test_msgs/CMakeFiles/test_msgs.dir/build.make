@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/src/ros2/rcl_interfaces/test_msgs
+CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/ros2/rcl_interfaces/test_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hiro/rust_ws/build/test_msgs
@@ -88,8 +88,8 @@ CMakeFiles/test_msgs: /home/hiro/rust_ws/install/test_interface_files/share/test
 CMakeFiles/test_msgs: rosidl_cmake/srv/Empty_Request.msg
 CMakeFiles/test_msgs: rosidl_cmake/srv/Empty_Response.msg
 CMakeFiles/test_msgs: /home/hiro/rust_ws/install/test_interface_files/share/test_interface_files/action/Fibonacci.action
-CMakeFiles/test_msgs: /home/hiro/rust_ws/src/src/ros2/rcl_interfaces/test_msgs/msg/Builtins.msg
-CMakeFiles/test_msgs: /home/hiro/rust_ws/src/src/ros2/rcl_interfaces/test_msgs/action/NestedMessage.action
+CMakeFiles/test_msgs: /home/hiro/rust_ws/src/ros2/rcl_interfaces/test_msgs/msg/Builtins.msg
+CMakeFiles/test_msgs: /home/hiro/rust_ws/src/ros2/rcl_interfaces/test_msgs/action/NestedMessage.action
 CMakeFiles/test_msgs: /home/hiro/rust_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
 CMakeFiles/test_msgs: /home/hiro/rust_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
 CMakeFiles/test_msgs: /home/hiro/rust_ws/install/action_msgs/share/action_msgs/msg/GoalInfo.idl
@@ -110,6 +110,6 @@ CMakeFiles/test_msgs.dir/clean:
 .PHONY : CMakeFiles/test_msgs.dir/clean
 
 CMakeFiles/test_msgs.dir/depend:
-	cd /home/hiro/rust_ws/build/test_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/src/ros2/rcl_interfaces/test_msgs /home/hiro/rust_ws/src/src/ros2/rcl_interfaces/test_msgs /home/hiro/rust_ws/build/test_msgs /home/hiro/rust_ws/build/test_msgs /home/hiro/rust_ws/build/test_msgs/CMakeFiles/test_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hiro/rust_ws/build/test_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/ros2/rcl_interfaces/test_msgs /home/hiro/rust_ws/src/ros2/rcl_interfaces/test_msgs /home/hiro/rust_ws/build/test_msgs /home/hiro/rust_ws/build/test_msgs /home/hiro/rust_ws/build/test_msgs/CMakeFiles/test_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test_msgs.dir/depend
 

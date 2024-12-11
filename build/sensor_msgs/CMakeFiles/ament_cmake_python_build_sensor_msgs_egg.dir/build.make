@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs
+CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hiro/rust_ws/build/sensor_msgs
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_sensor_msgs_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_sensor_msgs_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_sensor_msgs_egg.dir/depend:
-	cd /home/hiro/rust_ws/build/sensor_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs /home/hiro/rust_ws/src/src/ros2/common_interfaces/sensor_msgs /home/hiro/rust_ws/build/sensor_msgs /home/hiro/rust_ws/build/sensor_msgs /home/hiro/rust_ws/build/sensor_msgs/CMakeFiles/ament_cmake_python_build_sensor_msgs_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hiro/rust_ws/build/sensor_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs /home/hiro/rust_ws/src/ros2/common_interfaces/sensor_msgs /home/hiro/rust_ws/build/sensor_msgs /home/hiro/rust_ws/build/sensor_msgs /home/hiro/rust_ws/build/sensor_msgs/CMakeFiles/ament_cmake_python_build_sensor_msgs_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_sensor_msgs_egg.dir/depend
 

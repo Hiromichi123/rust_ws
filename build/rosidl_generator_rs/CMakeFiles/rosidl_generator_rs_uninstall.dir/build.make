@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/src/ros2_rust/rosidl_generator_rs
+CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/ros2_rust/rosidl_generator_rs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hiro/rust_ws/build/rosidl_generator_rs
@@ -82,6 +82,6 @@ CMakeFiles/rosidl_generator_rs_uninstall.dir/clean:
 .PHONY : CMakeFiles/rosidl_generator_rs_uninstall.dir/clean
 
 CMakeFiles/rosidl_generator_rs_uninstall.dir/depend:
-	cd /home/hiro/rust_ws/build/rosidl_generator_rs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/src/ros2_rust/rosidl_generator_rs /home/hiro/rust_ws/src/src/ros2_rust/rosidl_generator_rs /home/hiro/rust_ws/build/rosidl_generator_rs /home/hiro/rust_ws/build/rosidl_generator_rs /home/hiro/rust_ws/build/rosidl_generator_rs/CMakeFiles/rosidl_generator_rs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hiro/rust_ws/build/rosidl_generator_rs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/ros2_rust/rosidl_generator_rs /home/hiro/rust_ws/src/ros2_rust/rosidl_generator_rs /home/hiro/rust_ws/build/rosidl_generator_rs /home/hiro/rust_ws/build/rosidl_generator_rs /home/hiro/rust_ws/build/rosidl_generator_rs/CMakeFiles/rosidl_generator_rs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosidl_generator_rs_uninstall.dir/depend
 

@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/src/ros2/common_interfaces/diagnostic_msgs
+CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/ros2/common_interfaces/diagnostic_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hiro/rust_ws/build/diagnostic_msgs
@@ -156,6 +156,6 @@ diagnostic_msgs__rs/CMakeFiles/diagnostic_msgs__rs.dir/clean:
 .PHONY : diagnostic_msgs__rs/CMakeFiles/diagnostic_msgs__rs.dir/clean
 
 diagnostic_msgs__rs/CMakeFiles/diagnostic_msgs__rs.dir/depend:
-	cd /home/hiro/rust_ws/build/diagnostic_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/src/ros2/common_interfaces/diagnostic_msgs /home/hiro/rust_ws/build/diagnostic_msgs/diagnostic_msgs__rs /home/hiro/rust_ws/build/diagnostic_msgs /home/hiro/rust_ws/build/diagnostic_msgs/diagnostic_msgs__rs /home/hiro/rust_ws/build/diagnostic_msgs/diagnostic_msgs__rs/CMakeFiles/diagnostic_msgs__rs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hiro/rust_ws/build/diagnostic_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/ros2/common_interfaces/diagnostic_msgs /home/hiro/rust_ws/build/diagnostic_msgs/diagnostic_msgs__rs /home/hiro/rust_ws/build/diagnostic_msgs /home/hiro/rust_ws/build/diagnostic_msgs/diagnostic_msgs__rs /home/hiro/rust_ws/build/diagnostic_msgs/diagnostic_msgs__rs/CMakeFiles/diagnostic_msgs__rs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : diagnostic_msgs__rs/CMakeFiles/diagnostic_msgs__rs.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces
+# Install script for directory: /home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -432,51 +432,51 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/msg/FloatingPointRange.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/msg/FloatingPointRange.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/msg/IntegerRange.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/msg/IntegerRange.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/msg/ListParametersResult.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/msg/ListParametersResult.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/msg/Log.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/msg/Log.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/msg/ParameterDescriptor.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/msg/ParameterDescriptor.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/msg/ParameterEventDescriptors.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/msg/ParameterEventDescriptors.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/msg/ParameterEvent.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/msg/ParameterEvent.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/msg/Parameter.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/msg/Parameter.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/msg/ParameterType.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/msg/ParameterType.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/msg/ParameterValue.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/msg/ParameterValue.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/msg/SetParametersResult.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/msg/SetParametersResult.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/srv/DescribeParameters.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/srv/DescribeParameters.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -488,7 +488,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/srv/GetParameters.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/srv/GetParameters.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -500,7 +500,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/srv/GetParameterTypes.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/srv/GetParameterTypes.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -512,7 +512,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/srv/ListParameters.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/srv/ListParameters.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -524,7 +524,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/srv/SetParametersAtomically.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/srv/SetParametersAtomically.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -536,7 +536,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/srv/SetParameters.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/srv/SetParameters.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -548,7 +548,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/mapping_rules.yaml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/mapping_rules.yaml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -803,7 +803,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rcl_interfaces/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rcl_interfaces" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/rcl_interfaces/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

@@ -1,4 +1,4 @@
-# Install script for directory: /home/hiro/rust_ws/src/src/ros2/common_interfaces/trajectory_msgs
+# Install script for directory: /home/hiro/rust_ws/src/ros2/common_interfaces/trajectory_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -380,19 +380,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/trajectory_msgs/msg/JointTrajectory.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/trajectory_msgs/msg/JointTrajectory.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/trajectory_msgs/msg/JointTrajectoryPoint.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/trajectory_msgs/msg/JointTrajectoryPoint.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/trajectory_msgs/msg/MultiDOFJointTrajectory.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/trajectory_msgs/msg/MultiDOFJointTrajectory.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -647,7 +647,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/common_interfaces/trajectory_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/common_interfaces/trajectory_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

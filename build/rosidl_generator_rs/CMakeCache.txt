@@ -308,7 +308,7 @@ rosidl_generator_rs_BINARY_DIR:STATIC=/home/hiro/rust_ws/build/rosidl_generator_
 rosidl_generator_rs_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-rosidl_generator_rs_SOURCE_DIR:STATIC=/home/hiro/rust_ws/src/src/ros2_rust/rosidl_generator_rs
+rosidl_generator_rs_SOURCE_DIR:STATIC=/home/hiro/rust_ws/src/ros2_rust/rosidl_generator_rs
 
 //The directory containing a CMake configuration file for rosidl_runtime_c.
 rosidl_runtime_c_DIR:PATH=/opt/ros/humble/share/rosidl_runtime_c/cmake
@@ -404,7 +404,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/hiro/rust_ws/src/src/ros2_rust/rosidl_generator_rs
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/hiro/rust_ws/src/ros2_rust/rosidl_generator_rs
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

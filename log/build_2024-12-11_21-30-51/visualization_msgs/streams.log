@@ -1,0 +1,597 @@
+[0.723s] Invoking command in '/home/hiro/rust_ws/build/visualization_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_runtime_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/ws_livox/install/livox_ros_driver2:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosidl_runtime_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:/home/hiro/rust_ws/install/visualization_msgs/lib:/home/hiro/rust_ws/install/test_msgs/lib:/home/hiro/rust_ws/install/example_interfaces/lib:/home/hiro/rust_ws/install/action_msgs/lib:/home/hiro/rust_ws/install/unique_identifier_msgs/lib:/home/hiro/rust_ws/install/trajectory_msgs/lib:/home/hiro/rust_ws/install/stereo_msgs/lib:/home/hiro/rust_ws/install/std_srvs/lib:/home/hiro/rust_ws/install/shape_msgs/lib:/home/hiro/rust_ws/install/nav_msgs/lib:/home/hiro/rust_ws/install/diagnostic_msgs/lib:/home/hiro/rust_ws/install/actionlib_msgs/lib:/home/hiro/rust_ws/install/statistics_msgs/lib:/home/hiro/rust_ws/install/rosgraph_msgs/lib:/home/hiro/rust_ws/install/rclrs_example_msgs/lib:/home/hiro/rust_ws/install/composition_interfaces/lib:/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/lifecycle_msgs/lib:/home/hiro/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/hiro/rust_ws/src/ros2/common_interfaces/visualization_msgs -DCMAKE_INSTALL_PREFIX=/home/hiro/rust_ws/install/visualization_msgs
+[0.825s] -- The C compiler identification is GNU 11.4.0
+[1.288s] -- The CXX compiler identification is GNU 11.4.0
+[1.627s] -- Detecting C compiler ABI info
+[1.749s] -- Detecting C compiler ABI info - done
+[1.756s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.756s] -- Detecting C compile features
+[1.756s] -- Detecting C compile features - done
+[1.759s] -- Detecting CXX compiler ABI info
+[1.905s] -- Detecting CXX compiler ABI info - done
+[1.911s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.911s] -- Detecting CXX compile features
+[1.912s] -- Detecting CXX compile features - done
+[1.915s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.700s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.818s] -- Found builtin_interfaces: 1.2.1 (/home/hiro/rust_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[2.977s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.984s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.994s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.008s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.025s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.042s] -- Found geometry_msgs: 4.2.4 (/home/hiro/rust_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[3.061s] -- Found rosidl_default_generators: 1.2.0 (/home/hiro/rust_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[3.072s] -- Found sensor_msgs: 4.2.4 (/home/hiro/rust_ws/install/sensor_msgs/share/sensor_msgs/cmake)
+[3.514s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[3.517s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[3.520s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[3.524s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.997s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.178s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.342s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.345s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.711s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.711s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.712s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.712s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.737s] -- Found PythonExtra: .so  
+[4.897s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[4.901s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[4.909s] -- Configuring done
+[4.984s] -- Generating done
+[4.987s] -- Build files have been written to: /home/hiro/rust_ws/build/visualization_msgs
+[5.005s] Invoked command in '/home/hiro/rust_ws/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_runtime_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/ws_livox/install/livox_ros_driver2:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosidl_runtime_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:/home/hiro/rust_ws/install/visualization_msgs/lib:/home/hiro/rust_ws/install/test_msgs/lib:/home/hiro/rust_ws/install/example_interfaces/lib:/home/hiro/rust_ws/install/action_msgs/lib:/home/hiro/rust_ws/install/unique_identifier_msgs/lib:/home/hiro/rust_ws/install/trajectory_msgs/lib:/home/hiro/rust_ws/install/stereo_msgs/lib:/home/hiro/rust_ws/install/std_srvs/lib:/home/hiro/rust_ws/install/shape_msgs/lib:/home/hiro/rust_ws/install/nav_msgs/lib:/home/hiro/rust_ws/install/diagnostic_msgs/lib:/home/hiro/rust_ws/install/actionlib_msgs/lib:/home/hiro/rust_ws/install/statistics_msgs/lib:/home/hiro/rust_ws/install/rosgraph_msgs/lib:/home/hiro/rust_ws/install/rclrs_example_msgs/lib:/home/hiro/rust_ws/install/composition_interfaces/lib:/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/lifecycle_msgs/lib:/home/hiro/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/hiro/rust_ws/src/ros2/common_interfaces/visualization_msgs -DCMAKE_INSTALL_PREFIX=/home/hiro/rust_ws/install/visualization_msgs
+[5.007s] Invoking command in '/home/hiro/rust_ws/build/visualization_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_runtime_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/ws_livox/install/livox_ros_driver2:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosidl_runtime_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:/home/hiro/rust_ws/install/visualization_msgs/lib:/home/hiro/rust_ws/install/test_msgs/lib:/home/hiro/rust_ws/install/example_interfaces/lib:/home/hiro/rust_ws/install/action_msgs/lib:/home/hiro/rust_ws/install/unique_identifier_msgs/lib:/home/hiro/rust_ws/install/trajectory_msgs/lib:/home/hiro/rust_ws/install/stereo_msgs/lib:/home/hiro/rust_ws/install/std_srvs/lib:/home/hiro/rust_ws/install/shape_msgs/lib:/home/hiro/rust_ws/install/nav_msgs/lib:/home/hiro/rust_ws/install/diagnostic_msgs/lib:/home/hiro/rust_ws/install/actionlib_msgs/lib:/home/hiro/rust_ws/install/statistics_msgs/lib:/home/hiro/rust_ws/install/rosgraph_msgs/lib:/home/hiro/rust_ws/install/rclrs_example_msgs/lib:/home/hiro/rust_ws/install/composition_interfaces/lib:/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/lifecycle_msgs/lib:/home/hiro/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hiro/rust_ws/build/visualization_msgs -- -j22 -l22
+[5.061s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.070s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.073s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[5.081s] [  2%] Built target ament_cmake_python_copy_visualization_msgs
+[5.634s] running egg_info
+[5.636s] creating visualization_msgs.egg-info
+[5.665s] writing visualization_msgs.egg-info/PKG-INFO
+[5.666s] writing dependency_links to visualization_msgs.egg-info/dependency_links.txt
+[5.666s] writing top-level names to visualization_msgs.egg-info/top_level.txt
+[5.666s] writing manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[5.736s] reading manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[5.737s] writing manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[5.808s] [  2%] Built target ament_cmake_python_build_visualization_msgs_egg
+[7.626s] [  2%] Built target visualization_msgs__rs
+[8.124s] [  2%] Built target visualization_msgs__cpp
+[8.134s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.134s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.136s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.281s] [  7%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_feedback__functions.c.o[0m
+[8.281s] [  7%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_pose__functions.c.o[0m
+[8.281s] [  8%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/image_marker__functions.c.o[0m
+[8.282s] [  9%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_init__functions.c.o[0m
+[8.282s] [ 10%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/uv_coordinate__functions.c.o[0m
+[8.283s] [ 10%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_update__functions.c.o[0m
+[8.283s] [ 11%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker__functions.c.o[0m
+[8.283s] [ 11%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/srv/detail/get_interactive_markers__functions.c.o[0m
+[8.283s] [ 12%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_control__functions.c.o[0m
+[8.283s] [ 13%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/menu_entry__functions.c.o[0m
+[8.284s] [ 14%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker__functions.c.o[0m
+[8.285s] [ 15%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker_array__functions.c.o[0m
+[8.285s] [ 15%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/mesh_file__functions.c.o[0m
+[8.363s] [ 16%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_generator_c.so[0m
+[8.487s] [ 16%] Built target visualization_msgs__rosidl_generator_c
+[8.500s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.502s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.503s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.659s] [ 20%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_feedback__type_support.cpp.o[0m
+[10.660s] [ 21%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/image_marker__type_support.cpp.o[0m
+[10.660s] [ 21%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker__type_support.cpp.o[0m
+[10.660s] [ 22%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_update__type_support.cpp.o[0m
+[10.661s] [ 24%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_init__type_support.cpp.o[0m
+[10.661s] [ 24%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/srv/get_interactive_markers__type_support.cpp.o[0m
+[10.661s] [ 27%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_control__type_support.cpp.o[0m
+[10.661s] [ 27%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/marker__type_support.cpp.o[0m
+[10.662s] [ 27%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/marker_array__type_support.cpp.o[0m
+[10.662s] [ 27%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/mesh_file__type_support.cpp.o[0m
+[10.662s] [ 27%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_pose__type_support.cpp.o[0m
+[10.662s] [ 28%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/menu_entry__type_support.cpp.o[0m
+[10.662s] [ 29%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/uv_coordinate__type_support.cpp.o[0m
+[11.128s] [ 31%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.cpp.o[0m
+[11.129s] [ 32%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_init__type_support.cpp.o[0m
+[11.129s] [ 32%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/image_marker__type_support.cpp.o[0m
+[11.132s] [ 32%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker__type_support.cpp.o[0m
+[11.132s] [ 33%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_control__type_support.cpp.o[0m
+[11.134s] [ 33%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_pose__type_support.cpp.o[0m
+[11.135s] [ 34%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_update__type_support.cpp.o[0m
+[11.137s] [ 35%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/marker__type_support.cpp.o[0m
+[11.142s] [ 36%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/marker_array__type_support.cpp.o[0m
+[11.146s] [ 37%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/menu_entry__type_support.cpp.o[0m
+[11.149s] [ 37%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/mesh_file__type_support.cpp.o[0m
+[11.156s] [ 39%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/srv/detail/get_interactive_markers__type_support.cpp.o[0m
+[11.157s] [ 39%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/uv_coordinate__type_support.cpp.o[0m
+[11.210s] [ 40%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_cpp.so[0m
+[11.237s] [ 41%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_control__type_support.cpp.o[0m
+[11.240s] [ 42%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker__type_support.cpp.o[0m
+[11.242s] [ 42%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/image_marker__type_support.cpp.o[0m
+[11.242s] [ 43%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_feedback__type_support.cpp.o[0m
+[11.252s] [ 43%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_init__type_support.cpp.o[0m
+[11.303s] [ 44%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_pose__type_support.cpp.o[0m
+[11.317s] [ 45%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/marker_array__type_support.cpp.o[0m
+[11.318s] [ 46%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/marker__type_support.cpp.o[0m
+[11.321s] [ 46%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/menu_entry__type_support.cpp.o[0m
+[11.327s] [ 47%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_update__type_support.cpp.o[0m
+[11.389s] [ 48%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/uv_coordinate__type_support.cpp.o[0m
+[11.392s] [ 49%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/srv/get_interactive_markers__type_support.cpp.o[0m
+[11.392s] [ 50%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/mesh_file__type_support.cpp.o[0m
+[11.445s] [ 50%] Built target visualization_msgs__rosidl_typesupport_cpp
+[11.484s] [ 50%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_c.so[0m
+[11.562s] [ 51%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_control__type_support.cpp.o[0m
+[11.563s] [ 51%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_pose__type_support.cpp.o[0m
+[11.564s] [ 51%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker__type_support.cpp.o[0m
+[11.564s] [ 52%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_feedback__type_support.cpp.o[0m
+[11.565s] [ 53%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/image_marker__type_support.cpp.o[0m
+[11.568s] [ 54%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_init__type_support.cpp.o[0m
+[11.703s] [ 54%] Built target visualization_msgs__rosidl_typesupport_c
+[11.725s] [ 55%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_update__type_support.cpp.o[0m
+[12.023s] [ 56%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o[0m
+[12.024s] [ 57%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/marker_array__type_support.cpp.o[0m
+[12.149s] [ 58%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/menu_entry__type_support.cpp.o[0m
+[12.197s] [ 59%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker__type_support.c.o[0m
+[12.199s] [ 59%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/image_marker__type_support.c.o[0m
+[12.264s] [ 60%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_control__type_support.c.o[0m
+[12.304s] [ 61%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c.o[0m
+[12.307s] [ 61%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/image_marker__type_support_c.cpp.o[0m
+[12.315s] [ 61%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_init__type_support.c.o[0m
+[12.357s] [ 62%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c.o[0m
+[12.408s] [ 63%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_update__type_support.c.o[0m
+[12.431s] [ 64%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/marker__type_support.c.o[0m
+[12.433s] [ 65%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker__type_support_c.cpp.o[0m
+[12.452s] [ 66%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/marker_array__type_support.c.o[0m
+[12.459s] [ 67%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_control__type_support_c.cpp.o[0m
+[12.564s] [ 68%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/uv_coordinate__type_support.c.o[0m
+[12.565s] [ 68%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/menu_entry__type_support.c.o[0m
+[12.570s] [ 69%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/mesh_file__type_support.c.o[0m
+[12.649s] [ 70%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support_c.cpp.o[0m
+[12.674s] [ 71%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/srv/detail/get_interactive_markers__type_support.c.o[0m
+[12.715s] [ 71%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/mesh_file__type_support.cpp.o[0m
+[12.794s] [ 71%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_typesupport_introspection_c.so[0m
+[12.841s] [ 72%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/uv_coordinate__type_support.cpp.o[0m
+[13.008s] [ 73%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/srv/detail/dds_fastrtps/get_interactive_markers__type_support.cpp.o[0m
+[13.033s] [ 73%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_init__type_support_c.cpp.o[0m
+[13.067s] [ 74%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support_c.cpp.o[0m
+[13.158s] [ 75%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_update__type_support_c.cpp.o[0m
+[13.257s] [ 75%] Built target visualization_msgs__rosidl_typesupport_introspection_c
+[13.294s] [ 76%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/marker__type_support_c.cpp.o[0m
+[13.295s] [ 77%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/marker_array__type_support_c.cpp.o[0m
+[13.315s] [ 77%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/menu_entry__type_support_c.cpp.o[0m
+[13.354s] [ 78%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/mesh_file__type_support_c.cpp.o[0m
+[13.386s] [ 79%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/uv_coordinate__type_support_c.cpp.o[0m
+[13.445s] [ 80%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/srv/detail/get_interactive_markers__type_support_c.cpp.o[0m
+[14.052s] [ 81%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[14.204s] [ 81%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[14.233s] [ 82%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.354s] [ 82%] Built target visualization_msgs__rosidl_typesupport_introspection_cpp
+[14.432s] [ 82%] Built target visualization_msgs__rosidl_typesupport_fastrtps_c
+[14.481s] [ 82%] Built target visualization_msgs__rosidl_typesupport_fastrtps_cpp
+[14.510s] [ 82%] Built target visualization_msgs
+[14.540s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[18.360s] [ 83%] Built target visualization_msgs__py
+[18.377s] [ 85%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_control_s.c.o[0m
+[18.377s] [ 85%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_image_marker_s.c.o[0m
+[18.378s] [ 86%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_init_s.c.o[0m
+[18.378s] [ 86%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_s.c.o[0m
+[18.379s] [ 87%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_feedback_s.c.o[0m
+[18.381s] [ 88%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_marker_array_s.c.o[0m
+[18.381s] [ 88%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_pose_s.c.o[0m
+[18.382s] [ 89%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_update_s.c.o[0m
+[18.382s] [ 89%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_mesh_file_s.c.o[0m
+[18.382s] [ 90%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_uv_coordinate_s.c.o[0m
+[18.382s] [ 91%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_menu_entry_s.c.o[0m
+[18.383s] [ 92%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_marker_s.c.o[0m
+[18.385s] [ 93%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/srv/_get_interactive_markers_s.c.o[0m
+[18.564s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/libvisualization_msgs__rosidl_generator_py.so[0m
+[18.650s] [ 94%] Built target visualization_msgs__rosidl_generator_py
+[18.666s] [ 95%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.667s] [ 96%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[18.668s] [ 97%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.774s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.778s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.789s] [100%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.853s] [100%] Built target visualization_msgs__rosidl_typesupport_c__pyext
+[18.853s] [100%] Built target visualization_msgs__rosidl_typesupport_fastrtps_c__pyext
+[18.894s] [100%] Built target visualization_msgs__rosidl_typesupport_introspection_c__pyext
+[18.904s] Invoked command in '/home/hiro/rust_ws/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_runtime_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/ws_livox/install/livox_ros_driver2:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosidl_runtime_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:/home/hiro/rust_ws/install/visualization_msgs/lib:/home/hiro/rust_ws/install/test_msgs/lib:/home/hiro/rust_ws/install/example_interfaces/lib:/home/hiro/rust_ws/install/action_msgs/lib:/home/hiro/rust_ws/install/unique_identifier_msgs/lib:/home/hiro/rust_ws/install/trajectory_msgs/lib:/home/hiro/rust_ws/install/stereo_msgs/lib:/home/hiro/rust_ws/install/std_srvs/lib:/home/hiro/rust_ws/install/shape_msgs/lib:/home/hiro/rust_ws/install/nav_msgs/lib:/home/hiro/rust_ws/install/diagnostic_msgs/lib:/home/hiro/rust_ws/install/actionlib_msgs/lib:/home/hiro/rust_ws/install/statistics_msgs/lib:/home/hiro/rust_ws/install/rosgraph_msgs/lib:/home/hiro/rust_ws/install/rclrs_example_msgs/lib:/home/hiro/rust_ws/install/composition_interfaces/lib:/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/lifecycle_msgs/lib:/home/hiro/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hiro/rust_ws/build/visualization_msgs -- -j22 -l22
+[19.170s] Invoking command in '/home/hiro/rust_ws/build/visualization_msgs': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_runtime_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/ws_livox/install/livox_ros_driver2:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosidl_runtime_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:/home/hiro/rust_ws/install/visualization_msgs/lib:/home/hiro/rust_ws/install/test_msgs/lib:/home/hiro/rust_ws/install/example_interfaces/lib:/home/hiro/rust_ws/install/action_msgs/lib:/home/hiro/rust_ws/install/unique_identifier_msgs/lib:/home/hiro/rust_ws/install/trajectory_msgs/lib:/home/hiro/rust_ws/install/stereo_msgs/lib:/home/hiro/rust_ws/install/std_srvs/lib:/home/hiro/rust_ws/install/shape_msgs/lib:/home/hiro/rust_ws/install/nav_msgs/lib:/home/hiro/rust_ws/install/diagnostic_msgs/lib:/home/hiro/rust_ws/install/actionlib_msgs/lib:/home/hiro/rust_ws/install/statistics_msgs/lib:/home/hiro/rust_ws/install/rosgraph_msgs/lib:/home/hiro/rust_ws/install/rclrs_example_msgs/lib:/home/hiro/rust_ws/install/composition_interfaces/lib:/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/lifecycle_msgs/lib:/home/hiro/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hiro/rust_ws/build/visualization_msgs
+[19.176s] -- Install configuration: ""
+[19.177s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/ament_index/resource_index/rosidl_interfaces/visualization_msgs
+[19.177s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[19.177s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[19.177s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/menu_entry.h
+[19.177s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/image_marker.h
+[19.177s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker.h
+[19.177s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker_array.h
+[19.178s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_control.h
+[19.178s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/uv_coordinate.h
+[19.178s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/mesh_file.h
+[19.178s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_c__visibility_control.h
+[19.178s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_pose.h
+[19.178s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker.h
+[19.178s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[19.178s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__functions.h
+[19.178s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__struct.h
+[19.179s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__functions.h
+[19.179s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.h
+[19.179s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__functions.c
+[19.179s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__functions.c
+[19.179s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__functions.h
+[19.179s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__functions.c
+[19.179s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.h
+[19.179s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__struct.h
+[19.179s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.h
+[19.180s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__functions.h
+[19.180s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__functions.h
+[19.180s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__functions.c
+[19.180s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__functions.h
+[19.180s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.h
+[19.180s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__struct.h
+[19.180s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__struct.h
+[19.180s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.h
+[19.180s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.h
+[19.181s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__functions.c
+[19.181s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.h
+[19.181s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__functions.h
+[19.181s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__functions.c
+[19.181s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.h
+[19.181s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__functions.h
+[19.181s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.h
+[19.182s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.h
+[19.182s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__functions.c
+[19.182s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.h
+[19.182s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.h
+[19.182s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.h
+[19.182s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__functions.c
+[19.182s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.h
+[19.182s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__struct.h
+[19.182s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__functions.h
+[19.182s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.h
+[19.183s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.h
+[19.183s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__functions.h
+[19.183s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__functions.c
+[19.183s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__functions.c
+[19.183s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__struct.h
+[19.183s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__functions.c
+[19.183s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__struct.h
+[19.183s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__functions.h
+[19.183s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__struct.h
+[19.183s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__functions.c
+[19.184s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__functions.h
+[19.184s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_feedback.h
+[19.184s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_init.h
+[19.184s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_update.h
+[19.184s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[19.184s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/get_interactive_markers.h
+[19.184s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[19.184s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__struct.h
+[19.184s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.h
+[19.184s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__functions.c
+[19.185s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__functions.h
+[19.185s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/environment/library_path.sh
+[19.185s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/environment/library_path.dsv
+[19.185s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_c.so
+[19.185s] -- Set runtime path of "/home/hiro/rust_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_c.so" to ""
+[19.185s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[19.185s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[19.185s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[19.186s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_fastrtps_c.h
+[19.186s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_fastrtps_c.h
+[19.186s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_c.h
+[19.186s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_c.h
+[19.186s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_c.h
+[19.186s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[19.186s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h
+[19.186s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_c.h
+[19.187s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_c.h
+[19.187s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_c.h
+[19.187s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_c.h
+[19.187s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_c.h
+[19.187s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.187s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[19.187s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[19.187s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_c.h
+[19.187s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
+[19.187s] -- Set runtime path of "/home/hiro/rust_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[19.188s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[19.188s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[19.188s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/image_marker.hpp
+[19.188s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/uv_coordinate.hpp
+[19.188s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/menu_entry.hpp
+[19.188s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_pose.hpp
+[19.188s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp
+[19.188s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_feedback.hpp
+[19.189s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_init.hpp
+[19.189s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker.hpp
+[19.189s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_update.hpp
+[19.189s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_control.hpp
+[19.189s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/mesh_file.hpp
+[19.189s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker.hpp
+[19.189s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[19.189s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__struct.hpp
+[19.189s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp
+[19.189s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__builder.hpp
+[19.189s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp
+[19.189s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp
+[19.190s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__builder.hpp
+[19.190s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__struct.hpp
+[19.190s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__builder.hpp
+[19.190s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__struct.hpp
+[19.190s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__traits.hpp
+[19.190s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__builder.hpp
+[19.191s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__builder.hpp
+[19.191s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__traits.hpp
+[19.191s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__struct.hpp
+[19.191s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__traits.hpp
+[19.191s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__builder.hpp
+[19.191s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__struct.hpp
+[19.191s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__traits.hpp
+[19.191s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__traits.hpp
+[19.191s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__builder.hpp
+[19.192s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__struct.hpp
+[19.193s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__traits.hpp
+[19.193s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp
+[19.193s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp
+[19.193s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__struct.hpp
+[19.194s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__traits.hpp
+[19.194s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__builder.hpp
+[19.194s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp
+[19.194s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__builder.hpp
+[19.194s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp
+[19.194s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp
+[19.195s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp
+[19.195s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__traits.hpp
+[19.195s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__builder.hpp
+[19.195s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__struct.hpp
+[19.195s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp
+[19.195s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[19.195s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/get_interactive_markers.hpp
+[19.195s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[19.195s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__struct.hpp
+[19.195s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__traits.hpp
+[19.196s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__builder.hpp
+[19.196s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[19.196s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[19.196s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.197s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[19.197s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_cpp.hpp
+[19.197s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/dds_fastrtps
+[19.197s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_cpp.hpp
+[19.197s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[19.197s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_cpp.hpp
+[19.197s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[19.197s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_fastrtps_cpp.hpp
+[19.197s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_cpp.hpp
+[19.197s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[19.198s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[19.198s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+[19.198s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[19.198s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_fastrtps_cpp.hpp
+[19.198s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[19.198s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[19.198s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/dds_fastrtps
+[19.199s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_cpp.hpp
+[19.199s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
+[19.199s] -- Set runtime path of "/home/hiro/rust_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.199s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[19.199s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[19.199s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.199s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[19.199s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_c.h
+[19.199s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_c.h
+[19.199s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_c.h
+[19.199s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_c.h
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_introspection_c.h
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_c.h
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.c
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.c
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.c
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.c
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.c
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.c
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.c
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.c
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.c
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_introspection_c.h
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_c.h
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_c.h
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_c.h
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.c
+[19.200s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[19.200s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.c
+[19.200s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_c.h
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so
+[19.201s] -- Set runtime path of "/home/hiro/rust_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so" to ""
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_c.so
+[19.201s] -- Set runtime path of "/home/hiro/rust_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_c.so" to ""
+[19.201s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[19.201s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[19.201s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.cpp
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.cpp
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_cpp.hpp
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.cpp
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_introspection_cpp.hpp
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.cpp
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_cpp.hpp
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_introspection_cpp.hpp
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.cpp
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.cpp
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_cpp.hpp
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_cpp.hpp
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_cpp.hpp
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.cpp
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_cpp.hpp
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.cpp
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.cpp
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp
+[19.201s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.cpp
+[19.202s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_cpp.hpp
+[19.202s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[19.202s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_cpp.hpp
+[19.202s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.cpp
+[19.202s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.cpp
+[19.202s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[19.202s] -- Up-to-date: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[19.202s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_cpp.hpp
+[19.202s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.cpp
+[19.202s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
+[19.202s] -- Set runtime path of "/home/hiro/rust_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[19.202s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
+[19.202s] -- Set runtime path of "/home/hiro/rust_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_cpp.so" to ""
+[19.202s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/ament_index/resource_index/rust_packages/visualization_msgs
+[19.202s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/rust
+[19.202s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/rust/Cargo.toml
+[19.202s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/rust/build.rs
+[19.202s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/rust/src
+[19.202s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/rust/src/msg.rs
+[19.202s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/rust/src/srv.rs
+[19.202s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/rust/src/lib.rs
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/environment/pythonpath.sh
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/environment/pythonpath.dsv
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.2.4-py3.10.egg-info
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.2.4-py3.10.egg-info/top_level.txt
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.2.4-py3.10.egg-info/PKG-INFO
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.2.4-py3.10.egg-info/SOURCES.txt
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.2.4-py3.10.egg-info/dependency_links.txt
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/libvisualization_msgs__rosidl_generator_py.so
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_c.c
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/__init__.py
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_uv_coordinate.py
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_mesh_file.py
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_feedback.py
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker_s.c
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_control_s.c
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_feedback_s.c
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_init_s.c
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_init.py
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_menu_entry.py
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker.py
+[19.203s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker.py
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_s.c
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker_array_s.c
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_control.py
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_mesh_file_s.c
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_uv_coordinate_s.c
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/__init__.py
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_update_s.c
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_image_marker_s.c
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker_array.py
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_image_marker.py
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_menu_entry_s.c
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_pose_s.c
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_pose.py
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_update.py
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv/__init__.py
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv/_get_interactive_markers.py
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv/_get_interactive_markers_s.c
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.204s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[19.252s] Listing '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs'...
+[19.252s] Compiling '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/__init__.py'...
+[19.252s] Listing '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg'...
+[19.252s] Compiling '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/__init__.py'...
+[19.252s] Compiling '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_image_marker.py'...
+[19.252s] Compiling '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker.py'...
+[19.252s] Compiling '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_control.py'...
+[19.252s] Compiling '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_feedback.py'...
+[19.252s] Compiling '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_init.py'...
+[19.252s] Compiling '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_pose.py'...
+[19.252s] Compiling '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_update.py'...
+[19.252s] Compiling '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker.py'...
+[19.252s] Compiling '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker_array.py'...
+[19.252s] Compiling '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_menu_entry.py'...
+[19.252s] Compiling '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_mesh_file.py'...
+[19.252s] Compiling '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_uv_coordinate.py'...
+[19.252s] Listing '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv'...
+[19.252s] Compiling '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv/__init__.py'...
+[19.252s] Compiling '/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv/_get_interactive_markers.py'...
+[19.258s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.258s] -- Set runtime path of "/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.258s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.258s] -- Set runtime path of "/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.258s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.259s] -- Set runtime path of "/home/hiro/rust_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.259s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_py.so
+[19.259s] -- Set runtime path of "/home/hiro/rust_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_py.so" to ""
+[19.259s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.idl
+[19.259s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.idl
+[19.259s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.idl
+[19.260s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.idl
+[19.260s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.idl
+[19.260s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.idl
+[19.260s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.idl
+[19.260s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/Marker.idl
+[19.260s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.idl
+[19.260s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.idl
+[19.260s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/MeshFile.idl
+[19.260s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/UVCoordinate.idl
+[19.261s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.idl
+[19.261s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.msg
+[19.261s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.msg
+[19.261s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.msg
+[19.261s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.msg
+[19.261s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.msg
+[19.261s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.msg
+[19.261s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.msg
+[19.261s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/Marker.msg
+[19.262s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.msg
+[19.262s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.msg
+[19.262s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/MeshFile.msg
+[19.262s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/msg/UVCoordinate.msg
+[19.262s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.srv
+[19.262s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers_Request.msg
+[19.262s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers_Response.msg
+[19.262s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/ament_index/resource_index/package_run_dependencies/visualization_msgs
+[19.262s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/ament_index/resource_index/parent_prefix_path/visualization_msgs
+[19.263s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/environment/ament_prefix_path.sh
+[19.263s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/environment/ament_prefix_path.dsv
+[19.263s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/environment/path.sh
+[19.263s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/environment/path.dsv
+[19.263s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/local_setup.bash
+[19.263s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/local_setup.sh
+[19.264s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/local_setup.zsh
+[19.264s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/local_setup.dsv
+[19.264s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/package.dsv
+[19.264s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/ament_index/resource_index/packages/visualization_msgs
+[19.264s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cExport.cmake
+[19.265s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cExport-noconfig.cmake
+[19.265s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[19.266s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.266s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cppExport.cmake
+[19.266s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.266s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.267s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport.cmake
+[19.267s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.267s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport.cmake
+[19.267s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[19.267s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[19.268s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.268s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport.cmake
+[19.268s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[19.268s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_pyExport.cmake
+[19.268s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_pyExport-noconfig.cmake
+[19.269s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake-extras.cmake
+[19.269s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.269s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.269s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[19.269s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[19.270s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.270s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.270s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgsConfig.cmake
+[19.270s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgsConfig-version.cmake
+[19.271s] -- Installing: /home/hiro/rust_ws/install/visualization_msgs/share/visualization_msgs/package.xml
+[19.274s] Invoked command in '/home/hiro/rust_ws/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/home/hiro/rust_ws/install/rosidl_runtime_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/ws_livox/install/livox_ros_driver2:/opt/ros/humble CMAKE_PREFIX_PATH=/home/hiro/rust_ws/install/sensor_msgs:/home/hiro/rust_ws/install/geometry_msgs:/home/hiro/rust_ws/install/std_msgs:/home/hiro/rust_ws/install/builtin_interfaces:/home/hiro/rust_ws/install/rosidl_default_runtime:/home/hiro/rust_ws/install/rosidl_default_generators:/home/hiro/rust_ws/install/rosidl_generator_rs:/home/hiro/rust_ws/install/common_interfaces:/home/hiro/rust_ws/install/visualization_msgs:/home/hiro/rust_ws/install/test_msgs:/home/hiro/rust_ws/install/example_interfaces:/home/hiro/rust_ws/install/action_msgs:/home/hiro/rust_ws/install/unique_identifier_msgs:/home/hiro/rust_ws/install/trajectory_msgs:/home/hiro/rust_ws/install/test_interface_files:/home/hiro/rust_ws/install/stereo_msgs:/home/hiro/rust_ws/install/std_srvs:/home/hiro/rust_ws/install/shape_msgs:/home/hiro/rust_ws/install/nav_msgs:/home/hiro/rust_ws/install/diagnostic_msgs:/home/hiro/rust_ws/install/actionlib_msgs:/home/hiro/rust_ws/install/statistics_msgs:/home/hiro/rust_ws/install/rosgraph_msgs:/home/hiro/rust_ws/install/rclrs_example_msgs:/home/hiro/rust_ws/install/composition_interfaces:/home/hiro/rust_ws/install/rcl_interfaces:/home/hiro/rust_ws/install/lifecycle_msgs:/home/hiro/ws_livox/install/livox_ros_driver2:/home/hiro/rust_ws/install/examples_rclrs_minimal_client_service:/home/hiro/rust_ws/install/sensor_msgs_py:/home/hiro/rust_ws/install/rust_pubsub:/home/hiro/rust_ws/install/examples_rclrs_minimal_pub_sub:/home/hiro/rust_ws/install/examples_rclrs_message_demo:/home/hiro/rust_ws/install/rclrs:/home/hiro/rust_ws/install/rosidl_runtime_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hiro/rust_ws/install/sensor_msgs/lib:/home/hiro/rust_ws/install/geometry_msgs/lib:/home/hiro/rust_ws/install/std_msgs/lib:/home/hiro/rust_ws/install/builtin_interfaces/lib:/home/hiro/rust_ws/install/visualization_msgs/lib:/home/hiro/rust_ws/install/test_msgs/lib:/home/hiro/rust_ws/install/example_interfaces/lib:/home/hiro/rust_ws/install/action_msgs/lib:/home/hiro/rust_ws/install/unique_identifier_msgs/lib:/home/hiro/rust_ws/install/trajectory_msgs/lib:/home/hiro/rust_ws/install/stereo_msgs/lib:/home/hiro/rust_ws/install/std_srvs/lib:/home/hiro/rust_ws/install/shape_msgs/lib:/home/hiro/rust_ws/install/nav_msgs/lib:/home/hiro/rust_ws/install/diagnostic_msgs/lib:/home/hiro/rust_ws/install/actionlib_msgs/lib:/home/hiro/rust_ws/install/statistics_msgs/lib:/home/hiro/rust_ws/install/rosgraph_msgs/lib:/home/hiro/rust_ws/install/rclrs_example_msgs/lib:/home/hiro/rust_ws/install/composition_interfaces/lib:/home/hiro/rust_ws/install/rcl_interfaces/lib:/home/hiro/rust_ws/install/lifecycle_msgs/lib:/home/hiro/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hiro/rust_ws/build/visualization_msgs

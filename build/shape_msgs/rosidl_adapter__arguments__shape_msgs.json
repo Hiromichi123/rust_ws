@@ -1,9 +1,9 @@
 {
   "package_name": "shape_msgs",
   "non_idl_tuples": [
-    "/home/hiro/rust_ws/src/src/ros2/common_interfaces/shape_msgs:msg/Mesh.msg",
-    "/home/hiro/rust_ws/src/src/ros2/common_interfaces/shape_msgs:msg/MeshTriangle.msg",
-    "/home/hiro/rust_ws/src/src/ros2/common_interfaces/shape_msgs:msg/Plane.msg",
-    "/home/hiro/rust_ws/src/src/ros2/common_interfaces/shape_msgs:msg/SolidPrimitive.msg"
+    "/home/hiro/rust_ws/src/ros2/common_interfaces/shape_msgs:msg/Mesh.msg",
+    "/home/hiro/rust_ws/src/ros2/common_interfaces/shape_msgs:msg/MeshTriangle.msg",
+    "/home/hiro/rust_ws/src/ros2/common_interfaces/shape_msgs:msg/Plane.msg",
+    "/home/hiro/rust_ws/src/ros2/common_interfaces/shape_msgs:msg/SolidPrimitive.msg"
   ]
 }

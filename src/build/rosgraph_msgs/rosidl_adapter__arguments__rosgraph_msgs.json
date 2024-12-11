@@ -1,6 +1,0 @@
-{
-  "package_name": "rosgraph_msgs",
-  "non_idl_tuples": [
-    "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/rosgraph_msgs:msg/Clock.msg"
-  ]
-}

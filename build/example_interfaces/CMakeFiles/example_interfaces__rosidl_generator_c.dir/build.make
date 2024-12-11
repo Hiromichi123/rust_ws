@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/src/ros2/example_interfaces
+CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/ros2/example_interfaces
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hiro/rust_ws/build/example_interfaces
@@ -1334,6 +1334,6 @@ CMakeFiles/example_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c
 CMakeFiles/example_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/example_interfaces/srv/detail/trigger__type_support.h
 CMakeFiles/example_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/example_interfaces/srv/set_bool.h
 CMakeFiles/example_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/example_interfaces/srv/trigger.h
-	cd /home/hiro/rust_ws/build/example_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/src/ros2/example_interfaces /home/hiro/rust_ws/src/src/ros2/example_interfaces /home/hiro/rust_ws/build/example_interfaces /home/hiro/rust_ws/build/example_interfaces /home/hiro/rust_ws/build/example_interfaces/CMakeFiles/example_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hiro/rust_ws/build/example_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/ros2/example_interfaces /home/hiro/rust_ws/src/ros2/example_interfaces /home/hiro/rust_ws/build/example_interfaces /home/hiro/rust_ws/build/example_interfaces /home/hiro/rust_ws/build/example_interfaces/CMakeFiles/example_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/example_interfaces__rosidl_generator_c.dir/depend
 

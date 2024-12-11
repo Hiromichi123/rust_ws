@@ -1,4 +1,4 @@
-# Install script for directory: /home/hiro/rust_ws/src/src/ros2/rcl_interfaces/action_msgs
+# Install script for directory: /home/hiro/rust_ws/src/ros2/rcl_interfaces/action_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -380,19 +380,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/action_msgs/msg/GoalInfo.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/action_msgs/msg/GoalInfo.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/action_msgs/msg/GoalStatus.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/action_msgs/msg/GoalStatus.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/action_msgs/msg/GoalStatusArray.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_msgs/msg" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/action_msgs/msg/GoalStatusArray.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_msgs/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/action_msgs/srv/CancelGoal.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_msgs/srv" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/action_msgs/srv/CancelGoal.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -655,7 +655,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_msgs" TYPE FILE FILES "/home/hiro/rust_ws/src/src/ros2/rcl_interfaces/action_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_msgs" TYPE FILE FILES "/home/hiro/rust_ws/src/ros2/rcl_interfaces/action_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

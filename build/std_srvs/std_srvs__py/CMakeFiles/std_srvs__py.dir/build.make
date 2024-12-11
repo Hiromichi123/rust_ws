@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/src/ros2/common_interfaces/std_srvs
+CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/ros2/common_interfaces/std_srvs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hiro/rust_ws/build/std_srvs
@@ -146,6 +146,6 @@ std_srvs__py/CMakeFiles/std_srvs__py.dir/clean:
 .PHONY : std_srvs__py/CMakeFiles/std_srvs__py.dir/clean
 
 std_srvs__py/CMakeFiles/std_srvs__py.dir/depend:
-	cd /home/hiro/rust_ws/build/std_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/src/ros2/common_interfaces/std_srvs /home/hiro/rust_ws/build/std_srvs/std_srvs__py /home/hiro/rust_ws/build/std_srvs /home/hiro/rust_ws/build/std_srvs/std_srvs__py /home/hiro/rust_ws/build/std_srvs/std_srvs__py/CMakeFiles/std_srvs__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hiro/rust_ws/build/std_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/ros2/common_interfaces/std_srvs /home/hiro/rust_ws/build/std_srvs/std_srvs__py /home/hiro/rust_ws/build/std_srvs /home/hiro/rust_ws/build/std_srvs/std_srvs__py /home/hiro/rust_ws/build/std_srvs/std_srvs__py/CMakeFiles/std_srvs__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : std_srvs__py/CMakeFiles/std_srvs__py.dir/depend
 

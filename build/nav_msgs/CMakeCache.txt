@@ -370,7 +370,7 @@ nav_msgs_BINARY_DIR:STATIC=/home/hiro/rust_ws/build/nav_msgs
 nav_msgs_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-nav_msgs_SOURCE_DIR:STATIC=/home/hiro/rust_ws/src/src/ros2/common_interfaces/nav_msgs
+nav_msgs_SOURCE_DIR:STATIC=/home/hiro/rust_ws/src/ros2/common_interfaces/nav_msgs
 
 //Dependencies for the target
 nav_msgs__rosidl_generator_c_LIB_DEPENDS:STATIC=general;builtin_interfaces::builtin_interfaces__rosidl_generator_c;general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_generator_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rcutils::rcutils;
@@ -556,7 +556,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/hiro/rust_ws/src/src/ros2/common_interfaces/nav_msgs
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/hiro/rust_ws/src/ros2/common_interfaces/nav_msgs
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

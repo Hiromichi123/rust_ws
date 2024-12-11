@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/src/ros2/common_interfaces/diagnostic_msgs
+CMAKE_SOURCE_DIR = /home/hiro/rust_ws/src/ros2/common_interfaces/diagnostic_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hiro/rust_ws/build/diagnostic_msgs
@@ -66,13 +66,13 @@ include CMakeFiles/diagnostic_msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/diagnostic_msgs.dir/progress.make
 
-CMakeFiles/diagnostic_msgs: /home/hiro/rust_ws/src/src/ros2/common_interfaces/diagnostic_msgs/msg/DiagnosticArray.msg
-CMakeFiles/diagnostic_msgs: /home/hiro/rust_ws/src/src/ros2/common_interfaces/diagnostic_msgs/msg/DiagnosticStatus.msg
-CMakeFiles/diagnostic_msgs: /home/hiro/rust_ws/src/src/ros2/common_interfaces/diagnostic_msgs/msg/KeyValue.msg
-CMakeFiles/diagnostic_msgs: /home/hiro/rust_ws/src/src/ros2/common_interfaces/diagnostic_msgs/srv/AddDiagnostics.srv
+CMakeFiles/diagnostic_msgs: /home/hiro/rust_ws/src/ros2/common_interfaces/diagnostic_msgs/msg/DiagnosticArray.msg
+CMakeFiles/diagnostic_msgs: /home/hiro/rust_ws/src/ros2/common_interfaces/diagnostic_msgs/msg/DiagnosticStatus.msg
+CMakeFiles/diagnostic_msgs: /home/hiro/rust_ws/src/ros2/common_interfaces/diagnostic_msgs/msg/KeyValue.msg
+CMakeFiles/diagnostic_msgs: /home/hiro/rust_ws/src/ros2/common_interfaces/diagnostic_msgs/srv/AddDiagnostics.srv
 CMakeFiles/diagnostic_msgs: rosidl_cmake/srv/AddDiagnostics_Request.msg
 CMakeFiles/diagnostic_msgs: rosidl_cmake/srv/AddDiagnostics_Response.msg
-CMakeFiles/diagnostic_msgs: /home/hiro/rust_ws/src/src/ros2/common_interfaces/diagnostic_msgs/srv/SelfTest.srv
+CMakeFiles/diagnostic_msgs: /home/hiro/rust_ws/src/ros2/common_interfaces/diagnostic_msgs/srv/SelfTest.srv
 CMakeFiles/diagnostic_msgs: rosidl_cmake/srv/SelfTest_Request.msg
 CMakeFiles/diagnostic_msgs: rosidl_cmake/srv/SelfTest_Response.msg
 CMakeFiles/diagnostic_msgs: /home/hiro/rust_ws/install/std_msgs/share/std_msgs/msg/Bool.idl
@@ -119,6 +119,6 @@ CMakeFiles/diagnostic_msgs.dir/clean:
 .PHONY : CMakeFiles/diagnostic_msgs.dir/clean
 
 CMakeFiles/diagnostic_msgs.dir/depend:
-	cd /home/hiro/rust_ws/build/diagnostic_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/src/ros2/common_interfaces/diagnostic_msgs /home/hiro/rust_ws/src/src/ros2/common_interfaces/diagnostic_msgs /home/hiro/rust_ws/build/diagnostic_msgs /home/hiro/rust_ws/build/diagnostic_msgs /home/hiro/rust_ws/build/diagnostic_msgs/CMakeFiles/diagnostic_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hiro/rust_ws/build/diagnostic_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hiro/rust_ws/src/ros2/common_interfaces/diagnostic_msgs /home/hiro/rust_ws/src/ros2/common_interfaces/diagnostic_msgs /home/hiro/rust_ws/build/diagnostic_msgs /home/hiro/rust_ws/build/diagnostic_msgs /home/hiro/rust_ws/build/diagnostic_msgs/CMakeFiles/diagnostic_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/diagnostic_msgs.dir/depend
 
